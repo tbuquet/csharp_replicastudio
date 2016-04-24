@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1C4D579D-2F9A-4E46-A427-08B578E7E363}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ReplicaStudio.Shared</RootNamespace>
+    <AssemblyName>ReplicaStudio.Shared</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <RunPostBuildEvent>OnOutputUpdated</RunPostBuildEvent>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\PointAndClickInstall\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisLogFile>bin\Debug\ReplicaStudio.Shared.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;C:\Program Files\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+    <CodeAnalysisFailOnMissingRules>false</CodeAnalysisFailOnMissingRules>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisLogFile>..\PointAndClickInstall\ReplicaStudio.Shared.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisRuleDirectories>;C:\Program Files\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>DLL\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BusinessLayer\BaseBusiness.cs" />
+    <Compile Include="Culture\Language\NotFound.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>NotFound.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Culture\Language\ProjectIntegrity.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ProjectIntegrity.resx</DependentUpon>
+    </Compile>
+    <Compile Include="DatasLayer\Saves\GameCoreVariableSave.cs" />
+    <Compile Include="DatasLayer\Saves\GameCoreEventSave.cs" />
+    <Compile Include="DatasLayer\Saves\GameCoreTriggerSave.cs" />
+    <Compile Include="ServiceLayer\BaseService.cs" />
+    <Compile Include="TransverseLayer\Constants\Enums.cs" />
+    <Compile Include="DatasLayer\GameCore.cs" />
+    <Compile Include="DatasLayer\Saves\GameCoreAnimationSave.cs" />
+    <Compile Include="DatasLayer\Saves\GameCoreDBSave.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TransverseLayer\Constants\GlobalConstants.cs" />
+    <Compile Include="TransverseLayer\Constants\Logs.cs" />
+    <Compile Include="TransverseLayer\Constants\XML.cs" />
+    <Compile Include="TransverseLayer\Converters\AnimationTypeConvertor.cs" />
+    <Compile Include="TransverseLayer\Converters\CharacterTypeConvertor.cs" />
+    <Compile Include="TransverseLayer\Converters\ClassTypeConvertor.cs" />
+    <Compile Include="TransverseLayer\Converters\WalkableTypeConvertor.cs" />
+    <Compile Include="TransverseLayer\Converters\RatioIntTypeConvertor.cs" />
+    <Compile Include="TransverseLayer\Converters\RegionTypeConvertor.cs" />
+    <Compile Include="TransverseLayer\Converters\EventTypeConvertor.cs" />
+    <Compile Include="TransverseLayer\Converters\DecorTypeConvertor.cs" />
+    <Compile Include="TransverseLayer\Converters\StageTypeConvertor.cs" />
+    <Compile Include="TransverseLayer\Converters\FrequencyIntTypeConvertor.cs" />
+    <Compile Include="TransverseLayer\Converters\RegionIntTypeConvertor.cs" />
+    <Compile Include="TransverseLayer\Converters\MusicStringTypeConvertor.cs" />
+    <Compile Include="TransverseLayer\Converters\MusicTypeConvertor.cs" />
+    <Compile Include="TransverseLayer\FMOD\fmod.cs" />
+    <Compile Include="TransverseLayer\FMOD\fmod_dsp.cs" />
+    <Compile Include="TransverseLayer\FMOD\fmod_errors.cs" />
+    <Compile Include="TransverseLayer\FMOD\fmod_memoryinfo.cs" />
+    <Compile Include="TransverseLayer\Tools\AlphanumericTools.cs" />
+    <Compile Include="TransverseLayer\Constants\Errors.cs" />
+    <Compile Include="TransverseLayer\Tools\ConvertTools.cs" />
+    <Compile Include="TransverseLayer\Tools\LogTools.cs" />
+    <Compile Include="TransverseLayer\Tools\PathTools.cs" />
+    <Compile Include="TransverseLayer\Tools\ProjectIntegrity.cs" />
+    <Compile Include="TransverseLayer\Tools\QColorMatrix.cs" />
+    <Compile Include="TransverseLayer\Tools\AppTools.cs" />
+    <Compile Include="TransverseLayer\Tools\TreeViewColorTool.cs" />
+    <Compile Include="TransverseLayer\Tools\ValidationTools.cs" />
+    <Compile Include="TransverseLayer\VO\BusinessObjects\VO_PlayableCharacter.cs" />
+    <Compile Include="TransverseLayer\VO\BusinessObjects\VO_Terminology.cs" />
+    <Compile Include="TransverseLayer\VO\BusinessObjects\VO_Variable.cs" />
+    <Compile Include="TransverseLayer\VO\ScriptObjects\Player\VO_Script_AddItem.cs" />
+    <Compile Include="TransverseLayer\VO\ScriptObjects\Player\VO_Script_AddPlayerAction.cs" />
+    <Compile Include="TransverseLayer\VO\ScriptObjects\Player\VO_Script_ChangeCurrentCharacter.cs" />
+    <Compile Include="TransverseLayer\VO\ScriptObjects\Player\VO_Script_ChangeHP.cs" />
+    <Compile Include="TransverseLayer\VO\ScriptObjects\Player\VO_Script_ChangeMaxHP.cs" />
+    <Compile Include="TransverseLayer\VO\ScriptObjects\Player\VO_Script_ChangePlayerAnimation.cs" />
+    <Compile Include="TransverseLayer\VO\ScriptObjects\Player\VO_Script_ChangePlayerDirection.cs" />
+    <Compile Include="TransverseLayer\VO\ScriptObjects\Player\VO_Script_ChangePlayerSpeed.cs" />
+    <Compile Include="TransverseLayer\VO\ScriptObjects\Player\VO_Script_ChoiceMessage.cs" />
+    <Compile Include="TransverseLayer\VO\ScriptObjects\Player\VO_Script_FreePlayerAnimation.cs" />
+    <Compile Include="TransverseLayer\VO\ScriptObjects\Player\VO_Script_FreezePlayerAnimation.cs" />
+    <Compile Include="TransverseLayer\VO\ScriptObjects\Player\VO_Script_HidePlayer.cs" />
+    <Compile Include="TransverseLayer\VO\ScriptObjects\Player\VO_Script_Message.cs" />
+    <Compile Include="TransverseLayer\VO\ScriptObjects\Player\VO_Script_MovePlayer.cs" />
+    <Compile Include="TransverseLayer\VO\ScriptObjects\Player\VO_Script_RemoveItem.cs" />
+    <Compile Include="TransverseLayer\VO\ScriptObjects\Player\VO_Script_RemovePlayerAction.cs" />
+    <Compile Include="TransverseLayer\VO\ScriptObjects\Player\VO_Script_ShowPlayer.cs" />
+    <Compile Include="TransverseLayer\VO\ScriptObjects\Player\VO_Script_StopCurrentPlayerMovement.cs" />
+    <Compile Include="TransverseLayer\VO\ScriptObjects\Player\VO_Script_Teleport.cs" />
+    <Compile Include="TransverseLayer\VO\ScriptObjects\Stage\VO_Script_ChangeCharacterDirection.cs" />
+    <Compile Include="TransverseLayer\VO\ScriptObjects\Stage\VO_Script_LookForwardPlayer.cs" />
+    <Compile Include="TransverseLayer\VO\ScriptObjects\Hidden\VO_Script_RollBackWhile.cs" />
+    <Compile Include="TransverseLayer\VO\ScriptObjects\Hidden\VO_Script_CallScript.cs" />
+    <Compile Include="TransverseLayer\VO\ScriptObjects\IScriptableContainer.cs" />
+    <Compile Include="TransverseLayer\VO\ScriptObjects\Stage\VO_Script_DefaultCamera.cs" />
+    <Compile Include="TransverseLayer\VO\ScriptObjects\Stage\VO_Script_FocusOnAnimation.cs" />
+    <Compile Include="TransverseLayer\VO\ScriptObjects\Stage\VO_Script_FocusOnCharacter.cs" />
+    <Compile Include="TransverseLayer\VO\ScriptObjects\Stage\VO_Script_MoveCamera.cs" />
+    <Compile Include="TransverseLayer\VO\ScriptObjects\Interface\VO_Script_ChangeCurrentAction.cs" />
+    <Compile Include="TransverseLayer\VO\ScriptObjects\Interface\VO_Script_EnableUserControls.cs" />
+    <Compile Include="TransverseLayer\VO\ScriptObjects\Interface\VO_Script_DisableUserControls.cs" />
+    <Compile Include="TransverseLayer\VO\ScriptObjects\Interface\VO_Script_EnableStageInteractions.cs" />
+    <Compile Include="TransverseLayer\VO\ScriptObjects\Interface\VO_Script_DisableStageInteractions.cs" />
+    <Compile Include="TransverseLayer\VO\ScriptObjects\Interface\VO_Script_ShowLifeBar.cs" />
+    <Compile Include="TransverseLayer\VO\ScriptObjects\Interface\VO_Script_HideLifeBar.cs" />
+    <Compile Include="TransverseLayer\VO\ScriptObjects\Media\VO_Script_ChangeMusicFrequency.cs" />
+    <Compile Include="TransverseLayer\VO\ScriptObjects\Media\VO_Script_StopSound.cs" />
+    <Compile Include="TransverseLayer\VO\ScriptObjects\Media\VO_Script_StopMusic.cs" />
+    <Compile Include="TransverseLayer\VO\ScriptObjects\Media\VO_Script_PlaySound.cs" />
+    <Compile Include="TransverseLayer\VO\ScriptObjects\Media\VO_Script_PlayMusic.cs" />
+    <Compile Include="TransverseLayer\VO\ScriptObjects\Menu\VO_Script_EnableSaves.cs" />
+    <Compile Include="TransverseLayer\VO\ScriptObjects\Menu\VO_Script_DisableSaves.cs" />
+    <Compile Include="TransverseLayer\VO\ScriptObjects\Menu\VO_Script_GameOver.cs" />
+    <Compile Include="TransverseLayer\VO\ScriptObjects\Menu\VO_Script_LoadGame.cs" />
+    <Compile Include="TransverseLayer\VO\ScriptObjects\Menu\VO_Script_SaveGame.cs" />
+    <Compile Include="TransverseLayer\VO\ScriptObjects\Menu\VO_Script_CloseInventory.cs" />
+    <Compile Include="TransverseLayer\VO\ScriptObjects\Menu\VO_Script_OpenInventory.cs" />
+    <Compile Include="TransverseLayer\VO\ScriptObjects\Menu\VO_Script_TitleScreen.cs" />
+    <Compile Include="TransverseLayer\VO\ScriptObjects\Programmation\VO_Script_Wait.cs" />
+    <Compile Include="TransverseLayer\VO\ScriptObjects\Programmation\VO_Script_ChangeVariable.cs" />
+    <Compile Include="TransverseLayer\VO\ScriptObjects\Programmation\VO_Script_PressSwitch.cs" />
+    <Compile Include="TransverseLayer\VO\ScriptObjects\Programmation\VO_Script_Random.cs" />
+    <Compile Include="TransverseLayer\VO\ScriptObjects\Programmation\VO_Script_Comment.cs" />
+    <Compile Include="TransverseLayer\VO\ScriptObjects\Programmation\VO_Script_GoToAnchor.cs" />
+    <Compile Include="TransverseLayer\VO\ScriptObjects\Programmation\VO_Script_SetAnchor.cs" />
+    <Compile Include="TransverseLayer\VO\ScriptObjects\Programmation\VO_Script_CallGlobalEvent.cs" />
+    <Compile Include="TransverseLayer\VO\ScriptObjects\Programmation\VO_Script_Break.cs" />
+    <Compile Include="TransverseLayer\VO\ScriptObjects\Programmation\VO_Script_Loop.cs" />
+    <Compile Include="TransverseLayer\VO\ScriptObjects\Programmation\VO_Script_Condition.cs" />
+    <Compile Include="TransverseLayer\VO\ScriptObjects\IScriptable.cs" />
+    <Compile Include="TransverseLayer\VO\ScriptObjects\Stage\VO_Script_ChangeCharacterAnimFrequency.cs" />
+    <Compile Include="TransverseLayer\VO\ScriptObjects\Stage\VO_Script_StopCharacterMovements.cs" />
+    <Compile Include="TransverseLayer\VO\ScriptObjects\Stage\VO_Script_MoveCharacter.cs" />
+    <Compile Include="TransverseLayer\VO\ScriptObjects\Stage\VO_Script_FreezeCharacterAnimation.cs" />
+    <Compile Include="TransverseLayer\VO\ScriptObjects\Stage\VO_Script_FreeCharacterAnimation.cs" />
+    <Compile Include="TransverseLayer\VO\ScriptObjects\VO_Script_ListItem.cs" />
+    <Compile Include="TransverseLayer\VO\ToolObjects\VO_EditorSettings.cs" />
+    <Compile Include="TransverseLayer\VO\ToolObjects\VO_StageWalkable.cs" />
+    <Compile Include="TransverseLayer\VO\ToolObjects\VO_ActionOnItemScript.cs" />
+    <Compile Include="TransverseLayer\VO\ToolObjects\VO_BackgroundSerial.cs" />
+    <Compile Include="TransverseLayer\VO\ToolObjects\VO_Color.cs" />
+    <Compile Include="TransverseLayer\VO\ToolObjects\VO_IntValue.cs" />
+    <Compile Include="TransverseLayer\VO\ToolObjects\VO_LineChoices.cs" />
+    <Compile Include="TransverseLayer\VO\ToolObjects\VO_StageHotSpot.cs" />
+    <Compile Include="TransverseLayer\VO\ToolObjects\VO_Coords.cs" />
+    <Compile Include="TransverseLayer\VO\ToolObjects\VO_ItemInteraction.cs" />
+    <Compile Include="TransverseLayer\VO\ScriptObjects\VO_Script.cs" />
+    <Compile Include="TransverseLayer\VO\BusinessObjects\VO_Menu.cs" />
+    <Compile Include="TransverseLayer\VO\BusinessObjects\VO_Trigger.cs" />
+    <Compile Include="TransverseLayer\VO\BusinessObjects\VO_GlobalEvent.cs" />
+    <Compile Include="TransverseLayer\VO\ToolObjects\VO_Dialog.cs" />
+    <Compile Include="TransverseLayer\VO\ToolObjects\VO_Message.cs" />
+    <Compile Include="TransverseLayer\VO\ToolObjects\VO_BadInteraction.cs" />
+    <Compile Include="TransverseLayer\VO\BusinessObjects\VO_Class.cs" />
+    <Compile Include="TransverseLayer\VO\BusinessObjects\VO_Action.cs" />
+    <Compile Include="TransverseLayer\VO\ToolObjects\VO_Page.cs" />
+    <Compile Include="TransverseLayer\VO\ToolObjects\VO_StageCharacter.cs" />
+    <Compile Include="TransverseLayer\VO\ToolObjects\VO_Directory.cs" />
+    <Compile Include="TransverseLayer\VO\ScriptObjects\VO_Line.cs" />
+    <Compile Include="TransverseLayer\VO\ToolObjects\VO_ListItem.cs" />
+    <Compile Include="TransverseLayer\VO\ToolObjects\VO_ColorTransformation.cs" />
+    <Compile Include="TransverseLayer\VO\BusinessObjects\VO_Character.cs" />
+    <Compile Include="TransverseLayer\VO\ToolObjects\VO_Event.cs" />
+    <Compile Include="TransverseLayer\VO\BusinessObjects\VO_Item.cs" />
+    <Compile Include="TransverseLayer\VO\ToolObjects\VO_StageAnimation.cs" />
+    <Compile Include="TransverseLayer\VO\ToolObjects\VO_StageDecor.cs" />
+    <Compile Include="TransverseLayer\VO\ToolObjects\VO_StageRegion.cs" />
+    <Compile Include="TransverseLayer\VO\BusinessObjects\VO_Layer.cs" />
+    <Compile Include="TransverseLayer\VO\ToolObjects\VO_Music.cs" />
+    <Compile Include="TransverseLayer\VO\BusinessObjects\VO_Stage.cs" />
+    <Compile Include="TransverseLayer\VO\BusinessObjects\VO_Animation.cs" />
+    <Compile Include="TransverseLayer\VO\VO_Base.cs" />
+    <Compile Include="TransverseLayer\VO\BusinessObjects\VO_Project.cs" />
+    <Compile Include="TransverseLayer\VO\ToolObjects\VO_Resolution.cs" />
+    <Compile Include="TransverseLayer\VO\ToolObjects\VO_StageObject.cs" />
+    <Compile Include="TransverseLayer\VO\VO_Game.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="DLL\ExtLib\fmodex.dll" />
+    <Content Include="DLL\log4net.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="log.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Culture\Language\NotFound.fr.resx" />
+    <EmbeddedResource Include="Culture\Language\NotFound.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>NotFound.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Culture\Language\ProjectIntegrity.fr.resx" />
+    <EmbeddedResource Include="Culture\Language\ProjectIntegrity.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ProjectIntegrity.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>if $(ConfigurationName) == Release goto :release
+if $(ConfigurationName) == Debug goto :exit
+
+:release
+copy "$(ProjectDir)DLL\ExtLib\csfml-audio.dll" "$(TargetDir)csfml-audio.dll"
+copy "$(ProjectDir)DLL\ExtLib\csfml-graphics.dll" "$(TargetDir)csfml-graphics.dll"
+copy "$(ProjectDir)DLL\ExtLib\csfml-window.dll" "$(TargetDir)csfml-window.dll"
+copy "$(ProjectDir)DLL\ExtLib\fmodex.dll" "$(TargetDir)fmodex.dll"
+copy "$(ProjectDir)DLL\ExtLib\libsndfile-1.dll" "$(TargetDir)libsndfile-1.dll"
+copy "$(ProjectDir)DLL\ExtLib\openal32.dll" "$(TargetDir)openal32.dll"
+copy "$(ProjectDir)DLL\sfmlnet-audio.dll" "$(TargetDir)sfmlnet-audio.dll"
+copy "$(ProjectDir)DLL\sfmlnet-graphics.dll" "$(TargetDir)sfmlnet-graphics.dll"
+copy "$(ProjectDir)DLL\sfmlnet-window.dll" "$(TargetDir)sfmlnet-window.dll"
+
+goto :exit
+
+:exit</PreBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <PropertyGroup>
+    <PostBuildEvent>if /I "$(ConfigurationName)" == "Release" Eazfuscator.NET.exe "$(TargetPath)" --msbuild-project-path "$(ProjectPath)" --msbuild-project-configuration "$(ConfigurationName)" --msbuild-project-platform "$(PlatformName)" --msbuild-solution-path "$(SolutionPath)" -n --newline-flush -v 3.2</PostBuildEvent>
+  </PropertyGroup>
+</Project>

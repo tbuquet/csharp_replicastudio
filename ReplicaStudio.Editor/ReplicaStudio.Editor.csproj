@@ -1,0 +1,1177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{525E8891-AB0E-4927-BDE5-BA25EC935E07}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ReplicaStudio.Editor</RootNamespace>
+    <AssemblyName>ReplicaStudio</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <RunPostBuildEvent>OnOutputUpdated</RunPostBuildEvent>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Resources\logo_exec.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoWin32Manifest>true</NoWin32Manifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BusinessLayer\AnimationBusiness.cs" />
+    <Compile Include="BusinessLayer\CharacterBusiness.cs" />
+    <Compile Include="BusinessLayer\ActionBusiness.cs" />
+    <Compile Include="BusinessLayer\ClassBusiness.cs" />
+    <Compile Include="BusinessLayer\CoordsBusiness.cs" />
+    <Compile Include="BusinessLayer\PlayerBusiness.cs" />
+    <Compile Include="BusinessLayer\VariableBusiness.cs" />
+    <Compile Include="BusinessLayer\TriggerBusiness.cs" />
+    <Compile Include="BusinessLayer\GlobalEventBusiness.cs" />
+    <Compile Include="BusinessLayer\DialogBusiness.cs" />
+    <Compile Include="BusinessLayer\EventBusiness.cs" />
+    <Compile Include="BusinessLayer\DatabaseBusiness.cs" />
+    <Compile Include="BusinessLayer\ItemBusiness.cs" />
+    <Compile Include="BusinessLayer\LayersPanelBusiness.cs" />
+    <Compile Include="BusinessLayer\ProjectBusiness.cs" />
+    <Compile Include="BusinessLayer\ProjectPanelBusiness.cs" />
+    <Compile Include="BusinessLayer\ResourcesManagerBusiness.cs" />
+    <Compile Include="BusinessLayer\StageBusiness.cs" />
+    <Compile Include="Culture\Language\DatabaseRessources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DatabaseRessources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Culture\Language\EditorConstants.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EditorConstants.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Culture\Language\Notifications.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Notifications.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\CoordsManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\CoordsManager.Designer.cs">
+      <DependentUpon>CoordsManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\CharacterManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\CharacterManager.Designer.cs">
+      <DependentUpon>CharacterManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\DatabaseUC\DatabasePlayers.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\DatabaseUC\DatabasePlayers.Designer.cs">
+      <DependentUpon>DatabasePlayers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\DatabaseUC\DatabaseTerminology.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\DatabaseUC\DatabaseTerminology.Designer.cs">
+      <DependentUpon>DatabaseTerminology.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ItemManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ItemManager.Designer.cs">
+      <DependentUpon>ItemManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ScriptForms\ScriptLookForwardPlayer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ScriptForms\ScriptLookForwardPlayer.Designer.cs">
+      <DependentUpon>ScriptLookForwardPlayer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ScriptForms\ScriptChangePlayerAnimation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ScriptForms\ScriptChangePlayerAnimation.Designer.cs">
+      <DependentUpon>ScriptChangePlayerAnimation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ScriptForms\ScriptFreePlayerAnimation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ScriptForms\ScriptFreePlayerAnimation.Designer.cs">
+      <DependentUpon>ScriptFreePlayerAnimation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ScriptForms\ScriptFreezePlayerAnimation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ScriptForms\ScriptFreezePlayerAnimation.Designer.cs">
+      <DependentUpon>ScriptFreezePlayerAnimation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ScriptForms\ScriptFreeCharacterAnimation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ScriptForms\ScriptFreeCharacterAnimation.Designer.cs">
+      <DependentUpon>ScriptFreeCharacterAnimation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ScriptForms\ScriptFreezeCharacterAnimation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ScriptForms\ScriptFreezeCharacterAnimation.Designer.cs">
+      <DependentUpon>ScriptFreezeCharacterAnimation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ScriptForms\ScriptCharacterAnimationFrequency.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ScriptForms\ScriptCharacterAnimationFrequency.Designer.cs">
+      <DependentUpon>ScriptCharacterAnimationFrequency.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ScriptForms\ScriptChangePlayerHP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ScriptForms\ScriptChangePlayerHP.Designer.cs">
+      <DependentUpon>ScriptChangePlayerHP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ScriptForms\ScriptAddComment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ScriptForms\ScriptAddComment.Designer.cs">
+      <DependentUpon>ScriptAddComment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ScriptForms\ScriptChangePlayerSpeed.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ScriptForms\ScriptChangePlayerSpeed.Designer.cs">
+      <DependentUpon>ScriptChangePlayerSpeed.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ScriptForms\ScriptCallGlobalEvent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ScriptForms\ScriptCallGlobalEvent.Designer.cs">
+      <DependentUpon>ScriptCallGlobalEvent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ScriptForms\ScriptCameraFocusOnAnimation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ScriptForms\ScriptCameraFocusOnAnimation.Designer.cs">
+      <DependentUpon>ScriptCameraFocusOnAnimation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ScriptForms\ScriptCameraFocusOnCharacter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ScriptForms\ScriptCameraFocusOnCharacter.Designer.cs">
+      <DependentUpon>ScriptCameraFocusOnCharacter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ScriptForms\ScriptAddPlayerAction.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ScriptForms\ScriptAddPlayerAction.Designer.cs">
+      <DependentUpon>ScriptAddPlayerAction.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ScriptForms\ScriptMoveCamera.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ScriptForms\ScriptMoveCamera.Designer.cs">
+      <DependentUpon>ScriptMoveCamera.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ScriptForms\ScriptChangeCharacterDirection.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ScriptForms\ScriptChangeCharacterDirection.Designer.cs">
+      <DependentUpon>ScriptChangeCharacterDirection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ScriptForms\ScriptChangeCurrentCharacter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ScriptForms\ScriptChangeCurrentCharacter.Designer.cs">
+      <DependentUpon>ScriptChangeCurrentCharacter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ScriptForms\ScriptChangePlayerDirection.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ScriptForms\ScriptChangePlayerDirection.Designer.cs">
+      <DependentUpon>ScriptChangePlayerDirection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ScriptForms\ScriptChoice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ScriptForms\ScriptChoice.Designer.cs">
+      <DependentUpon>ScriptChoice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ScriptForms\ScriptGetSetAnchor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ScriptForms\ScriptGetSetAnchor.Designer.cs">
+      <DependentUpon>ScriptGetSetAnchor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ScriptForms\ScriptItem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ScriptForms\ScriptItem.Designer.cs">
+      <DependentUpon>ScriptItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ScriptForms\ScriptLoop.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ScriptForms\ScriptLoop.Designer.cs">
+      <DependentUpon>ScriptLoop.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ScriptForms\ScriptCondition.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ScriptForms\ScriptCondition.Designer.cs">
+      <DependentUpon>ScriptCondition.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ScriptForms\ScriptMoveCharacter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ScriptForms\ScriptMoveCharacter.Designer.cs">
+      <DependentUpon>ScriptMoveCharacter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ScriptForms\ScriptMusicFrequency.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ScriptForms\ScriptMusicFrequency.Designer.cs">
+      <DependentUpon>ScriptMusicFrequency.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ScriptForms\ScriptPressSwitch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ScriptForms\ScriptPressSwitch.Designer.cs">
+      <DependentUpon>ScriptPressSwitch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ScriptForms\ScriptRandom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ScriptForms\ScriptRandom.Designer.cs">
+      <DependentUpon>ScriptRandom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ScriptForms\ScriptStopCharacterMovement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ScriptForms\ScriptStopCharacterMovement.Designer.cs">
+      <DependentUpon>ScriptStopCharacterMovement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ScriptForms\ScriptVariable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ScriptForms\ScriptVariable.Designer.cs">
+      <DependentUpon>ScriptVariable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ScriptForms\ScriptWait.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ScriptForms\ScriptWait.Designer.cs">
+      <DependentUpon>ScriptWait.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ScriptManagerContainer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ScriptManagerContainer.Designer.cs">
+      <DependentUpon>ScriptManagerContainer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\UserControls\CharacterButton.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\UserControls\CharacterButton.Designer.cs">
+      <DependentUpon>CharacterButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\UserControls\ColorButton.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\UserControls\ColorButton.Designer.cs">
+      <DependentUpon>ColorButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\UserControls\VariableOrConstantButton.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\UserControls\VariableOrConstantButton.Designer.cs">
+      <DependentUpon>VariableOrConstantButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\UserControls\ItemButton.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\UserControls\ItemButton.Designer.cs">
+      <DependentUpon>ItemButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\UserControls\VariableButton.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\UserControls\VariableButton.Designer.cs">
+      <DependentUpon>VariableButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\VariableManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\VariableManager.Designer.cs">
+      <DependentUpon>VariableManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\DialogManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\DialogManager.Designer.cs">
+      <DependentUpon>DialogManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\NewStage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\NewStage.Designer.cs">
+      <DependentUpon>NewStage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\TriggerManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\TriggerManager.Designer.cs">
+      <DependentUpon>TriggerManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\UserControls\CoordsButton.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\UserControls\CoordsButton.Designer.cs">
+      <DependentUpon>CoordsButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\UserControls\StageObjectsPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\UserControls\StageObjectsPanel.Designer.cs">
+      <DependentUpon>StageObjectsPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\UserControls\ResourceButton.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\UserControls\ResourceButton.Designer.cs">
+      <DependentUpon>ResourceButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\UserControls\InfoPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\UserControls\InfoPanel.Designer.cs">
+      <DependentUpon>InfoPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\UserControls\TriggerButton.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\UserControls\TriggerButton.Designer.cs">
+      <DependentUpon>TriggerButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ServiceLayer\ActionService.cs" />
+    <Compile Include="ServiceLayer\ClassService.cs" />
+    <Compile Include="ServiceLayer\CoordsService.cs" />
+    <Compile Include="ServiceLayer\PlayerService.cs" />
+    <Compile Include="ServiceLayer\VariableService.cs" />
+    <Compile Include="ServiceLayer\TriggerService.cs" />
+    <Compile Include="ServiceLayer\GlobalEventService.cs" />
+    <Compile Include="ServiceLayer\DialogService.cs" />
+    <Compile Include="ServiceLayer\EventService.cs" />
+    <Compile Include="ServiceLayer\ItemService.cs" />
+    <Compile Include="Forms\ImageColorManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ImageColorManager.Designer.cs">
+      <DependentUpon>ImageColorManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\NewLayer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\NewLayer.Designer.cs">
+      <DependentUpon>NewLayer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ServiceLayer\CharacterService.cs" />
+    <Compile Include="ServiceLayer\LayersPanelService.cs" />
+    <Compile Include="ServiceLayer\ProjectPanelService.cs" />
+    <Compile Include="ServiceLayer\ResourcesManagerService.cs" />
+    <Compile Include="ServiceLayer\StageService.cs" />
+    <Compile Include="TransverseLayer\EditorSettings.cs" />
+    <Compile Include="TransverseLayer\Editors\ColorEditor.cs" />
+    <Compile Include="TransverseLayer\Editors\CoordsEditor.cs" />
+    <Compile Include="TransverseLayer\Editors\ScriptEditor.cs" />
+    <Compile Include="TransverseLayer\FormsTools.cs" />
+    <Compile Include="TransverseLayer\EditorHelper.cs" />
+    <Compile Include="TransverseLayer\Constants\EditorConstants.cs" />
+    <Compile Include="TransverseLayer\Constants\GeneralSettingsConstants.cs" />
+    <Compile Include="ServiceLayer\AnimationService.cs" />
+    <Compile Include="ServiceLayer\DatabaseService.cs" />
+    <Compile Include="ServiceLayer\ProjectService.cs" />
+    <Compile Include="TransverseLayer\Constants\Notifications.cs" />
+    <Compile Include="TransverseLayer\Managers\FormsManager.cs" />
+    <Compile Include="TransverseLayer\Managers\ImageManager.cs" />
+    <Compile Include="TransverseLayer\Managers\ObjectsFactory.cs" />
+    <Compile Include="TransverseLayer\ConfigWrapper.cs" />
+    <Compile Include="TransverseLayer\RefreshingListBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\AnimationManagerContainer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AnimationManagerContainer.Designer.cs">
+      <DependentUpon>AnimationManagerContainer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\About.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\About.Designer.cs">
+      <DependentUpon>About.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Database.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Database.Designer.cs">
+      <DependentUpon>Database.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\DatabaseUC\DatabaseClasses.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\DatabaseUC\DatabaseClasses.Designer.cs">
+      <DependentUpon>DatabaseClasses.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\DatabaseUC\DatabaseActions.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\DatabaseUC\DatabaseActions.Designer.cs">
+      <DependentUpon>DatabaseActions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\DatabaseUC\DatabaseGlobalEvents.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\DatabaseUC\DatabaseGlobalEvents.Designer.cs">
+      <DependentUpon>DatabaseGlobalEvents.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\DatabaseUC\DatabaseItems.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\DatabaseUC\DatabaseItems.Designer.cs">
+      <DependentUpon>DatabaseItems.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\DatabaseUC\DatabaseCharacters.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\DatabaseUC\DatabaseCharacters.Designer.cs">
+      <DependentUpon>DatabaseCharacters.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\DatabaseUC\DatabaseItemsInteraction.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\DatabaseUC\DatabaseItemsInteraction.Designer.cs">
+      <DependentUpon>DatabaseItemsInteraction.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\DatabaseUC\DatabaseMenus.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\DatabaseUC\DatabaseMenus.Designer.cs">
+      <DependentUpon>DatabaseMenus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\DatabaseUC\DatabaseSystem.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\DatabaseUC\DatabaseSystem.Designer.cs">
+      <DependentUpon>DatabaseSystem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\EventActions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\EventActions.Designer.cs">
+      <DependentUpon>EventActions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\EventManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\EventManager.Designer.cs">
+      <DependentUpon>EventManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\NewProject.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\NewProject.Designer.cs">
+      <DependentUpon>NewProject.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\GeneralSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\GeneralSettings.Designer.cs">
+      <DependentUpon>GeneralSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Main.Designer.cs">
+      <DependentUpon>Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ResourcesManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ResourcesManager.Designer.cs">
+      <DependentUpon>ResourcesManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\UserControls\AnimationControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\UserControls\AnimationControl.Designer.cs">
+      <DependentUpon>AnimationControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\UserControls\AnimationManager.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\UserControls\AnimationManager.Designer.cs">
+      <DependentUpon>AnimationManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\UserControls\CharacterConditions.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\UserControls\CharacterConditions.Designer.cs">
+      <DependentUpon>CharacterConditions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\UserControls\AnimationConditions.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\UserControls\AnimationConditions.Designer.cs">
+      <DependentUpon>AnimationConditions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\UserControls\EventConditions.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\UserControls\EventConditions.Designer.cs">
+      <DependentUpon>EventConditions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\UserControls\LayersPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\UserControls\LayersPanel.Designer.cs">
+      <DependentUpon>LayersPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\UserControls\ListItems.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\UserControls\ListItems.Designer.cs">
+      <DependentUpon>ListItems.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\UserControls\ProjectPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\UserControls\ProjectPanel.Designer.cs">
+      <DependentUpon>ProjectPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\UserControls\ScriptManager.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\UserControls\ScriptManager.Designer.cs">
+      <DependentUpon>ScriptManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\UserControls\StagePanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\UserControls\StagePanel.Designer.cs">
+      <DependentUpon>StagePanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Culture\Language\DatabaseRessources.fr.resx" />
+    <EmbeddedResource Include="Culture\Language\DatabaseRessources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>DatabaseRessources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Culture\Language\EditorConstants.fr.resx" />
+    <EmbeddedResource Include="Culture\Language\EditorConstants.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>EditorConstants.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Culture\Language\Notifications.fr.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Culture\Language\Notifications.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Notifications.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\About.fr.resx">
+      <DependentUpon>About.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\About.resx">
+      <DependentUpon>About.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AnimationManagerContainer.fr.resx">
+      <DependentUpon>AnimationManagerContainer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AnimationManagerContainer.resx">
+      <DependentUpon>AnimationManagerContainer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CharacterManager.fr.resx">
+      <DependentUpon>CharacterManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CharacterManager.resx">
+      <DependentUpon>CharacterManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CoordsManager.fr.resx">
+      <DependentUpon>CoordsManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CoordsManager.resx">
+      <DependentUpon>CoordsManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Database.fr.resx">
+      <DependentUpon>Database.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Database.resx">
+      <DependentUpon>Database.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\DatabaseUC\DatabasePlayers.fr.resx">
+      <DependentUpon>DatabasePlayers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\DatabaseUC\DatabasePlayers.resx">
+      <DependentUpon>DatabasePlayers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\DatabaseUC\DatabaseActions.fr.resx">
+      <DependentUpon>DatabaseActions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\DatabaseUC\DatabaseActions.resx">
+      <DependentUpon>DatabaseActions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\DatabaseUC\DatabaseCharacters.fr.resx">
+      <DependentUpon>DatabaseCharacters.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\DatabaseUC\DatabaseCharacters.resx">
+      <DependentUpon>DatabaseCharacters.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\DatabaseUC\DatabaseClasses.fr.resx">
+      <DependentUpon>DatabaseClasses.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\DatabaseUC\DatabaseClasses.resx">
+      <DependentUpon>DatabaseClasses.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\DatabaseUC\DatabaseGlobalEvents.fr.resx">
+      <DependentUpon>DatabaseGlobalEvents.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\DatabaseUC\DatabaseGlobalEvents.resx">
+      <DependentUpon>DatabaseGlobalEvents.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\DatabaseUC\DatabaseItems.resx">
+      <DependentUpon>DatabaseItems.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\DatabaseUC\DatabaseItemsInteraction.fr.resx">
+      <DependentUpon>DatabaseItemsInteraction.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\DatabaseUC\DatabaseItemsInteraction.resx">
+      <DependentUpon>DatabaseItemsInteraction.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\DatabaseUC\DatabaseMenus.fr.resx">
+      <DependentUpon>DatabaseMenus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\DatabaseUC\DatabaseMenus.resx">
+      <DependentUpon>DatabaseMenus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\DatabaseUC\DatabaseSystem.fr.resx">
+      <DependentUpon>DatabaseSystem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\DatabaseUC\DatabaseSystem.resx">
+      <DependentUpon>DatabaseSystem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\DatabaseUC\DatabaseTerminology.fr.resx">
+      <DependentUpon>DatabaseTerminology.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\DatabaseUC\DatabaseTerminology.resx">
+      <DependentUpon>DatabaseTerminology.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\DialogManager.fr.resx">
+      <DependentUpon>DialogManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\DialogManager.resx">
+      <DependentUpon>DialogManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\EventActions.fr.resx">
+      <DependentUpon>EventActions.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\EventActions.resx">
+      <DependentUpon>EventActions.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\EventManager.fr.resx">
+      <DependentUpon>EventManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\EventManager.resx">
+      <DependentUpon>EventManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\GeneralSettings.fr.resx">
+      <DependentUpon>GeneralSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\GeneralSettings.resx">
+      <DependentUpon>GeneralSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ImageColorManager.fr.resx">
+      <DependentUpon>ImageColorManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ImageColorManager.resx">
+      <DependentUpon>ImageColorManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ItemManager.fr.resx">
+      <DependentUpon>ItemManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ItemManager.resx">
+      <DependentUpon>ItemManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Main.fr.resx">
+      <DependentUpon>Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Main.resx">
+      <DependentUpon>Main.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\NewLayer.fr.resx">
+      <DependentUpon>NewLayer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\NewLayer.resx">
+      <DependentUpon>NewLayer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\NewProject.fr.resx">
+      <DependentUpon>NewProject.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\NewProject.resx">
+      <DependentUpon>NewProject.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\NewStage.fr.resx">
+      <DependentUpon>NewStage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\NewStage.resx">
+      <DependentUpon>NewStage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ResourcesManager.fr.resx">
+      <DependentUpon>ResourcesManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ResourcesManager.resx">
+      <DependentUpon>ResourcesManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ScriptForms\ScriptAddComment.fr.resx">
+      <DependentUpon>ScriptAddComment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ScriptForms\ScriptAddPlayerAction.fr.resx">
+      <DependentUpon>ScriptAddPlayerAction.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ScriptForms\ScriptCallGlobalEvent.fr.resx">
+      <DependentUpon>ScriptCallGlobalEvent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ScriptForms\ScriptCameraFocusOnAnimation.fr.resx">
+      <DependentUpon>ScriptCameraFocusOnAnimation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ScriptForms\ScriptCameraFocusOnCharacter.fr.resx">
+      <DependentUpon>ScriptCameraFocusOnCharacter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ScriptForms\ScriptChangeCharacterDirection.fr.resx">
+      <DependentUpon>ScriptChangeCharacterDirection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ScriptForms\ScriptChangeCurrentCharacter.fr.resx">
+      <DependentUpon>ScriptChangeCurrentCharacter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ScriptForms\ScriptChangePlayerAnimation.fr.resx">
+      <DependentUpon>ScriptChangePlayerAnimation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ScriptForms\ScriptChangePlayerDirection.fr.resx">
+      <DependentUpon>ScriptChangePlayerDirection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ScriptForms\ScriptChangePlayerHP.fr.resx">
+      <DependentUpon>ScriptChangePlayerHP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ScriptForms\ScriptChangePlayerSpeed.fr.resx">
+      <DependentUpon>ScriptChangePlayerSpeed.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ScriptForms\ScriptCharacterAnimationFrequency.fr.resx">
+      <DependentUpon>ScriptCharacterAnimationFrequency.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ScriptForms\ScriptChoice.fr.resx">
+      <DependentUpon>ScriptChoice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ScriptForms\ScriptCondition.fr.resx">
+      <DependentUpon>ScriptCondition.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ScriptForms\ScriptCondition.resx">
+      <DependentUpon>ScriptCondition.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ScriptForms\ScriptFreeCharacterAnimation.fr.resx">
+      <DependentUpon>ScriptFreeCharacterAnimation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ScriptForms\ScriptFreePlayerAnimation.fr.resx">
+      <DependentUpon>ScriptFreePlayerAnimation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ScriptForms\ScriptFreezeCharacterAnimation.fr.resx">
+      <DependentUpon>ScriptFreezeCharacterAnimation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ScriptForms\ScriptFreezePlayerAnimation.fr.resx">
+      <DependentUpon>ScriptFreezePlayerAnimation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ScriptForms\ScriptGetSetAnchor.fr.resx">
+      <DependentUpon>ScriptGetSetAnchor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ScriptForms\ScriptItem.fr.resx">
+      <DependentUpon>ScriptItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ScriptForms\ScriptLookForwardPlayer.fr.resx">
+      <DependentUpon>ScriptLookForwardPlayer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ScriptForms\ScriptLookForwardPlayer.resx">
+      <DependentUpon>ScriptLookForwardPlayer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ScriptForms\ScriptChangePlayerAnimation.resx">
+      <DependentUpon>ScriptChangePlayerAnimation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ScriptForms\ScriptFreePlayerAnimation.resx">
+      <DependentUpon>ScriptFreePlayerAnimation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ScriptForms\ScriptFreezePlayerAnimation.resx">
+      <DependentUpon>ScriptFreezePlayerAnimation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ScriptForms\ScriptFreeCharacterAnimation.resx">
+      <DependentUpon>ScriptFreeCharacterAnimation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ScriptForms\ScriptFreezeCharacterAnimation.resx">
+      <DependentUpon>ScriptFreezeCharacterAnimation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ScriptForms\ScriptCharacterAnimationFrequency.resx">
+      <DependentUpon>ScriptCharacterAnimationFrequency.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ScriptForms\ScriptChangePlayerHP.resx">
+      <DependentUpon>ScriptChangePlayerHP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ScriptForms\ScriptAddComment.resx">
+      <DependentUpon>ScriptAddComment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ScriptForms\ScriptChangePlayerSpeed.resx">
+      <DependentUpon>ScriptChangePlayerSpeed.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ScriptForms\ScriptCallGlobalEvent.resx">
+      <DependentUpon>ScriptCallGlobalEvent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ScriptForms\ScriptCameraFocusOnAnimation.resx">
+      <DependentUpon>ScriptCameraFocusOnAnimation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ScriptForms\ScriptCameraFocusOnCharacter.resx">
+      <DependentUpon>ScriptCameraFocusOnCharacter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ScriptForms\ScriptAddPlayerAction.resx">
+      <DependentUpon>ScriptAddPlayerAction.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ScriptForms\ScriptLoop.fr.resx">
+      <DependentUpon>ScriptLoop.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ScriptForms\ScriptMoveCamera.fr.resx">
+      <DependentUpon>ScriptMoveCamera.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ScriptForms\ScriptMoveCamera.resx">
+      <DependentUpon>ScriptMoveCamera.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ScriptForms\ScriptChangeCharacterDirection.resx">
+      <DependentUpon>ScriptChangeCharacterDirection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ScriptForms\ScriptChangeCurrentCharacter.resx">
+      <DependentUpon>ScriptChangeCurrentCharacter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ScriptForms\ScriptChangePlayerDirection.resx">
+      <DependentUpon>ScriptChangePlayerDirection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ScriptForms\ScriptChoice.resx">
+      <DependentUpon>ScriptChoice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ScriptForms\ScriptGetSetAnchor.resx">
+      <DependentUpon>ScriptGetSetAnchor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ScriptForms\ScriptItem.resx">
+      <DependentUpon>ScriptItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ScriptForms\ScriptLoop.resx">
+      <DependentUpon>ScriptLoop.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ScriptForms\ScriptMoveCharacter.fr.resx">
+      <DependentUpon>ScriptMoveCharacter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ScriptForms\ScriptMoveCharacter.resx">
+      <DependentUpon>ScriptMoveCharacter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ScriptForms\ScriptMusicFrequency.fr.resx">
+      <DependentUpon>ScriptMusicFrequency.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ScriptForms\ScriptMusicFrequency.resx">
+      <DependentUpon>ScriptMusicFrequency.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ScriptForms\ScriptPressSwitch.fr.resx">
+      <DependentUpon>ScriptPressSwitch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ScriptForms\ScriptPressSwitch.resx">
+      <DependentUpon>ScriptPressSwitch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ScriptForms\ScriptRandom.fr.resx">
+      <DependentUpon>ScriptRandom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ScriptForms\ScriptRandom.resx">
+      <DependentUpon>ScriptRandom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ScriptForms\ScriptStopCharacterMovement.fr.resx">
+      <DependentUpon>ScriptStopCharacterMovement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ScriptForms\ScriptStopCharacterMovement.resx">
+      <DependentUpon>ScriptStopCharacterMovement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ScriptForms\ScriptVariable.fr.resx">
+      <DependentUpon>ScriptVariable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ScriptForms\ScriptVariable.resx">
+      <DependentUpon>ScriptVariable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ScriptForms\ScriptWait.fr.resx">
+      <DependentUpon>ScriptWait.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ScriptForms\ScriptWait.resx">
+      <DependentUpon>ScriptWait.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ScriptManagerContainer.fr.resx">
+      <DependentUpon>ScriptManagerContainer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ScriptManagerContainer.resx">
+      <DependentUpon>ScriptManagerContainer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\TriggerManager.fr.resx">
+      <DependentUpon>TriggerManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\TriggerManager.resx">
+      <DependentUpon>TriggerManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\UserControls\AnimationConditions.fr.resx">
+      <DependentUpon>AnimationConditions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\UserControls\AnimationConditions.resx">
+      <DependentUpon>AnimationConditions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\UserControls\AnimationManager.fr.resx">
+      <DependentUpon>AnimationManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\UserControls\AnimationManager.resx">
+      <DependentUpon>AnimationManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\UserControls\CharacterConditions.fr.resx">
+      <DependentUpon>CharacterConditions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\UserControls\CharacterConditions.resx">
+      <DependentUpon>CharacterConditions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\UserControls\ColorButton.resx">
+      <DependentUpon>ColorButton.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\UserControls\EventConditions.fr.resx">
+      <DependentUpon>EventConditions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\UserControls\EventConditions.resx">
+      <DependentUpon>EventConditions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\UserControls\InfoPanel.resx">
+      <DependentUpon>InfoPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\UserControls\LayersPanel.fr.resx">
+      <DependentUpon>LayersPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\UserControls\LayersPanel.resx">
+      <DependentUpon>LayersPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\UserControls\ListItems.fr.resx">
+      <DependentUpon>ListItems.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\UserControls\ListItems.resx">
+      <DependentUpon>ListItems.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\UserControls\ProjectPanel.fr.resx">
+      <DependentUpon>ProjectPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\UserControls\ProjectPanel.resx">
+      <DependentUpon>ProjectPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\UserControls\ScriptManager.resx">
+      <DependentUpon>ScriptManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\UserControls\StageObjectsPanel.fr.resx">
+      <DependentUpon>StageObjectsPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\UserControls\StageObjectsPanel.resx">
+      <DependentUpon>StageObjectsPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\UserControls\StagePanel.fr.resx">
+      <DependentUpon>StagePanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\UserControls\StagePanel.resx">
+      <DependentUpon>StagePanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\UserControls\VariableOrConstantButton.resx">
+      <DependentUpon>VariableOrConstantButton.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\VariableManager.fr.resx">
+      <DependentUpon>VariableManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\VariableManager.resx">
+      <DependentUpon>VariableManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ReplicaStudio.Shared\ReplicaStudio.Shared.csproj">
+      <Project>{1C4D579D-2F9A-4E46-A427-08B578E7E363}</Project>
+      <Name>ReplicaStudio.Shared</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\ProjectPanel\folder.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\ProjectPanel\animation.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\ProjectPanel\decor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\ProjectPanel\stage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\ProjectPanel\character.png" />
+    <EmbeddedResource Include="Resources\ProjectPanel\music.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\StateObjectPanel\character.png" />
+    <None Include="Resources\StateObjectPanel\decor.png" />
+    <None Include="Resources\logo_miniicon.ico" />
+    <EmbeddedResource Include="Resources\logo-PCS.png" />
+    <Content Include="Resources\logo_exec.ico" />
+    <Content Include="Resources\StateObjectPanel\_object.png" />
+    <Content Include="Resources\Toolbar\zoom11.png" />
+    <Content Include="Resources\Toolbar\zoom12.png" />
+    <Content Include="Resources\Toolbar\zoom14.png" />
+    <Content Include="Resources\Toolbar\zoom18.png" />
+    <None Include="Resources\Toolbar\try.png" />
+    <None Include="Resources\Toolbar\save_project.png" />
+    <EmbeddedResource Include="Resources\StagePanel\drawing_pen.cur" />
+    <EmbeddedResource Include="Resources\StagePanel\drawing_pen_add.cur" />
+    <EmbeddedResource Include="Resources\StagePanel\drawing_pen_delete.cur" />
+    <EmbeddedResource Include="Resources\empty.gif" />
+    <EmbeddedResource Include="Resources\logo-PCS.jpg" />
+    <Content Include="Resources\StateObjectPanel\event.png" />
+    <EmbeddedResource Include="Resources\StateObjectPanel\hotspot.png" />
+    <EmbeddedResource Include="Resources\StateObjectPanel\region.gif" />
+    <EmbeddedResource Include="Resources\StateObjectPanel\walk.png" />
+    <Content Include="Resources\Toolbar\copy.png" />
+    <Content Include="Resources\Toolbar\cut.png" />
+    <None Include="Resources\Toolbar\delete.png" />
+    <None Include="Resources\Toolbar\database.png" />
+    <Content Include="Resources\Toolbar\load.png" />
+    <None Include="Resources\Toolbar\new_project.png" />
+    <None Include="Resources\Toolbar\open_project.png" />
+    <None Include="Resources\Toolbar\new_map.png" />
+    <Content Include="Resources\Toolbar\paste.png" />
+    <None Include="Resources\Toolbar\resource.png" />
+    <None Include="Resources\Toolbar\pointer.png" />
+    <None Include="Resources\Toolbar\pencil.png" />
+    <Content Include="Resources\Toolbar\save.png" />
+    <EmbeddedResource Include="Resources\notfound.png" />
+    <EmbeddedResource Include="Resources\empty.png" />
+    <Content Include="Resources\LayersPanel\add.png" />
+    <EmbeddedResource Include="Resources\LayersPanel\color.png" />
+    <Content Include="Resources\LayersPanel\delete.png" />
+    <EmbeddedResource Include="Resources\LayersPanel\hidden.png" />
+    <EmbeddedResource Include="Resources\LayersPanel\key.png" />
+    <EmbeddedResource Include="Resources\LayersPanel\show.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\LayersPanel\down.png" />
+    <Content Include="Resources\LayersPanel\up.png" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <PropertyGroup>
+    <PostBuildEvent>if /I "$(ConfigurationName)" == "Release" Eazfuscator.NET.exe "$(TargetPath)" --msbuild-project-path "$(ProjectPath)" --msbuild-project-configuration "$(ConfigurationName)" --msbuild-project-platform "$(PlatformName)" --msbuild-solution-path "$(SolutionPath)" -n --newline-flush -v 3.2</PostBuildEvent>
+  </PropertyGroup>
+</Project>

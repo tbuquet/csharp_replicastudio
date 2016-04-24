@@ -1,0 +1,372 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="EVENTMANAGER_NO_CLASSES" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="EXPORT_SUCCESS" xml:space="preserve">
+    <value>Export Success !</value>
+  </data>
+  <data name="MOV_DOWN" xml:space="preserve">
+    <value>Down</value>
+  </data>
+  <data name="MOV_LEFT" xml:space="preserve">
+    <value>Left</value>
+  </data>
+  <data name="MOV_LEFTDOWN" xml:space="preserve">
+    <value>Left-Down</value>
+  </data>
+  <data name="MOV_RIGHT" xml:space="preserve">
+    <value>Right</value>
+  </data>
+  <data name="MOV_RIGHTDOWN" xml:space="preserve">
+    <value>Right-Down</value>
+  </data>
+  <data name="MOV_UP" xml:space="preserve">
+    <value>Up</value>
+  </data>
+  <data name="MOV_UPLEFT" xml:space="preserve">
+    <value>Up-Left</value>
+  </data>
+  <data name="MOV_UPRIGHT" xml:space="preserve">
+    <value>Up-Right</value>
+  </data>
+  <data name="PROJECTPANEL_ANIMATIONS" xml:space="preserve">
+    <value>Animations</value>
+  </data>
+  <data name="PROJECTPANEL_CHARACTERS" xml:space="preserve">
+    <value>Characters</value>
+  </data>
+  <data name="PROJECTPANEL_DECORS" xml:space="preserve">
+    <value>Decors</value>
+  </data>
+  <data name="PROJECTPANEL_MUSICS" xml:space="preserve">
+    <value>Musics</value>
+  </data>
+  <data name="PROJECTPANEL_STAGES" xml:space="preserve">
+    <value>Stages</value>
+  </data>
+  <data name="STAGEOBJECTSPANEL_ANIMATIONS" xml:space="preserve">
+    <value>Animations</value>
+  </data>
+  <data name="STAGEOBJECTSPANEL_CHARACTERS" xml:space="preserve">
+    <value>Characters</value>
+  </data>
+  <data name="STAGEOBJECTSPANEL_DECORS" xml:space="preserve">
+    <value>Decors</value>
+  </data>
+  <data name="STAGEOBJECTSPANEL_HOTSPOTS" xml:space="preserve">
+    <value>Hotspots</value>
+  </data>
+  <data name="STAGEOBJECTSPANEL_REGIONS" xml:space="preserve">
+    <value>Regions</value>
+  </data>
+  <data name="STAGEOBJECTSPANEL_WALKABLE" xml:space="preserve">
+    <value>Walkable areas</value>
+  </data>
+  <data name="STATUS_DESC_ABOUT" xml:space="preserve">
+    <value>Expand a submenu which propose help or information about the soft.</value>
+  </data>
+  <data name="STATUS_DESC_ABOUTUS" xml:space="preserve">
+    <value>Open a popup that gives information about the dev team.</value>
+  </data>
+  <data name="STATUS_DESC_BUILD" xml:space="preserve">
+    <value>Expand a submenu which propose to export the project to different locations. Currently only Windows OS are supported.</value>
+  </data>
+  <data name="STATUS_DESC_BUILDTOWINDOWS" xml:space="preserve">
+    <value>Expand a submenu which propose to try the game either in a normal mode or a fullscreen mode.</value>
+  </data>
+  <data name="STATUS_DESC_CIRCLE" xml:space="preserve">
+    <value>Use the circle tool to draw circles for hidden events or walkable areas.</value>
+  </data>
+  <data name="STATUS_DESC_COPY" xml:space="preserve">
+    <value>Copy an object and keep it in memory to be pasted later.</value>
+  </data>
+  <data name="STATUS_DESC_CREATEMAP" xml:space="preserve">
+    <value>Open a popup to create a new map.</value>
+  </data>
+  <data name="STATUS_DESC_CUT" xml:space="preserve">
+    <value>Delete an object and keep it in memory to be pasted later.</value>
+  </data>
+  <data name="STATUS_DESC_DATABASE" xml:space="preserve">
+    <value>Open the database window, which allow you to modify all the game system resources.</value>
+  </data>
+  <data name="STATUS_DESC_DELETE" xml:space="preserve">
+    <value>Delete an object.</value>
+  </data>
+  <data name="STATUS_DESC_DOCUMENT" xml:space="preserve">
+    <value>Open a documentation to help to get started with the soft.</value>
+  </data>
+  <data name="STATUS_DESC_DRAWING" xml:space="preserve">
+    <value>Expand a submenu to choose a tool to draw an hidden event or walkable areas.</value>
+  </data>
+  <data name="STATUS_DESC_EDITION" xml:space="preserve">
+    <value>Expand a submenu to do the cut/copy/paste operations.</value>
+  </data>
+  <data name="STATUS_DESC_EXIT" xml:space="preserve">
+    <value>Leave the application.</value>
+  </data>
+  <data name="STATUS_DESC_FILE" xml:space="preserve">
+    <value>Expand a submenu to manage a project, access to the general settings or leave the application.</value>
+  </data>
+  <data name="STATUS_DESC_FULLSCREEN_TRY" xml:space="preserve">
+    <value>Compile the game and launch it in a fullscreen mode.</value>
+  </data>
+  <data name="STATUS_DESC_GAME" xml:space="preserve">
+    <value>Expand a submenu which propose to try the game either in a normal mode or a fullscreen mode.</value>
+  </data>
+  <data name="STATUS_DESC_GENERALSETTINGS" xml:space="preserve">
+    <value>Open a popup to change some general settings of the application.</value>
+  </data>
+  <data name="STATUS_DESC_IMPORTMASK" xml:space="preserve">
+    <value>Open a popup to choose a mask file to import within the current stage.</value>
+  </data>
+  <data name="STATUS_DESC_INFOPANEL" xml:space="preserve">
+    <value>Provide informations about the selected object within the stage, or the stage itself if nothing is selected.</value>
+  </data>
+  <data name="STATUS_DESC_LANGUAGE" xml:space="preserve">
+    <value>Expand a submenu which propose to change the language</value>
+  </data>
+  <data name="STATUS_DESC_LAYERSPANEL" xml:space="preserve">
+    <value>Allow you to create, edit or delete layers for the stage.</value>
+  </data>
+  <data name="STATUS_DESC_LOAD" xml:space="preserve">
+    <value>Load a project and all its stages.</value>
+  </data>
+  <data name="STATUS_DESC_MODE" xml:space="preserve">
+    <value>Expand a submenu to choose the edition mode for the stage.</value>
+  </data>
+  <data name="STATUS_DESC_MODE_CHARACTERS" xml:space="preserve">
+    <value>Change the edition mode for the stage to Characters, which allow you to place character objects. Hidden events and areas are not shown.</value>
+  </data>
+  <data name="STATUS_DESC_MODE_DECORS" xml:space="preserve">
+    <value>Change the edition mode for the stage to Decors, which allow you to place decors. Objects, hidden events and areas are not shown.</value>
+  </data>
+  <data name="STATUS_DESC_MODE_EVENTS" xml:space="preserve">
+    <value>Change the edition mode for the stage to Events, which allow you to place hidden events. Walkable areas and regions are not shown.</value>
+  </data>
+  <data name="STATUS_DESC_MODE_OBJECTS" xml:space="preserve">
+    <value>Change the edition mode for the stage to Objects, which allow you to place animation objects. Hidden events and areas are not shown.</value>
+  </data>
+  <data name="STATUS_DESC_MODE_REGIONS" xml:space="preserve">
+    <value>Change the edition mode for the stage to Regions, which allow you to create new areas and set percentage of zoom on characters sprites depending on how far they are from the main region (zoom 100%). Hidden events and walkable areas are not shown.</value>
+  </data>
+  <data name="STATUS_DESC_MODE_WALKABLE" xml:space="preserve">
+    <value>Change the edition mode for the stage to Walkable Areas, which allow you to specify where the player character can/can't move. Hidden events and regions are not shown.</value>
+  </data>
+  <data name="STATUS_DESC_NEW" xml:space="preserve">
+    <value>Open a popup to create a new project.</value>
+  </data>
+  <data name="STATUS_DESC_PASTE" xml:space="preserve">
+    <value>Paste an object that has been kept in memory by a cut/copy action.</value>
+  </data>
+  <data name="STATUS_DESC_PENCIL" xml:space="preserve">
+    <value>Use the pencil tool to draw areas for hidden events or walkable areas.</value>
+  </data>
+  <data name="STATUS_DESC_POINTER" xml:space="preserve">
+    <value>Use the pointer tool to select pointers made by the pencil, rectangle or circle tool for hidden events or walkable areas.</value>
+  </data>
+  <data name="STATUS_DESC_PREVIEWPANEL" xml:space="preserve">
+    <value>Provide a preview of the selected objet in the stage.</value>
+  </data>
+  <data name="STATUS_DESC_PROJECTPANEL" xml:space="preserve">
+    <value>Allows you to drag &amp; drop objects to the stage. It also lists all the stage that can be loaded with a double click on a stage name.</value>
+  </data>
+  <data name="STATUS_DESC_RECTANGLE" xml:space="preserve">
+    <value>Use the rectangle tool to draw rectangles for hidden events or walkable areas.</value>
+  </data>
+  <data name="STATUS_DESC_RESOURCES" xml:space="preserve">
+    <value>Expand a submenu which propose to create a map or access to the Database or the Resources Manager.</value>
+  </data>
+  <data name="STATUS_DESC_RESOURCESMANAGER" xml:space="preserve">
+    <value>Open the Resources Manager window, which allow you to import, preview or delete physical resources such as pictures or musics.</value>
+  </data>
+  <data name="STATUS_DESC_SAVE" xml:space="preserve">
+    <value>Save a project and all its stages.</value>
+  </data>
+  <data name="STATUS_DESC_SPRITECREATOR" xml:space="preserve">
+    <value>Launch the external tool "Sprite Creator" which help creating character animations</value>
+  </data>
+  <data name="STATUS_DESC_STAGE" xml:space="preserve">
+    <value>Allows you to manage objects within the stage or add events in it.</value>
+  </data>
+  <data name="STATUS_DESC_STAGEOBJECTSPANEL" xml:space="preserve">
+    <value>Provide you a view of all objects in the stage.</value>
+  </data>
+  <data name="STATUS_DESC_TRY" xml:space="preserve">
+    <value>Compile the game and launch it in a windowed mode.</value>
+  </data>
+  <data name="STATUS_DESC_VIEW" xml:space="preserve">
+    <value>Expand a submenu to manage the windows settings of the application.</value>
+  </data>
+  <data name="STATUS_DESC_VIEW_LEFT_BAR" xml:space="preserve">
+    <value>Show/Hide the toolbar on the left.</value>
+  </data>
+  <data name="STATUS_DESC_VIEW_RIGHT_BAR" xml:space="preserve">
+    <value>Show/Hide the toolbar on the right.</value>
+  </data>
+  <data name="STATUS_DESC_VIEW_TOOLBAR" xml:space="preserve">
+    <value>Show/Hide the toolbar in the menu.</value>
+  </data>
+  <data name="STATUS_DESC_WEBSITE" xml:space="preserve">
+    <value>Open the website of Replica Studio.</value>
+  </data>
+  <data name="STATUS_DESC_ZOOM" xml:space="preserve">
+    <value>Expand a submenu to choose a zoom to apply to the stage edition.</value>
+  </data>
+  <data name="STATUS_DESC_ZOOM11" xml:space="preserve">
+    <value>Apply a zoom of 100% to the stage edition.</value>
+  </data>
+  <data name="STATUS_DESC_ZOOM12" xml:space="preserve">
+    <value>Apply a zoom of 200% to the stage edition.</value>
+  </data>
+  <data name="STATUS_DESC_ZOOM14" xml:space="preserve">
+    <value>Apply a zoom of 400% to the stage edition.</value>
+  </data>
+  <data name="STATUS_DESC_ZOOM18" xml:space="preserve">
+    <value>Apply a zoom of 800% to the stage edition.</value>
+  </data>
+  <data name="TERM_CHOICENEXT" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="TERM_CHOICEPREVIOUS" xml:space="preserve">
+    <value>Previous</value>
+  </data>
+  <data name="TERM_LEAVEGAME" xml:space="preserve">
+    <value>Leave Game</value>
+  </data>
+  <data name="TERM_LOADGAME" xml:space="preserve">
+    <value>Load Game</value>
+  </data>
+  <data name="TERM_NEWGAME" xml:space="preserve">
+    <value>New Game</value>
+  </data>
+  <data name="TERM_OPTIONS" xml:space="preserve">
+    <value>Options</value>
+  </data>
+  <data name="TERM_RETURNTITLE" xml:space="preserve">
+    <value>Return to title screen</value>
+  </data>
+  <data name="TERM_SAVEGAME" xml:space="preserve">
+    <value>Save Game</value>
+  </data>
+  <data name="TERM_SAVESTATE" xml:space="preserve">
+    <value>Save State</value>
+  </data>
+</root>

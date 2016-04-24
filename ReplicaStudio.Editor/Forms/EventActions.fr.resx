@@ -1,0 +1,339 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="grpTime.Text" xml:space="preserve">
+    <value>Temps</value>
+  </data>
+  <data name="btnScriptWait.Text" xml:space="preserve">
+    <value>Attendre</value>
+  </data>
+  <data name="btnScriptRandom.Text" xml:space="preserve">
+    <value>Valeur Aléatoire</value>
+  </data>
+  <data name="btnScriptInsertComment.Text" xml:space="preserve">
+    <value>Insérer un commentaire</value>
+  </data>
+  <data name="btnScriptGoToAnchor.Text" xml:space="preserve">
+    <value>Aller à l'ancre</value>
+  </data>
+  <data name="btnScriptSetAnchor.Text" xml:space="preserve">
+    <value>Mettre une ancre</value>
+  </data>
+  <data name="btnScriptCallGlobalEvent.Text" xml:space="preserve">
+    <value>Appeler un évènement global</value>
+  </data>
+  <data name="btnScriptBreakLoop.Text" xml:space="preserve">
+    <value>Quitter la boucle</value>
+  </data>
+  <data name="btnScriptLoop.Text" xml:space="preserve">
+    <value>Boucle</value>
+  </data>
+  <data name="btnScriptChangeVariable.Text" xml:space="preserve">
+    <value>Changer variable</value>
+  </data>
+  <data name="btnScriptChangeSwitch.Text" xml:space="preserve">
+    <value>Appuyer sur Bouton</value>
+  </data>
+  <data name="tabPlayer.Text" xml:space="preserve">
+    <value>Joueur</value>
+  </data>
+  <data name="grpRendering.Text" xml:space="preserve">
+    <value>Rendu</value>
+  </data>
+  <data name="btnScriptFreePlayerAnimations.Text" xml:space="preserve">
+    <value>Libérer animations</value>
+  </data>
+  <data name="btnScriptFreezePlayerAnimations.Text" xml:space="preserve">
+    <value>Geler animations</value>
+  </data>
+  <data name="btnScriptChangePlayerSpeed.Text" xml:space="preserve">
+    <value>Changer vitesse</value>
+  </data>
+  <data name="btnScriptChangePlayerAnimation.Text" xml:space="preserve">
+    <value>Changer animation</value>
+  </data>
+  <data name="grpCommands.Text" xml:space="preserve">
+    <value>Commandes</value>
+  </data>
+  <data name="btnScriptRemoveItem.Text" xml:space="preserve">
+    <value>Retirer un objet</value>
+  </data>
+  <data name="btnScriptAddItem.Text" xml:space="preserve">
+    <value>Ajouter un objet</value>
+  </data>
+  <data name="chgAddPlayerAction.Text" xml:space="preserve">
+    <value>Ajouter action joueur</value>
+  </data>
+  <data name="RemovePlayerAction.Text" xml:space="preserve">
+    <value>Retirer action joueur</value>
+  </data>
+  <data name="grpLife.Text" xml:space="preserve">
+    <value>Vie</value>
+  </data>
+  <data name="btnScriptChangeMaxHP.Text" xml:space="preserve">
+    <value>Changer PV Max</value>
+  </data>
+  <data name="btnScriptChangeHP.Text" xml:space="preserve">
+    <value>Changer PV</value>
+  </data>
+  <data name="grpDialogs.Text" xml:space="preserve">
+    <value>Dialogues</value>
+  </data>
+  <data name="btnScriptChoiceMessages.Text" xml:space="preserve">
+    <value>Montrer choix</value>
+  </data>
+  <data name="btnScriptMessage.Text" xml:space="preserve">
+    <value>Montrer messages</value>
+  </data>
+  <data name="grpPlayer.Text" xml:space="preserve">
+    <value>Joueur courant</value>
+  </data>
+  <data name="btnChangePlayerDirection.Text" xml:space="preserve">
+    <value>Changer direction du joueur</value>
+  </data>
+  <data name="btnScriptShowCurrentPlayer.Text" xml:space="preserve">
+    <value>Montrer joueur</value>
+  </data>
+  <data name="btnScriptHideCurrentPlayer.Text" xml:space="preserve">
+    <value>Cacher joueur</value>
+  </data>
+  <data name="StopCurrentPlayerMovement.Text" xml:space="preserve">
+    <value>Stopper déplacement joueur</value>
+  </data>
+  <data name="btnScriptMovePlayer.Text" xml:space="preserve">
+    <value>Déplacer joueur</value>
+  </data>
+  <data name="btnScriptTeleport.Text" xml:space="preserve">
+    <value>Téléporter</value>
+  </data>
+  <data name="btnScriptChangeCharacter.Text" xml:space="preserve">
+    <value>Changer le personnage courant</value>
+  </data>
+  <data name="tabStage.Text" xml:space="preserve">
+    <value>Scène</value>
+  </data>
+  <data name="grpCamera.Text" xml:space="preserve">
+    <value>Caméra</value>
+  </data>
+  <data name="btnScriptDefaultCamera.Text" xml:space="preserve">
+    <value>Caméra par défaut</value>
+  </data>
+  <data name="btnScriptFocusOnAnimation.Text" xml:space="preserve">
+    <value>Centrer sur animation</value>
+  </data>
+  <data name="btnScriptFocusOnCharacter.Text" xml:space="preserve">
+    <value>Centrer sur personnage</value>
+  </data>
+  <data name="btnScriptMoveCamera.Text" xml:space="preserve">
+    <value>Déplacer Caméra</value>
+  </data>
+  <data name="grpNPC.Text" xml:space="preserve">
+    <value>PNJ</value>
+  </data>
+  <data name="btnLookForwardPlayer.Text" xml:space="preserve">
+    <value>Regarder en direction du joueur</value>
+  </data>
+  <data name="btnScriptMoveCharacter.Text" xml:space="preserve">
+    <value>Déplacer personnage</value>
+  </data>
+  <data name="chgCharacterDirection.Text" xml:space="preserve">
+    <value>Changer direction personnage</value>
+  </data>
+  <data name="btnScriptChangeCharacterFrequency.Text" xml:space="preserve">
+    <value>Changer fréquence d'animation</value>
+  </data>
+  <data name="StopCharacterMovement.Text" xml:space="preserve">
+    <value>Stop déplacement personnage</value>
+  </data>
+  <data name="btnScriptFreezeCharacter.Text" xml:space="preserve">
+    <value>Geler animation personnage</value>
+  </data>
+  <data name="btnScriptFreeCharacter.Text" xml:space="preserve">
+    <value>Libérer animation personnage</value>
+  </data>
+  <data name="btnScriptChangeCurrentAction.Text" xml:space="preserve">
+    <value>Change action courante</value>
+  </data>
+  <data name="btnScriptEnableUserControls.Text" xml:space="preserve">
+    <value>Activer contrôles utilisateur</value>
+  </data>
+  <data name="btnScriptDisableUserControls.Text" xml:space="preserve">
+    <value>Désactiver contrôles utilisateur</value>
+  </data>
+  <data name="btnScriptEnableStageInteractions.Text" xml:space="preserve">
+    <value>Activer interactions scène</value>
+  </data>
+  <data name="btnScriptDisableStageInteractions.Text" xml:space="preserve">
+    <value>Désactiver interactions scène</value>
+  </data>
+  <data name="btnScriptShowLifeBar.Text" xml:space="preserve">
+    <value>Montrer la barre de vie</value>
+  </data>
+  <data name="btnScriptHideLifeBar.Text" xml:space="preserve">
+    <value>Cacher la barre de vie</value>
+  </data>
+  <data name="btnScriptEnableSaves.Text" xml:space="preserve">
+    <value>Activer sauvegardes</value>
+  </data>
+  <data name="btnScriptDisableSaves.Text" xml:space="preserve">
+    <value>Désactiver sauvegardes</value>
+  </data>
+  <data name="btnScriptGameOver.Text" xml:space="preserve">
+    <value>Fin du jeu</value>
+  </data>
+  <data name="btnScriptLoadGame.Text" xml:space="preserve">
+    <value>Charger le jeu</value>
+  </data>
+  <data name="btnScriptSaveGame.Text" xml:space="preserve">
+    <value>Sauvegarder le jeu</value>
+  </data>
+  <data name="btnScriptCloseInventory.Text" xml:space="preserve">
+    <value>Fermer l'inventaire</value>
+  </data>
+  <data name="btnScriptOpenInventory.Text" xml:space="preserve">
+    <value>Ouvrir l'inventaire</value>
+  </data>
+  <data name="btnScriptGoToTitleScreen.Text" xml:space="preserve">
+    <value>Ecran titre</value>
+  </data>
+  <data name="grpSounds.Text" xml:space="preserve">
+    <value>Sons</value>
+  </data>
+  <data name="btnScriptStopSound.Text" xml:space="preserve">
+    <value>Stopper son</value>
+  </data>
+  <data name="btnScriptPlaySound.Text" xml:space="preserve">
+    <value>Jouer son</value>
+  </data>
+  <data name="grpMusics.Text" xml:space="preserve">
+    <value>Musiques</value>
+  </data>
+  <data name="btnScriptChangeMusicFrequency.Text" xml:space="preserve">
+    <value>Changer fréquence musique</value>
+  </data>
+  <data name="btnScriptStopMusic.Text" xml:space="preserve">
+    <value>Stopper musique</value>
+  </data>
+  <data name="btnScriptPlayMusic.Text" xml:space="preserve">
+    <value>Jouer musique</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Actions de l'évènement</value>
+  </data>
+</root>

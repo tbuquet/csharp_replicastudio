@@ -1,0 +1,789 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="AnimMainMenu.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="AnimMainMenu.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 43</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="AnimMainMenu.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="AnimMainMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>374, 290</value>
+  </data>
+  <data name="AnimMainMenu.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;AnimMainMenu.Name" xml:space="preserve">
+    <value>AnimMainMenu</value>
+  </data>
+  <data name="&gt;&gt;AnimMainMenu.Type" xml:space="preserve">
+    <value>ReplicaStudio.Editor.Forms.UserControls.AnimationControl, ReplicaStudio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;AnimMainMenu.Parent" xml:space="preserve">
+    <value>grpMainMenu</value>
+  </data>
+  <data name="&gt;&gt;AnimMainMenu.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="chkActivateMain.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkActivateMain.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 19</value>
+  </data>
+  <data name="chkActivateMain.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 17</value>
+  </data>
+  <data name="chkActivateMain.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="chkActivateMain.Text" xml:space="preserve">
+    <value>Activate</value>
+  </data>
+  <data name="&gt;&gt;chkActivateMain.Name" xml:space="preserve">
+    <value>chkActivateMain</value>
+  </data>
+  <data name="&gt;&gt;chkActivateMain.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkActivateMain.Parent" xml:space="preserve">
+    <value>grpMainMenu</value>
+  </data>
+  <data name="&gt;&gt;chkActivateMain.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="grpMainMenu.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 6</value>
+  </data>
+  <data name="grpMainMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>380, 336</value>
+  </data>
+  <data name="grpMainMenu.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="grpMainMenu.Text" xml:space="preserve">
+    <value>Main Menu</value>
+  </data>
+  <data name="&gt;&gt;grpMainMenu.Name" xml:space="preserve">
+    <value>grpMainMenu</value>
+  </data>
+  <data name="&gt;&gt;grpMainMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpMainMenu.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;grpMainMenu.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="chkSaveMenu.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkSaveMenu.Location" type="System.Drawing.Point, System.Drawing">
+    <value>283, 84</value>
+  </data>
+  <data name="chkSaveMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 17</value>
+  </data>
+  <data name="chkSaveMenu.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="chkSaveMenu.Text" xml:space="preserve">
+    <value>Activate</value>
+  </data>
+  <data name="&gt;&gt;chkSaveMenu.Name" xml:space="preserve">
+    <value>chkSaveMenu</value>
+  </data>
+  <data name="&gt;&gt;chkSaveMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkSaveMenu.Parent" xml:space="preserve">
+    <value>grpInGameMenu</value>
+  </data>
+  <data name="&gt;&gt;chkSaveMenu.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="chkLoadingMenu.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkLoadingMenu.Location" type="System.Drawing.Point, System.Drawing">
+    <value>283, 55</value>
+  </data>
+  <data name="chkLoadingMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 17</value>
+  </data>
+  <data name="chkLoadingMenu.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="chkLoadingMenu.Text" xml:space="preserve">
+    <value>Activate</value>
+  </data>
+  <data name="&gt;&gt;chkLoadingMenu.Name" xml:space="preserve">
+    <value>chkLoadingMenu</value>
+  </data>
+  <data name="&gt;&gt;chkLoadingMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkLoadingMenu.Parent" xml:space="preserve">
+    <value>grpInGameMenu</value>
+  </data>
+  <data name="&gt;&gt;chkLoadingMenu.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="chkEchapMenu.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkEchapMenu.Location" type="System.Drawing.Point, System.Drawing">
+    <value>283, 27</value>
+  </data>
+  <data name="chkEchapMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 17</value>
+  </data>
+  <data name="chkEchapMenu.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="chkEchapMenu.Text" xml:space="preserve">
+    <value>Activate</value>
+  </data>
+  <data name="&gt;&gt;chkEchapMenu.Name" xml:space="preserve">
+    <value>chkEchapMenu</value>
+  </data>
+  <data name="&gt;&gt;chkEchapMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkEchapMenu.Parent" xml:space="preserve">
+    <value>grpInGameMenu</value>
+  </data>
+  <data name="&gt;&gt;chkEchapMenu.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblEchapMenu.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblEchapMenu.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 28</value>
+  </data>
+  <data name="lblEchapMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 13</value>
+  </data>
+  <data name="lblEchapMenu.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lblEchapMenu.Text" xml:space="preserve">
+    <value>Echap Menu :</value>
+  </data>
+  <data name="&gt;&gt;lblEchapMenu.Name" xml:space="preserve">
+    <value>lblEchapMenu</value>
+  </data>
+  <data name="&gt;&gt;lblEchapMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblEchapMenu.Parent" xml:space="preserve">
+    <value>grpInGameMenu</value>
+  </data>
+  <data name="&gt;&gt;lblEchapMenu.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblSaveMenu.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblSaveMenu.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 85</value>
+  </data>
+  <data name="lblSaveMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 13</value>
+  </data>
+  <data name="lblSaveMenu.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="lblSaveMenu.Text" xml:space="preserve">
+    <value>Save Menu :</value>
+  </data>
+  <data name="&gt;&gt;lblSaveMenu.Name" xml:space="preserve">
+    <value>lblSaveMenu</value>
+  </data>
+  <data name="&gt;&gt;lblSaveMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblSaveMenu.Parent" xml:space="preserve">
+    <value>grpInGameMenu</value>
+  </data>
+  <data name="&gt;&gt;lblSaveMenu.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lblLoading.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblLoading.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 56</value>
+  </data>
+  <data name="lblLoading.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 13</value>
+  </data>
+  <data name="lblLoading.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblLoading.Text" xml:space="preserve">
+    <value>Loading Menu :</value>
+  </data>
+  <data name="&gt;&gt;lblLoading.Name" xml:space="preserve">
+    <value>lblLoading</value>
+  </data>
+  <data name="&gt;&gt;lblLoading.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblLoading.Parent" xml:space="preserve">
+    <value>grpInGameMenu</value>
+  </data>
+  <data name="&gt;&gt;lblLoading.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="grpInGameMenu.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 347</value>
+  </data>
+  <data name="grpInGameMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>380, 115</value>
+  </data>
+  <data name="grpInGameMenu.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="grpInGameMenu.Text" xml:space="preserve">
+    <value>In-Game menu</value>
+  </data>
+  <data name="&gt;&gt;grpInGameMenu.Name" xml:space="preserve">
+    <value>grpInGameMenu</value>
+  </data>
+  <data name="&gt;&gt;grpInGameMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpInGameMenu.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;grpInGameMenu.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ddpGridHeight.Location" type="System.Drawing.Point, System.Drawing">
+    <value>325, 422</value>
+  </data>
+  <data name="ddpGridHeight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 20</value>
+  </data>
+  <data name="ddpGridHeight.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;ddpGridHeight.Name" xml:space="preserve">
+    <value>ddpGridHeight</value>
+  </data>
+  <data name="&gt;&gt;ddpGridHeight.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ddpGridHeight.Parent" xml:space="preserve">
+    <value>grpInventory</value>
+  </data>
+  <data name="&gt;&gt;ddpGridHeight.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ddpGridWidth.Location" type="System.Drawing.Point, System.Drawing">
+    <value>245, 422</value>
+  </data>
+  <data name="ddpGridWidth.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 20</value>
+  </data>
+  <data name="ddpGridWidth.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;ddpGridWidth.Name" xml:space="preserve">
+    <value>ddpGridWidth</value>
+  </data>
+  <data name="&gt;&gt;ddpGridWidth.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ddpGridWidth.Parent" xml:space="preserve">
+    <value>grpInventory</value>
+  </data>
+  <data name="&gt;&gt;ddpGridWidth.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ddpItemHeight.Location" type="System.Drawing.Point, System.Drawing">
+    <value>325, 398</value>
+  </data>
+  <data name="ddpItemHeight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 20</value>
+  </data>
+  <data name="ddpItemHeight.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;ddpItemHeight.Name" xml:space="preserve">
+    <value>ddpItemHeight</value>
+  </data>
+  <data name="&gt;&gt;ddpItemHeight.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ddpItemHeight.Parent" xml:space="preserve">
+    <value>grpInventory</value>
+  </data>
+  <data name="&gt;&gt;ddpItemHeight.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="ddpItemWidth.Location" type="System.Drawing.Point, System.Drawing">
+    <value>245, 398</value>
+  </data>
+  <data name="ddpItemWidth.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 20</value>
+  </data>
+  <data name="ddpItemWidth.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;ddpItemWidth.Name" xml:space="preserve">
+    <value>ddpItemWidth</value>
+  </data>
+  <data name="&gt;&gt;ddpItemWidth.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ddpItemWidth.Parent" xml:space="preserve">
+    <value>grpInventory</value>
+  </data>
+  <data name="&gt;&gt;ddpItemWidth.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblGridSize.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblGridSize.Location" type="System.Drawing.Point, System.Drawing">
+    <value>136, 424</value>
+  </data>
+  <data name="lblGridSize.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 13</value>
+  </data>
+  <data name="lblGridSize.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="lblGridSize.Text" xml:space="preserve">
+    <value>Grid Size: </value>
+  </data>
+  <data name="&gt;&gt;lblGridSize.Name" xml:space="preserve">
+    <value>lblGridSize</value>
+  </data>
+  <data name="&gt;&gt;lblGridSize.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblGridSize.Parent" xml:space="preserve">
+    <value>grpInventory</value>
+  </data>
+  <data name="&gt;&gt;lblGridSize.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lblItemSize.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblItemSize.Location" type="System.Drawing.Point, System.Drawing">
+    <value>136, 400</value>
+  </data>
+  <data name="lblItemSize.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 13</value>
+  </data>
+  <data name="lblItemSize.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="lblItemSize.Text" xml:space="preserve">
+    <value>Item Size: </value>
+  </data>
+  <data name="&gt;&gt;lblItemSize.Name" xml:space="preserve">
+    <value>lblItemSize</value>
+  </data>
+  <data name="&gt;&gt;lblItemSize.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblItemSize.Parent" xml:space="preserve">
+    <value>grpInventory</value>
+  </data>
+  <data name="&gt;&gt;lblItemSize.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="crdInventoryBackground.Location" type="System.Drawing.Point, System.Drawing">
+    <value>283, 317</value>
+  </data>
+  <data name="crdInventoryBackground.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="crdInventoryBackground.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;crdInventoryBackground.Name" xml:space="preserve">
+    <value>crdInventoryBackground</value>
+  </data>
+  <data name="&gt;&gt;crdInventoryBackground.Type" xml:space="preserve">
+    <value>ReplicaStudio.Editor.Forms.UserControls.CoordsButton, ReplicaStudio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;crdInventoryBackground.Parent" xml:space="preserve">
+    <value>grpInventory</value>
+  </data>
+  <data name="&gt;&gt;crdInventoryBackground.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="lblInventoryBackground.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblInventoryBackground.Location" type="System.Drawing.Point, System.Drawing">
+    <value>136, 323</value>
+  </data>
+  <data name="lblInventoryBackground.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 13</value>
+  </data>
+  <data name="lblInventoryBackground.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="lblInventoryBackground.Text" xml:space="preserve">
+    <value>Inventory background :</value>
+  </data>
+  <data name="&gt;&gt;lblInventoryBackground.Name" xml:space="preserve">
+    <value>lblInventoryBackground</value>
+  </data>
+  <data name="&gt;&gt;lblInventoryBackground.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblInventoryBackground.Parent" xml:space="preserve">
+    <value>grpInventory</value>
+  </data>
+  <data name="&gt;&gt;lblInventoryBackground.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="crdInventoryPosition.Location" type="System.Drawing.Point, System.Drawing">
+    <value>283, 343</value>
+  </data>
+  <data name="crdInventoryPosition.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="crdInventoryPosition.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;crdInventoryPosition.Name" xml:space="preserve">
+    <value>crdInventoryPosition</value>
+  </data>
+  <data name="&gt;&gt;crdInventoryPosition.Type" xml:space="preserve">
+    <value>ReplicaStudio.Editor.Forms.UserControls.CoordsButton, ReplicaStudio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;crdInventoryPosition.Parent" xml:space="preserve">
+    <value>grpInventory</value>
+  </data>
+  <data name="&gt;&gt;crdInventoryPosition.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="crdBackButtonPosition.Location" type="System.Drawing.Point, System.Drawing">
+    <value>283, 369</value>
+  </data>
+  <data name="crdBackButtonPosition.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="crdBackButtonPosition.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;crdBackButtonPosition.Name" xml:space="preserve">
+    <value>crdBackButtonPosition</value>
+  </data>
+  <data name="&gt;&gt;crdBackButtonPosition.Type" xml:space="preserve">
+    <value>ReplicaStudio.Editor.Forms.UserControls.CoordsButton, ReplicaStudio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;crdBackButtonPosition.Parent" xml:space="preserve">
+    <value>grpInventory</value>
+  </data>
+  <data name="&gt;&gt;crdBackButtonPosition.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="lblBackButtonPosition.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblBackButtonPosition.Location" type="System.Drawing.Point, System.Drawing">
+    <value>136, 375</value>
+  </data>
+  <data name="lblBackButtonPosition.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 13</value>
+  </data>
+  <data name="lblBackButtonPosition.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="lblBackButtonPosition.Text" xml:space="preserve">
+    <value>Back button position :</value>
+  </data>
+  <data name="&gt;&gt;lblBackButtonPosition.Name" xml:space="preserve">
+    <value>lblBackButtonPosition</value>
+  </data>
+  <data name="&gt;&gt;lblBackButtonPosition.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblBackButtonPosition.Parent" xml:space="preserve">
+    <value>grpInventory</value>
+  </data>
+  <data name="&gt;&gt;lblBackButtonPosition.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="AnimBackButton.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="AnimBackButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 350</value>
+  </data>
+  <data name="AnimBackButton.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="AnimBackButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 100</value>
+  </data>
+  <data name="AnimBackButton.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;AnimBackButton.Name" xml:space="preserve">
+    <value>AnimBackButton</value>
+  </data>
+  <data name="&gt;&gt;AnimBackButton.Type" xml:space="preserve">
+    <value>ReplicaStudio.Editor.Forms.UserControls.AnimationControl, ReplicaStudio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;AnimBackButton.Parent" xml:space="preserve">
+    <value>grpInventory</value>
+  </data>
+  <data name="&gt;&gt;AnimBackButton.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="lblBackButton.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblBackButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 330</value>
+  </data>
+  <data name="lblBackButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 13</value>
+  </data>
+  <data name="lblBackButton.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lblBackButton.Text" xml:space="preserve">
+    <value>Back button :</value>
+  </data>
+  <data name="&gt;&gt;lblBackButton.Name" xml:space="preserve">
+    <value>lblBackButton</value>
+  </data>
+  <data name="&gt;&gt;lblBackButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblBackButton.Parent" xml:space="preserve">
+    <value>grpInventory</value>
+  </data>
+  <data name="&gt;&gt;lblBackButton.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="lblInventoryTablePosition.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblInventoryTablePosition.Location" type="System.Drawing.Point, System.Drawing">
+    <value>136, 349</value>
+  </data>
+  <data name="lblInventoryTablePosition.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 13</value>
+  </data>
+  <data name="lblInventoryTablePosition.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="lblInventoryTablePosition.Text" xml:space="preserve">
+    <value>Inventory table position :</value>
+  </data>
+  <data name="&gt;&gt;lblInventoryTablePosition.Name" xml:space="preserve">
+    <value>lblInventoryTablePosition</value>
+  </data>
+  <data name="&gt;&gt;lblInventoryTablePosition.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblInventoryTablePosition.Parent" xml:space="preserve">
+    <value>grpInventory</value>
+  </data>
+  <data name="&gt;&gt;lblInventoryTablePosition.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="AnimInventoryMenu.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="AnimInventoryMenu.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 23</value>
+  </data>
+  <data name="AnimInventoryMenu.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="AnimInventoryMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>374, 290</value>
+  </data>
+  <data name="AnimInventoryMenu.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;AnimInventoryMenu.Name" xml:space="preserve">
+    <value>AnimInventoryMenu</value>
+  </data>
+  <data name="&gt;&gt;AnimInventoryMenu.Type" xml:space="preserve">
+    <value>ReplicaStudio.Editor.Forms.UserControls.AnimationControl, ReplicaStudio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;AnimInventoryMenu.Parent" xml:space="preserve">
+    <value>grpInventory</value>
+  </data>
+  <data name="&gt;&gt;AnimInventoryMenu.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="grpInventory.Location" type="System.Drawing.Point, System.Drawing">
+    <value>389, 6</value>
+  </data>
+  <data name="grpInventory.Size" type="System.Drawing.Size, System.Drawing">
+    <value>394, 456</value>
+  </data>
+  <data name="grpInventory.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="grpInventory.Text" xml:space="preserve">
+    <value>Inventory</value>
+  </data>
+  <data name="&gt;&gt;grpInventory.Name" xml:space="preserve">
+    <value>grpInventory</value>
+  </data>
+  <data name="&gt;&gt;grpInventory.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpInventory.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;grpInventory.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>781, 462</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>DatabaseMenus</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

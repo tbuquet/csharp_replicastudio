@@ -1,0 +1,933 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="&gt;&gt;btnOK.Name" xml:space="preserve">
+    <value>btnOK</value>
+  </data>
+  <data name="&gt;&gt;btnOK.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnOK.Parent" xml:space="preserve">
+    <value>PanelAction</value>
+  </data>
+  <data name="&gt;&gt;btnOK.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Name" xml:space="preserve">
+    <value>btnCancel</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Parent" xml:space="preserve">
+    <value>PanelAction</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;btnApply.Name" xml:space="preserve">
+    <value>btnApply</value>
+  </data>
+  <data name="&gt;&gt;btnApply.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnApply.Parent" xml:space="preserve">
+    <value>PanelAction</value>
+  </data>
+  <data name="&gt;&gt;btnApply.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="PanelAction.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="PanelAction.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 494</value>
+  </data>
+  <data name="PanelAction.Size" type="System.Drawing.Size, System.Drawing">
+    <value>794, 30</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="PanelAction.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;PanelAction.Name" xml:space="preserve">
+    <value>PanelAction</value>
+  </data>
+  <data name="&gt;&gt;PanelAction.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PanelAction.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;PanelAction.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnOK.Location" type="System.Drawing.Point, System.Drawing">
+    <value>479, 4</value>
+  </data>
+  <data name="btnOK.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="btnOK.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="btnOK.Text" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="&gt;&gt;btnOK.Name" xml:space="preserve">
+    <value>btnOK</value>
+  </data>
+  <data name="&gt;&gt;btnOK.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnOK.Parent" xml:space="preserve">
+    <value>PanelAction</value>
+  </data>
+  <data name="&gt;&gt;btnOK.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnCancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>585, 4</value>
+  </data>
+  <data name="btnCancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="btnCancel.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="btnCancel.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Name" xml:space="preserve">
+    <value>btnCancel</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Parent" xml:space="preserve">
+    <value>PanelAction</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnApply.Location" type="System.Drawing.Point, System.Drawing">
+    <value>691, 4</value>
+  </data>
+  <data name="btnApply.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="btnApply.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btnApply.Text" xml:space="preserve">
+    <value>Apply</value>
+  </data>
+  <data name="&gt;&gt;btnApply.Name" xml:space="preserve">
+    <value>btnApply</value>
+  </data>
+  <data name="&gt;&gt;btnApply.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnApply.Parent" xml:space="preserve">
+    <value>PanelAction</value>
+  </data>
+  <data name="&gt;&gt;btnApply.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;UCCharacters.Name" xml:space="preserve">
+    <value>UCCharacters</value>
+  </data>
+  <data name="&gt;&gt;UCCharacters.Type" xml:space="preserve">
+    <value>ReplicaStudio.Editor.Forms.DatabaseUC.DatabaseCharacters, ReplicaStudio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;UCCharacters.Parent" xml:space="preserve">
+    <value>TabCharacters</value>
+  </data>
+  <data name="&gt;&gt;UCCharacters.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="TabCharacters.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="TabCharacters.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="TabCharacters.Size" type="System.Drawing.Size, System.Drawing">
+    <value>786, 468</value>
+  </data>
+  <data name="TabCharacters.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="TabCharacters.Text" xml:space="preserve">
+    <value>Characters</value>
+  </data>
+  <data name="&gt;&gt;TabCharacters.Name" xml:space="preserve">
+    <value>TabCharacters</value>
+  </data>
+  <data name="&gt;&gt;TabCharacters.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TabCharacters.Parent" xml:space="preserve">
+    <value>Tabs</value>
+  </data>
+  <data name="&gt;&gt;TabCharacters.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="UCPlayers.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="UCPlayers.Size" type="System.Drawing.Size, System.Drawing">
+    <value>786, 462</value>
+  </data>
+  <data name="UCPlayers.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;UCPlayers.Name" xml:space="preserve">
+    <value>UCPlayers</value>
+  </data>
+  <data name="&gt;&gt;UCPlayers.Type" xml:space="preserve">
+    <value>ReplicaStudio.Editor.Forms.DatabaseUC.DatabasePlayers, ReplicaStudio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;UCPlayers.Parent" xml:space="preserve">
+    <value>TabPlayers</value>
+  </data>
+  <data name="&gt;&gt;UCPlayers.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="TabPlayers.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="TabPlayers.Size" type="System.Drawing.Size, System.Drawing">
+    <value>786, 468</value>
+  </data>
+  <data name="TabPlayers.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="TabPlayers.Text" xml:space="preserve">
+    <value>Playable Characters</value>
+  </data>
+  <data name="&gt;&gt;TabPlayers.Name" xml:space="preserve">
+    <value>TabPlayers</value>
+  </data>
+  <data name="&gt;&gt;TabPlayers.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TabPlayers.Parent" xml:space="preserve">
+    <value>Tabs</value>
+  </data>
+  <data name="&gt;&gt;TabPlayers.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;UCItems.Name" xml:space="preserve">
+    <value>UCItems</value>
+  </data>
+  <data name="&gt;&gt;UCItems.Type" xml:space="preserve">
+    <value>ReplicaStudio.Editor.Forms.DatabaseUC.DatabaseItems, ReplicaStudio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;UCItems.Parent" xml:space="preserve">
+    <value>TabItems</value>
+  </data>
+  <data name="&gt;&gt;UCItems.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="TabItems.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="TabItems.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="TabItems.Size" type="System.Drawing.Size, System.Drawing">
+    <value>786, 468</value>
+  </data>
+  <data name="TabItems.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="TabItems.Text" xml:space="preserve">
+    <value>Items</value>
+  </data>
+  <data name="&gt;&gt;TabItems.Name" xml:space="preserve">
+    <value>TabItems</value>
+  </data>
+  <data name="&gt;&gt;TabItems.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TabItems.Parent" xml:space="preserve">
+    <value>Tabs</value>
+  </data>
+  <data name="&gt;&gt;TabItems.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;UCActions.Name" xml:space="preserve">
+    <value>UCActions</value>
+  </data>
+  <data name="&gt;&gt;UCActions.Type" xml:space="preserve">
+    <value>ReplicaStudio.Editor.Forms.DatabaseUC.DatabaseActions, ReplicaStudio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;UCActions.Parent" xml:space="preserve">
+    <value>TabActions</value>
+  </data>
+  <data name="&gt;&gt;UCActions.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="TabActions.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="TabActions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>786, 468</value>
+  </data>
+  <data name="TabActions.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="TabActions.Text" xml:space="preserve">
+    <value>Actions</value>
+  </data>
+  <data name="&gt;&gt;TabActions.Name" xml:space="preserve">
+    <value>TabActions</value>
+  </data>
+  <data name="&gt;&gt;TabActions.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TabActions.Parent" xml:space="preserve">
+    <value>Tabs</value>
+  </data>
+  <data name="&gt;&gt;TabActions.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;UCClasses.Name" xml:space="preserve">
+    <value>UCClasses</value>
+  </data>
+  <data name="&gt;&gt;UCClasses.Type" xml:space="preserve">
+    <value>ReplicaStudio.Editor.Forms.DatabaseUC.DatabaseClasses, ReplicaStudio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;UCClasses.Parent" xml:space="preserve">
+    <value>TabClasses</value>
+  </data>
+  <data name="&gt;&gt;UCClasses.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="TabClasses.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="TabClasses.Size" type="System.Drawing.Size, System.Drawing">
+    <value>786, 468</value>
+  </data>
+  <data name="TabClasses.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="TabClasses.Text" xml:space="preserve">
+    <value>Classes</value>
+  </data>
+  <data name="&gt;&gt;TabClasses.Name" xml:space="preserve">
+    <value>TabClasses</value>
+  </data>
+  <data name="&gt;&gt;TabClasses.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TabClasses.Parent" xml:space="preserve">
+    <value>Tabs</value>
+  </data>
+  <data name="&gt;&gt;TabClasses.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="Animations.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="Animations.Size" type="System.Drawing.Size, System.Drawing">
+    <value>786, 468</value>
+  </data>
+  <data name="Animations.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="Animations.Text" xml:space="preserve">
+    <value>Animations</value>
+  </data>
+  <data name="&gt;&gt;Animations.Name" xml:space="preserve">
+    <value>Animations</value>
+  </data>
+  <data name="&gt;&gt;Animations.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Animations.Parent" xml:space="preserve">
+    <value>Tabs</value>
+  </data>
+  <data name="&gt;&gt;Animations.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;UCGlobalEvents.Name" xml:space="preserve">
+    <value>UCGlobalEvents</value>
+  </data>
+  <data name="&gt;&gt;UCGlobalEvents.Type" xml:space="preserve">
+    <value>ReplicaStudio.Editor.Forms.DatabaseUC.DatabaseGlobalEvents, ReplicaStudio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;UCGlobalEvents.Parent" xml:space="preserve">
+    <value>TabGlobalEvents</value>
+  </data>
+  <data name="&gt;&gt;UCGlobalEvents.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="TabGlobalEvents.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="TabGlobalEvents.Size" type="System.Drawing.Size, System.Drawing">
+    <value>786, 468</value>
+  </data>
+  <data name="TabGlobalEvents.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="TabGlobalEvents.Text" xml:space="preserve">
+    <value>Global Events</value>
+  </data>
+  <data name="&gt;&gt;TabGlobalEvents.Name" xml:space="preserve">
+    <value>TabGlobalEvents</value>
+  </data>
+  <data name="&gt;&gt;TabGlobalEvents.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TabGlobalEvents.Parent" xml:space="preserve">
+    <value>Tabs</value>
+  </data>
+  <data name="&gt;&gt;TabGlobalEvents.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;UCMenu.Name" xml:space="preserve">
+    <value>UCMenu</value>
+  </data>
+  <data name="&gt;&gt;UCMenu.Type" xml:space="preserve">
+    <value>ReplicaStudio.Editor.Forms.DatabaseUC.DatabaseMenus, ReplicaStudio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;UCMenu.Parent" xml:space="preserve">
+    <value>TabMenus</value>
+  </data>
+  <data name="&gt;&gt;UCMenu.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="TabMenus.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="TabMenus.Size" type="System.Drawing.Size, System.Drawing">
+    <value>786, 468</value>
+  </data>
+  <data name="TabMenus.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="TabMenus.Text" xml:space="preserve">
+    <value>Menus</value>
+  </data>
+  <data name="&gt;&gt;TabMenus.Name" xml:space="preserve">
+    <value>TabMenus</value>
+  </data>
+  <data name="&gt;&gt;TabMenus.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TabMenus.Parent" xml:space="preserve">
+    <value>Tabs</value>
+  </data>
+  <data name="&gt;&gt;TabMenus.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;UCItemsInteraction.Name" xml:space="preserve">
+    <value>UCItemsInteraction</value>
+  </data>
+  <data name="&gt;&gt;UCItemsInteraction.Type" xml:space="preserve">
+    <value>ReplicaStudio.Editor.Forms.DatabaseUC.DatabaseItemsInteraction, ReplicaStudio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;UCItemsInteraction.Parent" xml:space="preserve">
+    <value>TabInteractionItems</value>
+  </data>
+  <data name="&gt;&gt;UCItemsInteraction.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="TabInteractionItems.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="TabInteractionItems.Size" type="System.Drawing.Size, System.Drawing">
+    <value>786, 468</value>
+  </data>
+  <data name="TabInteractionItems.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="TabInteractionItems.Text" xml:space="preserve">
+    <value>Items interaction</value>
+  </data>
+  <data name="&gt;&gt;TabInteractionItems.Name" xml:space="preserve">
+    <value>TabInteractionItems</value>
+  </data>
+  <data name="&gt;&gt;TabInteractionItems.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TabInteractionItems.Parent" xml:space="preserve">
+    <value>Tabs</value>
+  </data>
+  <data name="&gt;&gt;TabInteractionItems.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;UCSystem.Name" xml:space="preserve">
+    <value>UCSystem</value>
+  </data>
+  <data name="&gt;&gt;UCSystem.Type" xml:space="preserve">
+    <value>ReplicaStudio.Editor.Forms.DatabaseUC.DatabaseSystem, ReplicaStudio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;UCSystem.Parent" xml:space="preserve">
+    <value>TabSystemSettings</value>
+  </data>
+  <data name="&gt;&gt;UCSystem.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="TabSystemSettings.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="TabSystemSettings.Size" type="System.Drawing.Size, System.Drawing">
+    <value>786, 468</value>
+  </data>
+  <data name="TabSystemSettings.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="TabSystemSettings.Text" xml:space="preserve">
+    <value>System Settings</value>
+  </data>
+  <data name="&gt;&gt;TabSystemSettings.Name" xml:space="preserve">
+    <value>TabSystemSettings</value>
+  </data>
+  <data name="&gt;&gt;TabSystemSettings.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TabSystemSettings.Parent" xml:space="preserve">
+    <value>Tabs</value>
+  </data>
+  <data name="&gt;&gt;TabSystemSettings.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;UCTerminology.Name" xml:space="preserve">
+    <value>UCTerminology</value>
+  </data>
+  <data name="&gt;&gt;UCTerminology.Type" xml:space="preserve">
+    <value>ReplicaStudio.Editor.Forms.DatabaseUC.DatabaseTerminology, ReplicaStudio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;UCTerminology.Parent" xml:space="preserve">
+    <value>TabTerminology</value>
+  </data>
+  <data name="&gt;&gt;UCTerminology.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="TabTerminology.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="TabTerminology.Size" type="System.Drawing.Size, System.Drawing">
+    <value>786, 468</value>
+  </data>
+  <data name="TabTerminology.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="TabTerminology.Text" xml:space="preserve">
+    <value>Terminology</value>
+  </data>
+  <data name="&gt;&gt;TabTerminology.Name" xml:space="preserve">
+    <value>TabTerminology</value>
+  </data>
+  <data name="&gt;&gt;TabTerminology.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TabTerminology.Parent" xml:space="preserve">
+    <value>Tabs</value>
+  </data>
+  <data name="&gt;&gt;TabTerminology.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="Tabs.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="Tabs.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="Tabs.Size" type="System.Drawing.Size, System.Drawing">
+    <value>794, 494</value>
+  </data>
+  <data name="Tabs.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;Tabs.Name" xml:space="preserve">
+    <value>Tabs</value>
+  </data>
+  <data name="&gt;&gt;Tabs.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Tabs.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Tabs.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="UCCharacters.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="UCCharacters.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="UCCharacters.Size" type="System.Drawing.Size, System.Drawing">
+    <value>780, 462</value>
+  </data>
+  <data name="UCCharacters.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;UCCharacters.Name" xml:space="preserve">
+    <value>UCCharacters</value>
+  </data>
+  <data name="&gt;&gt;UCCharacters.Type" xml:space="preserve">
+    <value>ReplicaStudio.Editor.Forms.DatabaseUC.DatabaseCharacters, ReplicaStudio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;UCCharacters.Parent" xml:space="preserve">
+    <value>TabCharacters</value>
+  </data>
+  <data name="&gt;&gt;UCCharacters.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="UCItems.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="UCItems.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="UCItems.Size" type="System.Drawing.Size, System.Drawing">
+    <value>780, 462</value>
+  </data>
+  <data name="UCItems.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;UCItems.Name" xml:space="preserve">
+    <value>UCItems</value>
+  </data>
+  <data name="&gt;&gt;UCItems.Type" xml:space="preserve">
+    <value>ReplicaStudio.Editor.Forms.DatabaseUC.DatabaseItems, ReplicaStudio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;UCItems.Parent" xml:space="preserve">
+    <value>TabItems</value>
+  </data>
+  <data name="&gt;&gt;UCItems.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="UCActions.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="UCActions.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="UCActions.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="UCActions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>786, 468</value>
+  </data>
+  <data name="UCActions.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;UCActions.Name" xml:space="preserve">
+    <value>UCActions</value>
+  </data>
+  <data name="&gt;&gt;UCActions.Type" xml:space="preserve">
+    <value>ReplicaStudio.Editor.Forms.DatabaseUC.DatabaseActions, ReplicaStudio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;UCActions.Parent" xml:space="preserve">
+    <value>TabActions</value>
+  </data>
+  <data name="&gt;&gt;UCActions.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="UCClasses.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="UCClasses.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="UCClasses.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="UCClasses.Size" type="System.Drawing.Size, System.Drawing">
+    <value>786, 468</value>
+  </data>
+  <data name="UCClasses.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;UCClasses.Name" xml:space="preserve">
+    <value>UCClasses</value>
+  </data>
+  <data name="&gt;&gt;UCClasses.Type" xml:space="preserve">
+    <value>ReplicaStudio.Editor.Forms.DatabaseUC.DatabaseClasses, ReplicaStudio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;UCClasses.Parent" xml:space="preserve">
+    <value>TabClasses</value>
+  </data>
+  <data name="&gt;&gt;UCClasses.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="UCGlobalEvents.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="UCGlobalEvents.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="UCGlobalEvents.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="UCGlobalEvents.Size" type="System.Drawing.Size, System.Drawing">
+    <value>786, 468</value>
+  </data>
+  <data name="UCGlobalEvents.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;UCGlobalEvents.Name" xml:space="preserve">
+    <value>UCGlobalEvents</value>
+  </data>
+  <data name="&gt;&gt;UCGlobalEvents.Type" xml:space="preserve">
+    <value>ReplicaStudio.Editor.Forms.DatabaseUC.DatabaseGlobalEvents, ReplicaStudio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;UCGlobalEvents.Parent" xml:space="preserve">
+    <value>TabGlobalEvents</value>
+  </data>
+  <data name="&gt;&gt;UCGlobalEvents.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="UCMenu.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="UCMenu.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="UCMenu.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="UCMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>786, 468</value>
+  </data>
+  <data name="UCMenu.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;UCMenu.Name" xml:space="preserve">
+    <value>UCMenu</value>
+  </data>
+  <data name="&gt;&gt;UCMenu.Type" xml:space="preserve">
+    <value>ReplicaStudio.Editor.Forms.DatabaseUC.DatabaseMenus, ReplicaStudio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;UCMenu.Parent" xml:space="preserve">
+    <value>TabMenus</value>
+  </data>
+  <data name="&gt;&gt;UCMenu.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="UCItemsInteraction.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="UCItemsInteraction.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="UCItemsInteraction.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="UCItemsInteraction.Size" type="System.Drawing.Size, System.Drawing">
+    <value>786, 468</value>
+  </data>
+  <data name="UCItemsInteraction.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;UCItemsInteraction.Name" xml:space="preserve">
+    <value>UCItemsInteraction</value>
+  </data>
+  <data name="&gt;&gt;UCItemsInteraction.Type" xml:space="preserve">
+    <value>ReplicaStudio.Editor.Forms.DatabaseUC.DatabaseItemsInteraction, ReplicaStudio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;UCItemsInteraction.Parent" xml:space="preserve">
+    <value>TabInteractionItems</value>
+  </data>
+  <data name="&gt;&gt;UCItemsInteraction.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="UCSystem.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="UCSystem.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="UCSystem.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="UCSystem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>786, 468</value>
+  </data>
+  <data name="UCSystem.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;UCSystem.Name" xml:space="preserve">
+    <value>UCSystem</value>
+  </data>
+  <data name="&gt;&gt;UCSystem.Type" xml:space="preserve">
+    <value>ReplicaStudio.Editor.Forms.DatabaseUC.DatabaseSystem, ReplicaStudio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;UCSystem.Parent" xml:space="preserve">
+    <value>TabSystemSettings</value>
+  </data>
+  <data name="&gt;&gt;UCSystem.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="UCTerminology.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="UCTerminology.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="UCTerminology.Size" type="System.Drawing.Size, System.Drawing">
+    <value>786, 468</value>
+  </data>
+  <data name="UCTerminology.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;UCTerminology.Name" xml:space="preserve">
+    <value>UCTerminology</value>
+  </data>
+  <data name="&gt;&gt;UCTerminology.Type" xml:space="preserve">
+    <value>ReplicaStudio.Editor.Forms.DatabaseUC.DatabaseTerminology, ReplicaStudio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;UCTerminology.Parent" xml:space="preserve">
+    <value>TabTerminology</value>
+  </data>
+  <data name="&gt;&gt;UCTerminology.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>794, 524</value>
+  </data>
+  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>800, 530</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Database</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Database</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

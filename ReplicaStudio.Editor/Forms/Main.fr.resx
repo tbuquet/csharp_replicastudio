@@ -1,0 +1,427 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="MainMenu_File.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 20</value>
+  </data>
+  <data name="MainMenu_File.Text" xml:space="preserve">
+    <value>Fichier</value>
+  </data>
+  <data name="MainMenu_View.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 20</value>
+  </data>
+  <data name="MainMenu_View.Text" xml:space="preserve">
+    <value>Vue</value>
+  </data>
+  <data name="MainMenu_Drawing.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 20</value>
+  </data>
+  <data name="MainMenu_Drawing.Text" xml:space="preserve">
+    <value>Outils de Dessin</value>
+  </data>
+  <data name="MainMenu_Resources.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 20</value>
+  </data>
+  <data name="MainMenu_Resources.Text" xml:space="preserve">
+    <value>Ressources</value>
+  </data>
+  <data name="MainMenu_Build.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 20</value>
+  </data>
+  <data name="MainMenu_Build.Text" xml:space="preserve">
+    <value>Construire</value>
+  </data>
+  <data name="MainMenu_Game.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 20</value>
+  </data>
+  <data name="MainMenu_Game.Text" xml:space="preserve">
+    <value>Jeu</value>
+  </data>
+  <data name="langageToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 20</value>
+  </data>
+  <data name="langageToolStripMenuItem.Text" xml:space="preserve">
+    <value>Langage</value>
+  </data>
+  <data name="MainMenu_About.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 20</value>
+  </data>
+  <data name="MainMenu_About.Text" xml:space="preserve">
+    <value>A propos</value>
+  </data>
+  <data name="MainMenu_New.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 22</value>
+  </data>
+  <data name="MainMenu_New.Text" xml:space="preserve">
+    <value>Nouveau projet</value>
+  </data>
+  <data name="MainMenu_Load.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 22</value>
+  </data>
+  <data name="MainMenu_Load.Text" xml:space="preserve">
+    <value>Charger projet...</value>
+  </data>
+  <data name="MainMenu_Save.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 22</value>
+  </data>
+  <data name="MainMenu_Save.Text" xml:space="preserve">
+    <value>Sauvegarder projet</value>
+  </data>
+  <data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>182, 6</value>
+  </data>
+  <data name="MainMenu_GeneralSettings.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 22</value>
+  </data>
+  <data name="MainMenu_GeneralSettings.Text" xml:space="preserve">
+    <value>Paramètres Généraux</value>
+  </data>
+  <data name="MainMenu_Exit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 22</value>
+  </data>
+  <data name="MainMenu_Exit.Text" xml:space="preserve">
+    <value>Quitter</value>
+  </data>
+  <data name="MainMenu_Cut.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 22</value>
+  </data>
+  <data name="MainMenu_Cut.Text" xml:space="preserve">
+    <value>Couper</value>
+  </data>
+  <data name="MainMenu_Copy.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 22</value>
+  </data>
+  <data name="MainMenu_Copy.Text" xml:space="preserve">
+    <value>Copier</value>
+  </data>
+  <data name="MainMenu_Paste.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 22</value>
+  </data>
+  <data name="MainMenu_Paste.Text" xml:space="preserve">
+    <value>Coller</value>
+  </data>
+  <data name="MainMenu_Delete.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 22</value>
+  </data>
+  <data name="MainMenu_Delete.Text" xml:space="preserve">
+    <value>Supprimer</value>
+  </data>
+  <data name="MainMenu_ShowHideToolbar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>197, 22</value>
+  </data>
+  <data name="MainMenu_ShowHideToolbar.Text" xml:space="preserve">
+    <value>Cacher la barre d'outil</value>
+  </data>
+  <data name="MainMenu_ShowHideRightPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>197, 22</value>
+  </data>
+  <data name="MainMenu_ShowHideRightPanel.Text" xml:space="preserve">
+    <value>Cacher le panel droit</value>
+  </data>
+  <data name="MainMenu_ShowHideLeftPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>197, 22</value>
+  </data>
+  <data name="MainMenu_ShowHideLeftPanel.Text" xml:space="preserve">
+    <value>Cacher le panel gauche</value>
+  </data>
+  <data name="MainMenu_Decors.Size" type="System.Drawing.Size, System.Drawing">
+    <value>189, 22</value>
+  </data>
+  <data name="MainMenu_Decors.Text" xml:space="preserve">
+    <value>Décors</value>
+  </data>
+  <data name="MainMenu_Objects.Size" type="System.Drawing.Size, System.Drawing">
+    <value>189, 22</value>
+  </data>
+  <data name="MainMenu_Objects.Text" xml:space="preserve">
+    <value>Objets</value>
+  </data>
+  <data name="MainMenu_Characters.Size" type="System.Drawing.Size, System.Drawing">
+    <value>189, 22</value>
+  </data>
+  <data name="MainMenu_Characters.Text" xml:space="preserve">
+    <value>Personnages</value>
+  </data>
+  <data name="MainMenu_Events.Size" type="System.Drawing.Size, System.Drawing">
+    <value>189, 22</value>
+  </data>
+  <data name="MainMenu_Events.Text" xml:space="preserve">
+    <value>Evènements</value>
+  </data>
+  <data name="MainMenu_Walks.Size" type="System.Drawing.Size, System.Drawing">
+    <value>189, 22</value>
+  </data>
+  <data name="MainMenu_Walks.Text" xml:space="preserve">
+    <value>Zone de déplacement</value>
+  </data>
+  <data name="MainMenu_Regions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>189, 22</value>
+  </data>
+  <data name="MainMenu_Regions.Text" xml:space="preserve">
+    <value>Régions</value>
+  </data>
+  <data name="MainMenu_Pointer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>119, 22</value>
+  </data>
+  <data name="MainMenu_Pointer.Text" xml:space="preserve">
+    <value>Pointeur</value>
+  </data>
+  <data name="MainMenu_Pencil.Size" type="System.Drawing.Size, System.Drawing">
+    <value>119, 22</value>
+  </data>
+  <data name="MainMenu_Pencil.Text" xml:space="preserve">
+    <value>Crayon</value>
+  </data>
+  <data name="MainMenu_CreateNewMap.Size" type="System.Drawing.Size, System.Drawing">
+    <value>214, 22</value>
+  </data>
+  <data name="MainMenu_CreateNewMap.Text" xml:space="preserve">
+    <value>Créer une scène</value>
+  </data>
+  <data name="MainMenu_DeleteStage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>214, 22</value>
+  </data>
+  <data name="MainMenu_DeleteStage.Text" xml:space="preserve">
+    <value>Supprimer une scène</value>
+  </data>
+  <data name="MainMenu_Separator10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>211, 6</value>
+  </data>
+  <data name="MainMenu_Database.Size" type="System.Drawing.Size, System.Drawing">
+    <value>214, 22</value>
+  </data>
+  <data name="MainMenu_Database.Text" xml:space="preserve">
+    <value>Base de données</value>
+  </data>
+  <data name="MainMenu_ResourcesManager.Size" type="System.Drawing.Size, System.Drawing">
+    <value>214, 22</value>
+  </data>
+  <data name="MainMenu_ResourcesManager.Text" xml:space="preserve">
+    <value>Gestionnaire de ressources</value>
+  </data>
+  <data name="MainMenu_ExportToPC.Size" type="System.Drawing.Size, System.Drawing">
+    <value>154, 22</value>
+  </data>
+  <data name="MainMenu_ExportToPC.Text" xml:space="preserve">
+    <value>Exporter sur PC</value>
+  </data>
+  <data name="MainMenu_Try.Size" type="System.Drawing.Size, System.Drawing">
+    <value>176, 22</value>
+  </data>
+  <data name="MainMenu_Try.Text" xml:space="preserve">
+    <value>Tester...</value>
+  </data>
+  <data name="MainMenu_TryFullscreen.Size" type="System.Drawing.Size, System.Drawing">
+    <value>176, 22</value>
+  </data>
+  <data name="MainMenu_TryFullscreen.Text" xml:space="preserve">
+    <value>Tester Plein Ecran...</value>
+  </data>
+  <data name="englishToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 22</value>
+  </data>
+  <data name="englishToolStripMenuItem.Text" xml:space="preserve">
+    <value>Anglais</value>
+  </data>
+  <data name="frenchToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 22</value>
+  </data>
+  <data name="frenchToolStripMenuItem.Text" xml:space="preserve">
+    <value>Français</value>
+  </data>
+  <data name="MainMenu_AboutUs.Size" type="System.Drawing.Size, System.Drawing">
+    <value>167, 22</value>
+  </data>
+  <data name="MainMenu_AboutUs.Text" xml:space="preserve">
+    <value>A propos de nous</value>
+  </data>
+  <data name="MainMenu_Documentation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>167, 22</value>
+  </data>
+  <data name="MainMenu_Website.Size" type="System.Drawing.Size, System.Drawing">
+    <value>167, 22</value>
+  </data>
+  <data name="MainMenu_Website.Text" xml:space="preserve">
+    <value>Site Web</value>
+  </data>
+  <data name="Toolbar_NewProject.Text" xml:space="preserve">
+    <value>Nouveau Projet</value>
+  </data>
+  <data name="Toolbar_LoadProject.Text" xml:space="preserve">
+    <value>Charger Projet</value>
+  </data>
+  <data name="Toolbar_Save.Text" xml:space="preserve">
+    <value>Sauvegarder Projet</value>
+  </data>
+  <data name="Toolbar_Cut.Text" xml:space="preserve">
+    <value>Couper</value>
+  </data>
+  <data name="Toolbar_Copy.Text" xml:space="preserve">
+    <value>Copier</value>
+  </data>
+  <data name="Toolbar_Paste.Text" xml:space="preserve">
+    <value>Coller</value>
+  </data>
+  <data name="Toolbar_Delete.Text" xml:space="preserve">
+    <value>Supprimer</value>
+  </data>
+  <data name="Toolbar_Decor.Text" xml:space="preserve">
+    <value>Mode décor</value>
+  </data>
+  <data name="Toolbar_Objects.Text" xml:space="preserve">
+    <value>Mode Objet</value>
+  </data>
+  <data name="Toolbar_Characters.Text" xml:space="preserve">
+    <value>Mode Personnages</value>
+  </data>
+  <data name="Toolbar_Events.Text" xml:space="preserve">
+    <value>Mode évènements</value>
+  </data>
+  <data name="Toolbar_Walk.Text" xml:space="preserve">
+    <value>Mode déplacements</value>
+  </data>
+  <data name="Toolbar_Regions.Text" xml:space="preserve">
+    <value>Mode régions</value>
+  </data>
+  <data name="Toolbar_Pointer.Text" xml:space="preserve">
+    <value>Pointeur</value>
+  </data>
+  <data name="Toolbar_Pencil.Text" xml:space="preserve">
+    <value>Crayon</value>
+  </data>
+  <data name="Toolbar_CreateNewMap.Text" xml:space="preserve">
+    <value>Créer une scène</value>
+  </data>
+  <data name="Toolbar_Database.Text" xml:space="preserve">
+    <value>Base de données</value>
+  </data>
+  <data name="Toolbar_ResourcesManager.Text" xml:space="preserve">
+    <value>Gestionnaire de ressources</value>
+  </data>
+  <data name="Toolbar_Try.Text" xml:space="preserve">
+    <value>Tester le jeu</value>
+  </data>
+  <data name="OpenFile.Filter" xml:space="preserve">
+    <value>Fichiers Replica Studio | *.pcs</value>
+  </data>
+  <data name="OpenFile.Title" xml:space="preserve">
+    <value>Sélectionner un projet à charger</value>
+  </data>
+</root>

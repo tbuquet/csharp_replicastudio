@@ -1,0 +1,2196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="btnAnnuler.Location" type="System.Drawing.Point, System.Drawing">
+    <value>290, 10</value>
+  </data>
+  <data name="btnAnnuler.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 23</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btnAnnuler.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btnAnnuler.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="&gt;&gt;btnAnnuler.Name" xml:space="preserve">
+    <value>btnAnnuler</value>
+  </data>
+  <data name="&gt;&gt;btnAnnuler.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnAnnuler.Parent" xml:space="preserve">
+    <value>Panel</value>
+  </data>
+  <data name="&gt;&gt;btnAnnuler.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnScriptWait.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 19</value>
+  </data>
+  <data name="btnScriptWait.Size" type="System.Drawing.Size, System.Drawing">
+    <value>167, 23</value>
+  </data>
+  <data name="btnScriptWait.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="btnScriptWait.Text" xml:space="preserve">
+    <value>Wait</value>
+  </data>
+  <data name="&gt;&gt;btnScriptWait.Name" xml:space="preserve">
+    <value>btnScriptWait</value>
+  </data>
+  <data name="&gt;&gt;btnScriptWait.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnScriptWait.Parent" xml:space="preserve">
+    <value>grpTime</value>
+  </data>
+  <data name="&gt;&gt;btnScriptWait.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="grpTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>192, 95</value>
+  </data>
+  <data name="grpTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>179, 55</value>
+  </data>
+  <data name="grpTime.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="grpTime.Text" xml:space="preserve">
+    <value>Time</value>
+  </data>
+  <data name="&gt;&gt;grpTime.Name" xml:space="preserve">
+    <value>grpTime</value>
+  </data>
+  <data name="&gt;&gt;grpTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpTime.Parent" xml:space="preserve">
+    <value>tabProg</value>
+  </data>
+  <data name="&gt;&gt;grpTime.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnScriptRandom.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 215</value>
+  </data>
+  <data name="btnScriptRandom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>167, 23</value>
+  </data>
+  <data name="btnScriptRandom.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="btnScriptRandom.Text" xml:space="preserve">
+    <value>Random</value>
+  </data>
+  <data name="&gt;&gt;btnScriptRandom.Name" xml:space="preserve">
+    <value>btnScriptRandom</value>
+  </data>
+  <data name="&gt;&gt;btnScriptRandom.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnScriptRandom.Parent" xml:space="preserve">
+    <value>grpProgrammation</value>
+  </data>
+  <data name="&gt;&gt;btnScriptRandom.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnScriptInsertComment.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 187</value>
+  </data>
+  <data name="btnScriptInsertComment.Size" type="System.Drawing.Size, System.Drawing">
+    <value>167, 23</value>
+  </data>
+  <data name="btnScriptInsertComment.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="btnScriptInsertComment.Text" xml:space="preserve">
+    <value>Insert a comment</value>
+  </data>
+  <data name="&gt;&gt;btnScriptInsertComment.Name" xml:space="preserve">
+    <value>btnScriptInsertComment</value>
+  </data>
+  <data name="&gt;&gt;btnScriptInsertComment.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnScriptInsertComment.Parent" xml:space="preserve">
+    <value>grpProgrammation</value>
+  </data>
+  <data name="&gt;&gt;btnScriptInsertComment.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnScriptGoToAnchor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 159</value>
+  </data>
+  <data name="btnScriptGoToAnchor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>167, 23</value>
+  </data>
+  <data name="btnScriptGoToAnchor.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="btnScriptGoToAnchor.Text" xml:space="preserve">
+    <value>Go to anchor</value>
+  </data>
+  <data name="&gt;&gt;btnScriptGoToAnchor.Name" xml:space="preserve">
+    <value>btnScriptGoToAnchor</value>
+  </data>
+  <data name="&gt;&gt;btnScriptGoToAnchor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnScriptGoToAnchor.Parent" xml:space="preserve">
+    <value>grpProgrammation</value>
+  </data>
+  <data name="&gt;&gt;btnScriptGoToAnchor.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnScriptSetAnchor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 131</value>
+  </data>
+  <data name="btnScriptSetAnchor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>167, 23</value>
+  </data>
+  <data name="btnScriptSetAnchor.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="btnScriptSetAnchor.Text" xml:space="preserve">
+    <value>Set anchor</value>
+  </data>
+  <data name="&gt;&gt;btnScriptSetAnchor.Name" xml:space="preserve">
+    <value>btnScriptSetAnchor</value>
+  </data>
+  <data name="&gt;&gt;btnScriptSetAnchor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnScriptSetAnchor.Parent" xml:space="preserve">
+    <value>grpProgrammation</value>
+  </data>
+  <data name="&gt;&gt;btnScriptSetAnchor.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btnScriptCallGlobalEvent.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 103</value>
+  </data>
+  <data name="btnScriptCallGlobalEvent.Size" type="System.Drawing.Size, System.Drawing">
+    <value>167, 23</value>
+  </data>
+  <data name="btnScriptCallGlobalEvent.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="btnScriptCallGlobalEvent.Text" xml:space="preserve">
+    <value>Call global event</value>
+  </data>
+  <data name="&gt;&gt;btnScriptCallGlobalEvent.Name" xml:space="preserve">
+    <value>btnScriptCallGlobalEvent</value>
+  </data>
+  <data name="&gt;&gt;btnScriptCallGlobalEvent.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnScriptCallGlobalEvent.Parent" xml:space="preserve">
+    <value>grpProgrammation</value>
+  </data>
+  <data name="&gt;&gt;btnScriptCallGlobalEvent.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="btnScriptBreakLoop.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 75</value>
+  </data>
+  <data name="btnScriptBreakLoop.Size" type="System.Drawing.Size, System.Drawing">
+    <value>167, 23</value>
+  </data>
+  <data name="btnScriptBreakLoop.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="btnScriptBreakLoop.Text" xml:space="preserve">
+    <value>Break the loop</value>
+  </data>
+  <data name="&gt;&gt;btnScriptBreakLoop.Name" xml:space="preserve">
+    <value>btnScriptBreakLoop</value>
+  </data>
+  <data name="&gt;&gt;btnScriptBreakLoop.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnScriptBreakLoop.Parent" xml:space="preserve">
+    <value>grpProgrammation</value>
+  </data>
+  <data name="&gt;&gt;btnScriptBreakLoop.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="btnScriptLoop.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 47</value>
+  </data>
+  <data name="btnScriptLoop.Size" type="System.Drawing.Size, System.Drawing">
+    <value>167, 23</value>
+  </data>
+  <data name="btnScriptLoop.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="btnScriptLoop.Text" xml:space="preserve">
+    <value>Loop</value>
+  </data>
+  <data name="&gt;&gt;btnScriptLoop.Name" xml:space="preserve">
+    <value>btnScriptLoop</value>
+  </data>
+  <data name="&gt;&gt;btnScriptLoop.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnScriptLoop.Parent" xml:space="preserve">
+    <value>grpProgrammation</value>
+  </data>
+  <data name="&gt;&gt;btnScriptLoop.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="btnScriptCondition.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 19</value>
+  </data>
+  <data name="btnScriptCondition.Size" type="System.Drawing.Size, System.Drawing">
+    <value>167, 23</value>
+  </data>
+  <data name="btnScriptCondition.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="btnScriptCondition.Text" xml:space="preserve">
+    <value>Condition</value>
+  </data>
+  <data name="&gt;&gt;btnScriptCondition.Name" xml:space="preserve">
+    <value>btnScriptCondition</value>
+  </data>
+  <data name="&gt;&gt;btnScriptCondition.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnScriptCondition.Parent" xml:space="preserve">
+    <value>grpProgrammation</value>
+  </data>
+  <data name="&gt;&gt;btnScriptCondition.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="grpProgrammation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 6</value>
+  </data>
+  <data name="grpProgrammation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>179, 249</value>
+  </data>
+  <data name="grpProgrammation.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="grpProgrammation.Text" xml:space="preserve">
+    <value>Programmation</value>
+  </data>
+  <data name="&gt;&gt;grpProgrammation.Name" xml:space="preserve">
+    <value>grpProgrammation</value>
+  </data>
+  <data name="&gt;&gt;grpProgrammation.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpProgrammation.Parent" xml:space="preserve">
+    <value>tabProg</value>
+  </data>
+  <data name="&gt;&gt;grpProgrammation.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnScriptChangeVariable.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 47</value>
+  </data>
+  <data name="btnScriptChangeVariable.Size" type="System.Drawing.Size, System.Drawing">
+    <value>167, 23</value>
+  </data>
+  <data name="btnScriptChangeVariable.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="btnScriptChangeVariable.Text" xml:space="preserve">
+    <value>Change variable</value>
+  </data>
+  <data name="&gt;&gt;btnScriptChangeVariable.Name" xml:space="preserve">
+    <value>btnScriptChangeVariable</value>
+  </data>
+  <data name="&gt;&gt;btnScriptChangeVariable.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnScriptChangeVariable.Parent" xml:space="preserve">
+    <value>grpVariables</value>
+  </data>
+  <data name="&gt;&gt;btnScriptChangeVariable.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnScriptChangeSwitch.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 19</value>
+  </data>
+  <data name="btnScriptChangeSwitch.Size" type="System.Drawing.Size, System.Drawing">
+    <value>167, 23</value>
+  </data>
+  <data name="btnScriptChangeSwitch.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="btnScriptChangeSwitch.Text" xml:space="preserve">
+    <value>Press switch</value>
+  </data>
+  <data name="&gt;&gt;btnScriptChangeSwitch.Name" xml:space="preserve">
+    <value>btnScriptChangeSwitch</value>
+  </data>
+  <data name="&gt;&gt;btnScriptChangeSwitch.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnScriptChangeSwitch.Parent" xml:space="preserve">
+    <value>grpVariables</value>
+  </data>
+  <data name="&gt;&gt;btnScriptChangeSwitch.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="grpVariables.Location" type="System.Drawing.Point, System.Drawing">
+    <value>192, 6</value>
+  </data>
+  <data name="grpVariables.Size" type="System.Drawing.Size, System.Drawing">
+    <value>179, 83</value>
+  </data>
+  <data name="grpVariables.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="grpVariables.Text" xml:space="preserve">
+    <value>Variables</value>
+  </data>
+  <data name="&gt;&gt;grpVariables.Name" xml:space="preserve">
+    <value>grpVariables</value>
+  </data>
+  <data name="&gt;&gt;grpVariables.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpVariables.Parent" xml:space="preserve">
+    <value>tabProg</value>
+  </data>
+  <data name="&gt;&gt;grpVariables.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="tabProg.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="tabProg.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tabProg.Size" type="System.Drawing.Size, System.Drawing">
+    <value>371, 375</value>
+  </data>
+  <data name="tabProg.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tabProg.Text" xml:space="preserve">
+    <value>Programmation</value>
+  </data>
+  <data name="&gt;&gt;tabProg.Name" xml:space="preserve">
+    <value>tabProg</value>
+  </data>
+  <data name="&gt;&gt;tabProg.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabProg.Parent" xml:space="preserve">
+    <value>Tabs</value>
+  </data>
+  <data name="&gt;&gt;tabProg.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnScriptFreePlayerAnimations.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 47</value>
+  </data>
+  <data name="btnScriptFreePlayerAnimations.Size" type="System.Drawing.Size, System.Drawing">
+    <value>167, 23</value>
+  </data>
+  <data name="btnScriptFreePlayerAnimations.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="btnScriptFreePlayerAnimations.Text" xml:space="preserve">
+    <value>Free animations</value>
+  </data>
+  <data name="&gt;&gt;btnScriptFreePlayerAnimations.Name" xml:space="preserve">
+    <value>btnScriptFreePlayerAnimations</value>
+  </data>
+  <data name="&gt;&gt;btnScriptFreePlayerAnimations.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnScriptFreePlayerAnimations.Parent" xml:space="preserve">
+    <value>grpRendering</value>
+  </data>
+  <data name="&gt;&gt;btnScriptFreePlayerAnimations.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnScriptFreezePlayerAnimations.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 19</value>
+  </data>
+  <data name="btnScriptFreezePlayerAnimations.Size" type="System.Drawing.Size, System.Drawing">
+    <value>167, 23</value>
+  </data>
+  <data name="btnScriptFreezePlayerAnimations.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="btnScriptFreezePlayerAnimations.Text" xml:space="preserve">
+    <value>Freeze animations</value>
+  </data>
+  <data name="&gt;&gt;btnScriptFreezePlayerAnimations.Name" xml:space="preserve">
+    <value>btnScriptFreezePlayerAnimations</value>
+  </data>
+  <data name="&gt;&gt;btnScriptFreezePlayerAnimations.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnScriptFreezePlayerAnimations.Parent" xml:space="preserve">
+    <value>grpRendering</value>
+  </data>
+  <data name="&gt;&gt;btnScriptFreezePlayerAnimations.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnScriptChangePlayerSpeed.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 75</value>
+  </data>
+  <data name="btnScriptChangePlayerSpeed.Size" type="System.Drawing.Size, System.Drawing">
+    <value>167, 23</value>
+  </data>
+  <data name="btnScriptChangePlayerSpeed.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="btnScriptChangePlayerSpeed.Text" xml:space="preserve">
+    <value>Change speed</value>
+  </data>
+  <data name="&gt;&gt;btnScriptChangePlayerSpeed.Name" xml:space="preserve">
+    <value>btnScriptChangePlayerSpeed</value>
+  </data>
+  <data name="&gt;&gt;btnScriptChangePlayerSpeed.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnScriptChangePlayerSpeed.Parent" xml:space="preserve">
+    <value>grpRendering</value>
+  </data>
+  <data name="&gt;&gt;btnScriptChangePlayerSpeed.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnScriptChangePlayerAnimation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 103</value>
+  </data>
+  <data name="btnScriptChangePlayerAnimation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>167, 23</value>
+  </data>
+  <data name="btnScriptChangePlayerAnimation.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="btnScriptChangePlayerAnimation.Text" xml:space="preserve">
+    <value>Change animation</value>
+  </data>
+  <data name="&gt;&gt;btnScriptChangePlayerAnimation.Name" xml:space="preserve">
+    <value>btnScriptChangePlayerAnimation</value>
+  </data>
+  <data name="&gt;&gt;btnScriptChangePlayerAnimation.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnScriptChangePlayerAnimation.Parent" xml:space="preserve">
+    <value>grpRendering</value>
+  </data>
+  <data name="&gt;&gt;btnScriptChangePlayerAnimation.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="grpRendering.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 232</value>
+  </data>
+  <data name="grpRendering.Size" type="System.Drawing.Size, System.Drawing">
+    <value>179, 137</value>
+  </data>
+  <data name="grpRendering.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="grpRendering.Text" xml:space="preserve">
+    <value>Rendering</value>
+  </data>
+  <data name="&gt;&gt;grpRendering.Name" xml:space="preserve">
+    <value>grpRendering</value>
+  </data>
+  <data name="&gt;&gt;grpRendering.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpRendering.Parent" xml:space="preserve">
+    <value>tabPlayer</value>
+  </data>
+  <data name="&gt;&gt;grpRendering.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnScriptRemoveItem.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 105</value>
+  </data>
+  <data name="btnScriptRemoveItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>167, 23</value>
+  </data>
+  <data name="btnScriptRemoveItem.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="btnScriptRemoveItem.Text" xml:space="preserve">
+    <value>Remove an item</value>
+  </data>
+  <data name="&gt;&gt;btnScriptRemoveItem.Name" xml:space="preserve">
+    <value>btnScriptRemoveItem</value>
+  </data>
+  <data name="&gt;&gt;btnScriptRemoveItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnScriptRemoveItem.Parent" xml:space="preserve">
+    <value>grpCommands</value>
+  </data>
+  <data name="&gt;&gt;btnScriptRemoveItem.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnScriptAddItem.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 76</value>
+  </data>
+  <data name="btnScriptAddItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>167, 23</value>
+  </data>
+  <data name="btnScriptAddItem.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="btnScriptAddItem.Text" xml:space="preserve">
+    <value>Add an item</value>
+  </data>
+  <data name="&gt;&gt;btnScriptAddItem.Name" xml:space="preserve">
+    <value>btnScriptAddItem</value>
+  </data>
+  <data name="&gt;&gt;btnScriptAddItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnScriptAddItem.Parent" xml:space="preserve">
+    <value>grpCommands</value>
+  </data>
+  <data name="&gt;&gt;btnScriptAddItem.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="chgAddPlayerAction.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 18</value>
+  </data>
+  <data name="chgAddPlayerAction.Size" type="System.Drawing.Size, System.Drawing">
+    <value>167, 23</value>
+  </data>
+  <data name="chgAddPlayerAction.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="chgAddPlayerAction.Text" xml:space="preserve">
+    <value>Add player action</value>
+  </data>
+  <data name="&gt;&gt;chgAddPlayerAction.Name" xml:space="preserve">
+    <value>chgAddPlayerAction</value>
+  </data>
+  <data name="&gt;&gt;chgAddPlayerAction.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chgAddPlayerAction.Parent" xml:space="preserve">
+    <value>grpCommands</value>
+  </data>
+  <data name="&gt;&gt;chgAddPlayerAction.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="RemovePlayerAction.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 47</value>
+  </data>
+  <data name="RemovePlayerAction.Size" type="System.Drawing.Size, System.Drawing">
+    <value>167, 23</value>
+  </data>
+  <data name="RemovePlayerAction.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="RemovePlayerAction.Text" xml:space="preserve">
+    <value>Remove player action</value>
+  </data>
+  <data name="&gt;&gt;RemovePlayerAction.Name" xml:space="preserve">
+    <value>RemovePlayerAction</value>
+  </data>
+  <data name="&gt;&gt;RemovePlayerAction.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RemovePlayerAction.Parent" xml:space="preserve">
+    <value>grpCommands</value>
+  </data>
+  <data name="&gt;&gt;RemovePlayerAction.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="grpCommands.Location" type="System.Drawing.Point, System.Drawing">
+    <value>194, 6</value>
+  </data>
+  <data name="grpCommands.Size" type="System.Drawing.Size, System.Drawing">
+    <value>179, 140</value>
+  </data>
+  <data name="grpCommands.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="grpCommands.Text" xml:space="preserve">
+    <value>Commands</value>
+  </data>
+  <data name="&gt;&gt;grpCommands.Name" xml:space="preserve">
+    <value>grpCommands</value>
+  </data>
+  <data name="&gt;&gt;grpCommands.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpCommands.Parent" xml:space="preserve">
+    <value>tabPlayer</value>
+  </data>
+  <data name="&gt;&gt;grpCommands.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnScriptChangeMaxHP.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 46</value>
+  </data>
+  <data name="btnScriptChangeMaxHP.Size" type="System.Drawing.Size, System.Drawing">
+    <value>167, 23</value>
+  </data>
+  <data name="btnScriptChangeMaxHP.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="btnScriptChangeMaxHP.Text" xml:space="preserve">
+    <value>Change max HP</value>
+  </data>
+  <data name="&gt;&gt;btnScriptChangeMaxHP.Name" xml:space="preserve">
+    <value>btnScriptChangeMaxHP</value>
+  </data>
+  <data name="&gt;&gt;btnScriptChangeMaxHP.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnScriptChangeMaxHP.Parent" xml:space="preserve">
+    <value>grpLife</value>
+  </data>
+  <data name="&gt;&gt;btnScriptChangeMaxHP.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnScriptChangeHP.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 19</value>
+  </data>
+  <data name="btnScriptChangeHP.Size" type="System.Drawing.Size, System.Drawing">
+    <value>167, 23</value>
+  </data>
+  <data name="btnScriptChangeHP.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="btnScriptChangeHP.Text" xml:space="preserve">
+    <value>Change HP</value>
+  </data>
+  <data name="&gt;&gt;btnScriptChangeHP.Name" xml:space="preserve">
+    <value>btnScriptChangeHP</value>
+  </data>
+  <data name="&gt;&gt;btnScriptChangeHP.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnScriptChangeHP.Parent" xml:space="preserve">
+    <value>grpLife</value>
+  </data>
+  <data name="&gt;&gt;btnScriptChangeHP.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="grpLife.Location" type="System.Drawing.Point, System.Drawing">
+    <value>194, 152</value>
+  </data>
+  <data name="grpLife.Size" type="System.Drawing.Size, System.Drawing">
+    <value>179, 83</value>
+  </data>
+  <data name="grpLife.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="grpLife.Text" xml:space="preserve">
+    <value>Life</value>
+  </data>
+  <data name="&gt;&gt;grpLife.Name" xml:space="preserve">
+    <value>grpLife</value>
+  </data>
+  <data name="&gt;&gt;grpLife.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpLife.Parent" xml:space="preserve">
+    <value>tabPlayer</value>
+  </data>
+  <data name="&gt;&gt;grpLife.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnScriptChoiceMessages.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 46</value>
+  </data>
+  <data name="btnScriptChoiceMessages.Size" type="System.Drawing.Size, System.Drawing">
+    <value>167, 23</value>
+  </data>
+  <data name="btnScriptChoiceMessages.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="btnScriptChoiceMessages.Text" xml:space="preserve">
+    <value>Show choices</value>
+  </data>
+  <data name="&gt;&gt;btnScriptChoiceMessages.Name" xml:space="preserve">
+    <value>btnScriptChoiceMessages</value>
+  </data>
+  <data name="&gt;&gt;btnScriptChoiceMessages.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnScriptChoiceMessages.Parent" xml:space="preserve">
+    <value>grpDialogs</value>
+  </data>
+  <data name="&gt;&gt;btnScriptChoiceMessages.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnScriptMessage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 19</value>
+  </data>
+  <data name="btnScriptMessage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>167, 23</value>
+  </data>
+  <data name="btnScriptMessage.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="btnScriptMessage.Text" xml:space="preserve">
+    <value>Show messages</value>
+  </data>
+  <data name="&gt;&gt;btnScriptMessage.Name" xml:space="preserve">
+    <value>btnScriptMessage</value>
+  </data>
+  <data name="&gt;&gt;btnScriptMessage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnScriptMessage.Parent" xml:space="preserve">
+    <value>grpDialogs</value>
+  </data>
+  <data name="&gt;&gt;btnScriptMessage.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="grpDialogs.Location" type="System.Drawing.Point, System.Drawing">
+    <value>194, 241</value>
+  </data>
+  <data name="grpDialogs.Size" type="System.Drawing.Size, System.Drawing">
+    <value>179, 83</value>
+  </data>
+  <data name="grpDialogs.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="grpDialogs.Text" xml:space="preserve">
+    <value>Dialogs</value>
+  </data>
+  <data name="&gt;&gt;grpDialogs.Name" xml:space="preserve">
+    <value>grpDialogs</value>
+  </data>
+  <data name="&gt;&gt;grpDialogs.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpDialogs.Parent" xml:space="preserve">
+    <value>tabPlayer</value>
+  </data>
+  <data name="&gt;&gt;grpDialogs.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btnChangePlayerDirection.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 187</value>
+  </data>
+  <data name="btnChangePlayerDirection.Size" type="System.Drawing.Size, System.Drawing">
+    <value>167, 23</value>
+  </data>
+  <data name="btnChangePlayerDirection.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="btnChangePlayerDirection.Text" xml:space="preserve">
+    <value>Change player direction</value>
+  </data>
+  <data name="&gt;&gt;btnChangePlayerDirection.Name" xml:space="preserve">
+    <value>btnChangePlayerDirection</value>
+  </data>
+  <data name="&gt;&gt;btnChangePlayerDirection.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnChangePlayerDirection.Parent" xml:space="preserve">
+    <value>grpPlayer</value>
+  </data>
+  <data name="&gt;&gt;btnChangePlayerDirection.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnScriptShowCurrentPlayer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 131</value>
+  </data>
+  <data name="btnScriptShowCurrentPlayer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>167, 23</value>
+  </data>
+  <data name="btnScriptShowCurrentPlayer.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="btnScriptShowCurrentPlayer.Text" xml:space="preserve">
+    <value>Show player</value>
+  </data>
+  <data name="&gt;&gt;btnScriptShowCurrentPlayer.Name" xml:space="preserve">
+    <value>btnScriptShowCurrentPlayer</value>
+  </data>
+  <data name="&gt;&gt;btnScriptShowCurrentPlayer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnScriptShowCurrentPlayer.Parent" xml:space="preserve">
+    <value>grpPlayer</value>
+  </data>
+  <data name="&gt;&gt;btnScriptShowCurrentPlayer.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnScriptHideCurrentPlayer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 159</value>
+  </data>
+  <data name="btnScriptHideCurrentPlayer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>167, 23</value>
+  </data>
+  <data name="btnScriptHideCurrentPlayer.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="btnScriptHideCurrentPlayer.Text" xml:space="preserve">
+    <value>Hide player</value>
+  </data>
+  <data name="&gt;&gt;btnScriptHideCurrentPlayer.Name" xml:space="preserve">
+    <value>btnScriptHideCurrentPlayer</value>
+  </data>
+  <data name="&gt;&gt;btnScriptHideCurrentPlayer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnScriptHideCurrentPlayer.Parent" xml:space="preserve">
+    <value>grpPlayer</value>
+  </data>
+  <data name="&gt;&gt;btnScriptHideCurrentPlayer.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="StopCurrentPlayerMovement.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 103</value>
+  </data>
+  <data name="StopCurrentPlayerMovement.Size" type="System.Drawing.Size, System.Drawing">
+    <value>167, 23</value>
+  </data>
+  <data name="StopCurrentPlayerMovement.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="StopCurrentPlayerMovement.Text" xml:space="preserve">
+    <value>Stop player movement</value>
+  </data>
+  <data name="&gt;&gt;StopCurrentPlayerMovement.Name" xml:space="preserve">
+    <value>StopCurrentPlayerMovement</value>
+  </data>
+  <data name="&gt;&gt;StopCurrentPlayerMovement.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;StopCurrentPlayerMovement.Parent" xml:space="preserve">
+    <value>grpPlayer</value>
+  </data>
+  <data name="&gt;&gt;StopCurrentPlayerMovement.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btnScriptMovePlayer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 75</value>
+  </data>
+  <data name="btnScriptMovePlayer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>167, 23</value>
+  </data>
+  <data name="btnScriptMovePlayer.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="btnScriptMovePlayer.Text" xml:space="preserve">
+    <value>Move player</value>
+  </data>
+  <data name="&gt;&gt;btnScriptMovePlayer.Name" xml:space="preserve">
+    <value>btnScriptMovePlayer</value>
+  </data>
+  <data name="&gt;&gt;btnScriptMovePlayer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnScriptMovePlayer.Parent" xml:space="preserve">
+    <value>grpPlayer</value>
+  </data>
+  <data name="&gt;&gt;btnScriptMovePlayer.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="btnScriptTeleport.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 47</value>
+  </data>
+  <data name="btnScriptTeleport.Size" type="System.Drawing.Size, System.Drawing">
+    <value>167, 23</value>
+  </data>
+  <data name="btnScriptTeleport.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="btnScriptTeleport.Text" xml:space="preserve">
+    <value>Teleport</value>
+  </data>
+  <data name="&gt;&gt;btnScriptTeleport.Name" xml:space="preserve">
+    <value>btnScriptTeleport</value>
+  </data>
+  <data name="&gt;&gt;btnScriptTeleport.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnScriptTeleport.Parent" xml:space="preserve">
+    <value>grpPlayer</value>
+  </data>
+  <data name="&gt;&gt;btnScriptTeleport.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="btnScriptChangeCharacter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 19</value>
+  </data>
+  <data name="btnScriptChangeCharacter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>167, 23</value>
+  </data>
+  <data name="btnScriptChangeCharacter.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="btnScriptChangeCharacter.Text" xml:space="preserve">
+    <value>Change current character</value>
+  </data>
+  <data name="&gt;&gt;btnScriptChangeCharacter.Name" xml:space="preserve">
+    <value>btnScriptChangeCharacter</value>
+  </data>
+  <data name="&gt;&gt;btnScriptChangeCharacter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnScriptChangeCharacter.Parent" xml:space="preserve">
+    <value>grpPlayer</value>
+  </data>
+  <data name="&gt;&gt;btnScriptChangeCharacter.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="grpPlayer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 6</value>
+  </data>
+  <data name="grpPlayer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>179, 221</value>
+  </data>
+  <data name="grpPlayer.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="grpPlayer.Text" xml:space="preserve">
+    <value>Current Player</value>
+  </data>
+  <data name="&gt;&gt;grpPlayer.Name" xml:space="preserve">
+    <value>grpPlayer</value>
+  </data>
+  <data name="&gt;&gt;grpPlayer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpPlayer.Parent" xml:space="preserve">
+    <value>tabPlayer</value>
+  </data>
+  <data name="&gt;&gt;grpPlayer.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="tabPlayer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="tabPlayer.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tabPlayer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>371, 375</value>
+  </data>
+  <data name="tabPlayer.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tabPlayer.Text" xml:space="preserve">
+    <value>Player</value>
+  </data>
+  <data name="&gt;&gt;tabPlayer.Name" xml:space="preserve">
+    <value>tabPlayer</value>
+  </data>
+  <data name="&gt;&gt;tabPlayer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPlayer.Parent" xml:space="preserve">
+    <value>Tabs</value>
+  </data>
+  <data name="&gt;&gt;tabPlayer.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnScriptDefaultCamera.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 106</value>
+  </data>
+  <data name="btnScriptDefaultCamera.Size" type="System.Drawing.Size, System.Drawing">
+    <value>167, 23</value>
+  </data>
+  <data name="btnScriptDefaultCamera.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="btnScriptDefaultCamera.Text" xml:space="preserve">
+    <value>Default camera</value>
+  </data>
+  <data name="&gt;&gt;btnScriptDefaultCamera.Name" xml:space="preserve">
+    <value>btnScriptDefaultCamera</value>
+  </data>
+  <data name="&gt;&gt;btnScriptDefaultCamera.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnScriptDefaultCamera.Parent" xml:space="preserve">
+    <value>grpCamera</value>
+  </data>
+  <data name="&gt;&gt;btnScriptDefaultCamera.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnScriptFocusOnAnimation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 77</value>
+  </data>
+  <data name="btnScriptFocusOnAnimation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>167, 23</value>
+  </data>
+  <data name="btnScriptFocusOnAnimation.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="btnScriptFocusOnAnimation.Text" xml:space="preserve">
+    <value>Focus on animation</value>
+  </data>
+  <data name="&gt;&gt;btnScriptFocusOnAnimation.Name" xml:space="preserve">
+    <value>btnScriptFocusOnAnimation</value>
+  </data>
+  <data name="&gt;&gt;btnScriptFocusOnAnimation.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnScriptFocusOnAnimation.Parent" xml:space="preserve">
+    <value>grpCamera</value>
+  </data>
+  <data name="&gt;&gt;btnScriptFocusOnAnimation.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnScriptFocusOnCharacter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 48</value>
+  </data>
+  <data name="btnScriptFocusOnCharacter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>167, 23</value>
+  </data>
+  <data name="btnScriptFocusOnCharacter.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="btnScriptFocusOnCharacter.Text" xml:space="preserve">
+    <value>Focus on character</value>
+  </data>
+  <data name="&gt;&gt;btnScriptFocusOnCharacter.Name" xml:space="preserve">
+    <value>btnScriptFocusOnCharacter</value>
+  </data>
+  <data name="&gt;&gt;btnScriptFocusOnCharacter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnScriptFocusOnCharacter.Parent" xml:space="preserve">
+    <value>grpCamera</value>
+  </data>
+  <data name="&gt;&gt;btnScriptFocusOnCharacter.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnScriptMoveCamera.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 19</value>
+  </data>
+  <data name="btnScriptMoveCamera.Size" type="System.Drawing.Size, System.Drawing">
+    <value>167, 23</value>
+  </data>
+  <data name="btnScriptMoveCamera.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="btnScriptMoveCamera.Text" xml:space="preserve">
+    <value>Move camera</value>
+  </data>
+  <data name="&gt;&gt;btnScriptMoveCamera.Name" xml:space="preserve">
+    <value>btnScriptMoveCamera</value>
+  </data>
+  <data name="&gt;&gt;btnScriptMoveCamera.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnScriptMoveCamera.Parent" xml:space="preserve">
+    <value>grpCamera</value>
+  </data>
+  <data name="&gt;&gt;btnScriptMoveCamera.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="grpCamera.Location" type="System.Drawing.Point, System.Drawing">
+    <value>193, 6</value>
+  </data>
+  <data name="grpCamera.Size" type="System.Drawing.Size, System.Drawing">
+    <value>179, 138</value>
+  </data>
+  <data name="grpCamera.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="grpCamera.Text" xml:space="preserve">
+    <value>Camera</value>
+  </data>
+  <data name="&gt;&gt;grpCamera.Name" xml:space="preserve">
+    <value>grpCamera</value>
+  </data>
+  <data name="&gt;&gt;grpCamera.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpCamera.Parent" xml:space="preserve">
+    <value>tabStage</value>
+  </data>
+  <data name="&gt;&gt;grpCamera.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnLookForwardPlayer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 187</value>
+  </data>
+  <data name="btnLookForwardPlayer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>167, 23</value>
+  </data>
+  <data name="btnLookForwardPlayer.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="btnLookForwardPlayer.Text" xml:space="preserve">
+    <value>Look forward player</value>
+  </data>
+  <data name="&gt;&gt;btnLookForwardPlayer.Name" xml:space="preserve">
+    <value>btnLookForwardPlayer</value>
+  </data>
+  <data name="&gt;&gt;btnLookForwardPlayer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnLookForwardPlayer.Parent" xml:space="preserve">
+    <value>grpNPC</value>
+  </data>
+  <data name="&gt;&gt;btnLookForwardPlayer.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnScriptMoveCharacter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 103</value>
+  </data>
+  <data name="btnScriptMoveCharacter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>167, 23</value>
+  </data>
+  <data name="btnScriptMoveCharacter.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="btnScriptMoveCharacter.Text" xml:space="preserve">
+    <value>Move character</value>
+  </data>
+  <data name="&gt;&gt;btnScriptMoveCharacter.Name" xml:space="preserve">
+    <value>btnScriptMoveCharacter</value>
+  </data>
+  <data name="&gt;&gt;btnScriptMoveCharacter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnScriptMoveCharacter.Parent" xml:space="preserve">
+    <value>grpNPC</value>
+  </data>
+  <data name="&gt;&gt;btnScriptMoveCharacter.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="chgCharacterDirection.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 159</value>
+  </data>
+  <data name="chgCharacterDirection.Size" type="System.Drawing.Size, System.Drawing">
+    <value>167, 23</value>
+  </data>
+  <data name="chgCharacterDirection.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="chgCharacterDirection.Text" xml:space="preserve">
+    <value>Change character direction</value>
+  </data>
+  <data name="&gt;&gt;chgCharacterDirection.Name" xml:space="preserve">
+    <value>chgCharacterDirection</value>
+  </data>
+  <data name="&gt;&gt;chgCharacterDirection.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chgCharacterDirection.Parent" xml:space="preserve">
+    <value>grpNPC</value>
+  </data>
+  <data name="&gt;&gt;chgCharacterDirection.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnScriptChangeCharacterFrequency.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 19</value>
+  </data>
+  <data name="btnScriptChangeCharacterFrequency.Size" type="System.Drawing.Size, System.Drawing">
+    <value>167, 23</value>
+  </data>
+  <data name="btnScriptChangeCharacterFrequency.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="btnScriptChangeCharacterFrequency.Text" xml:space="preserve">
+    <value>Change animation frequency</value>
+  </data>
+  <data name="&gt;&gt;btnScriptChangeCharacterFrequency.Name" xml:space="preserve">
+    <value>btnScriptChangeCharacterFrequency</value>
+  </data>
+  <data name="&gt;&gt;btnScriptChangeCharacterFrequency.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnScriptChangeCharacterFrequency.Parent" xml:space="preserve">
+    <value>grpNPC</value>
+  </data>
+  <data name="&gt;&gt;btnScriptChangeCharacterFrequency.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="StopCharacterMovement.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 131</value>
+  </data>
+  <data name="StopCharacterMovement.Size" type="System.Drawing.Size, System.Drawing">
+    <value>167, 23</value>
+  </data>
+  <data name="StopCharacterMovement.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="StopCharacterMovement.Text" xml:space="preserve">
+    <value>Stop character movement</value>
+  </data>
+  <data name="&gt;&gt;StopCharacterMovement.Name" xml:space="preserve">
+    <value>StopCharacterMovement</value>
+  </data>
+  <data name="&gt;&gt;StopCharacterMovement.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;StopCharacterMovement.Parent" xml:space="preserve">
+    <value>grpNPC</value>
+  </data>
+  <data name="&gt;&gt;StopCharacterMovement.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="btnScriptFreezeCharacter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 47</value>
+  </data>
+  <data name="btnScriptFreezeCharacter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>167, 23</value>
+  </data>
+  <data name="btnScriptFreezeCharacter.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="btnScriptFreezeCharacter.Text" xml:space="preserve">
+    <value>Freeze character animation</value>
+  </data>
+  <data name="&gt;&gt;btnScriptFreezeCharacter.Name" xml:space="preserve">
+    <value>btnScriptFreezeCharacter</value>
+  </data>
+  <data name="&gt;&gt;btnScriptFreezeCharacter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnScriptFreezeCharacter.Parent" xml:space="preserve">
+    <value>grpNPC</value>
+  </data>
+  <data name="&gt;&gt;btnScriptFreezeCharacter.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="btnScriptFreeCharacter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 75</value>
+  </data>
+  <data name="btnScriptFreeCharacter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>167, 23</value>
+  </data>
+  <data name="btnScriptFreeCharacter.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="btnScriptFreeCharacter.Text" xml:space="preserve">
+    <value>Free character animation</value>
+  </data>
+  <data name="&gt;&gt;btnScriptFreeCharacter.Name" xml:space="preserve">
+    <value>btnScriptFreeCharacter</value>
+  </data>
+  <data name="&gt;&gt;btnScriptFreeCharacter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnScriptFreeCharacter.Parent" xml:space="preserve">
+    <value>grpNPC</value>
+  </data>
+  <data name="&gt;&gt;btnScriptFreeCharacter.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="grpNPC.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 6</value>
+  </data>
+  <data name="grpNPC.Size" type="System.Drawing.Size, System.Drawing">
+    <value>179, 221</value>
+  </data>
+  <data name="grpNPC.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="grpNPC.Text" xml:space="preserve">
+    <value>NPC</value>
+  </data>
+  <data name="&gt;&gt;grpNPC.Name" xml:space="preserve">
+    <value>grpNPC</value>
+  </data>
+  <data name="&gt;&gt;grpNPC.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpNPC.Parent" xml:space="preserve">
+    <value>tabStage</value>
+  </data>
+  <data name="&gt;&gt;grpNPC.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tabStage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="tabStage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>371, 375</value>
+  </data>
+  <data name="tabStage.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="tabStage.Text" xml:space="preserve">
+    <value>Stage</value>
+  </data>
+  <data name="&gt;&gt;tabStage.Name" xml:space="preserve">
+    <value>tabStage</value>
+  </data>
+  <data name="&gt;&gt;tabStage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabStage.Parent" xml:space="preserve">
+    <value>Tabs</value>
+  </data>
+  <data name="&gt;&gt;tabStage.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnScriptChangeCurrentAction.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 187</value>
+  </data>
+  <data name="btnScriptChangeCurrentAction.Size" type="System.Drawing.Size, System.Drawing">
+    <value>167, 23</value>
+  </data>
+  <data name="btnScriptChangeCurrentAction.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="btnScriptChangeCurrentAction.Text" xml:space="preserve">
+    <value>Change current action</value>
+  </data>
+  <data name="btnScriptChangeCurrentAction.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;btnScriptChangeCurrentAction.Name" xml:space="preserve">
+    <value>btnScriptChangeCurrentAction</value>
+  </data>
+  <data name="&gt;&gt;btnScriptChangeCurrentAction.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnScriptChangeCurrentAction.Parent" xml:space="preserve">
+    <value>grpInterface</value>
+  </data>
+  <data name="&gt;&gt;btnScriptChangeCurrentAction.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnScriptEnableUserControls.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 159</value>
+  </data>
+  <data name="btnScriptEnableUserControls.Size" type="System.Drawing.Size, System.Drawing">
+    <value>167, 23</value>
+  </data>
+  <data name="btnScriptEnableUserControls.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="btnScriptEnableUserControls.Text" xml:space="preserve">
+    <value>Enable user controls</value>
+  </data>
+  <data name="&gt;&gt;btnScriptEnableUserControls.Name" xml:space="preserve">
+    <value>btnScriptEnableUserControls</value>
+  </data>
+  <data name="&gt;&gt;btnScriptEnableUserControls.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnScriptEnableUserControls.Parent" xml:space="preserve">
+    <value>grpInterface</value>
+  </data>
+  <data name="&gt;&gt;btnScriptEnableUserControls.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnScriptDisableUserControls.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 131</value>
+  </data>
+  <data name="btnScriptDisableUserControls.Size" type="System.Drawing.Size, System.Drawing">
+    <value>167, 23</value>
+  </data>
+  <data name="btnScriptDisableUserControls.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="btnScriptDisableUserControls.Text" xml:space="preserve">
+    <value>Disable user controls</value>
+  </data>
+  <data name="&gt;&gt;btnScriptDisableUserControls.Name" xml:space="preserve">
+    <value>btnScriptDisableUserControls</value>
+  </data>
+  <data name="&gt;&gt;btnScriptDisableUserControls.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnScriptDisableUserControls.Parent" xml:space="preserve">
+    <value>grpInterface</value>
+  </data>
+  <data name="&gt;&gt;btnScriptDisableUserControls.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnScriptEnableStageInteractions.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 103</value>
+  </data>
+  <data name="btnScriptEnableStageInteractions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>167, 23</value>
+  </data>
+  <data name="btnScriptEnableStageInteractions.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="btnScriptEnableStageInteractions.Text" xml:space="preserve">
+    <value>Enable stage interactions</value>
+  </data>
+  <data name="&gt;&gt;btnScriptEnableStageInteractions.Name" xml:space="preserve">
+    <value>btnScriptEnableStageInteractions</value>
+  </data>
+  <data name="&gt;&gt;btnScriptEnableStageInteractions.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnScriptEnableStageInteractions.Parent" xml:space="preserve">
+    <value>grpInterface</value>
+  </data>
+  <data name="&gt;&gt;btnScriptEnableStageInteractions.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btnScriptDisableStageInteractions.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 75</value>
+  </data>
+  <data name="btnScriptDisableStageInteractions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>167, 23</value>
+  </data>
+  <data name="btnScriptDisableStageInteractions.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="btnScriptDisableStageInteractions.Text" xml:space="preserve">
+    <value>Disable stage interactions</value>
+  </data>
+  <data name="&gt;&gt;btnScriptDisableStageInteractions.Name" xml:space="preserve">
+    <value>btnScriptDisableStageInteractions</value>
+  </data>
+  <data name="&gt;&gt;btnScriptDisableStageInteractions.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnScriptDisableStageInteractions.Parent" xml:space="preserve">
+    <value>grpInterface</value>
+  </data>
+  <data name="&gt;&gt;btnScriptDisableStageInteractions.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="btnScriptShowLifeBar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 47</value>
+  </data>
+  <data name="btnScriptShowLifeBar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>167, 23</value>
+  </data>
+  <data name="btnScriptShowLifeBar.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="btnScriptShowLifeBar.Text" xml:space="preserve">
+    <value>Show life bar</value>
+  </data>
+  <data name="&gt;&gt;btnScriptShowLifeBar.Name" xml:space="preserve">
+    <value>btnScriptShowLifeBar</value>
+  </data>
+  <data name="&gt;&gt;btnScriptShowLifeBar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnScriptShowLifeBar.Parent" xml:space="preserve">
+    <value>grpInterface</value>
+  </data>
+  <data name="&gt;&gt;btnScriptShowLifeBar.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="btnScriptHideLifeBar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 19</value>
+  </data>
+  <data name="btnScriptHideLifeBar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>167, 23</value>
+  </data>
+  <data name="btnScriptHideLifeBar.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="btnScriptHideLifeBar.Text" xml:space="preserve">
+    <value>Hide the life bar</value>
+  </data>
+  <data name="&gt;&gt;btnScriptHideLifeBar.Name" xml:space="preserve">
+    <value>btnScriptHideLifeBar</value>
+  </data>
+  <data name="&gt;&gt;btnScriptHideLifeBar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnScriptHideLifeBar.Parent" xml:space="preserve">
+    <value>grpInterface</value>
+  </data>
+  <data name="&gt;&gt;btnScriptHideLifeBar.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="grpInterface.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 6</value>
+  </data>
+  <data name="grpInterface.Size" type="System.Drawing.Size, System.Drawing">
+    <value>179, 221</value>
+  </data>
+  <data name="grpInterface.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="grpInterface.Text" xml:space="preserve">
+    <value>Interfaces</value>
+  </data>
+  <data name="&gt;&gt;grpInterface.Name" xml:space="preserve">
+    <value>grpInterface</value>
+  </data>
+  <data name="&gt;&gt;grpInterface.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpInterface.Parent" xml:space="preserve">
+    <value>tabInterface</value>
+  </data>
+  <data name="&gt;&gt;grpInterface.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabInterface.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="tabInterface.Size" type="System.Drawing.Size, System.Drawing">
+    <value>371, 375</value>
+  </data>
+  <data name="tabInterface.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="tabInterface.Text" xml:space="preserve">
+    <value>Interface</value>
+  </data>
+  <data name="&gt;&gt;tabInterface.Name" xml:space="preserve">
+    <value>tabInterface</value>
+  </data>
+  <data name="&gt;&gt;tabInterface.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabInterface.Parent" xml:space="preserve">
+    <value>Tabs</value>
+  </data>
+  <data name="&gt;&gt;tabInterface.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btnScriptEnableSaves.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 215</value>
+  </data>
+  <data name="btnScriptEnableSaves.Size" type="System.Drawing.Size, System.Drawing">
+    <value>167, 23</value>
+  </data>
+  <data name="btnScriptEnableSaves.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="btnScriptEnableSaves.Text" xml:space="preserve">
+    <value>Enable saves</value>
+  </data>
+  <data name="&gt;&gt;btnScriptEnableSaves.Name" xml:space="preserve">
+    <value>btnScriptEnableSaves</value>
+  </data>
+  <data name="&gt;&gt;btnScriptEnableSaves.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnScriptEnableSaves.Parent" xml:space="preserve">
+    <value>grpMenus</value>
+  </data>
+  <data name="&gt;&gt;btnScriptEnableSaves.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnScriptDisableSaves.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 187</value>
+  </data>
+  <data name="btnScriptDisableSaves.Size" type="System.Drawing.Size, System.Drawing">
+    <value>167, 23</value>
+  </data>
+  <data name="btnScriptDisableSaves.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="btnScriptDisableSaves.Text" xml:space="preserve">
+    <value>Disable saves</value>
+  </data>
+  <data name="&gt;&gt;btnScriptDisableSaves.Name" xml:space="preserve">
+    <value>btnScriptDisableSaves</value>
+  </data>
+  <data name="&gt;&gt;btnScriptDisableSaves.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnScriptDisableSaves.Parent" xml:space="preserve">
+    <value>grpMenus</value>
+  </data>
+  <data name="&gt;&gt;btnScriptDisableSaves.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnScriptGameOver.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 159</value>
+  </data>
+  <data name="btnScriptGameOver.Size" type="System.Drawing.Size, System.Drawing">
+    <value>167, 23</value>
+  </data>
+  <data name="btnScriptGameOver.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="btnScriptGameOver.Text" xml:space="preserve">
+    <value>Game Over</value>
+  </data>
+  <data name="&gt;&gt;btnScriptGameOver.Name" xml:space="preserve">
+    <value>btnScriptGameOver</value>
+  </data>
+  <data name="&gt;&gt;btnScriptGameOver.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnScriptGameOver.Parent" xml:space="preserve">
+    <value>grpMenus</value>
+  </data>
+  <data name="&gt;&gt;btnScriptGameOver.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnScriptLoadGame.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnScriptLoadGame.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 131</value>
+  </data>
+  <data name="btnScriptLoadGame.Size" type="System.Drawing.Size, System.Drawing">
+    <value>167, 23</value>
+  </data>
+  <data name="btnScriptLoadGame.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="btnScriptLoadGame.Text" xml:space="preserve">
+    <value>Load the game</value>
+  </data>
+  <data name="&gt;&gt;btnScriptLoadGame.Name" xml:space="preserve">
+    <value>btnScriptLoadGame</value>
+  </data>
+  <data name="&gt;&gt;btnScriptLoadGame.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnScriptLoadGame.Parent" xml:space="preserve">
+    <value>grpMenus</value>
+  </data>
+  <data name="&gt;&gt;btnScriptLoadGame.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btnScriptSaveGame.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnScriptSaveGame.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 103</value>
+  </data>
+  <data name="btnScriptSaveGame.Size" type="System.Drawing.Size, System.Drawing">
+    <value>167, 23</value>
+  </data>
+  <data name="btnScriptSaveGame.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="btnScriptSaveGame.Text" xml:space="preserve">
+    <value>Save the game</value>
+  </data>
+  <data name="&gt;&gt;btnScriptSaveGame.Name" xml:space="preserve">
+    <value>btnScriptSaveGame</value>
+  </data>
+  <data name="&gt;&gt;btnScriptSaveGame.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnScriptSaveGame.Parent" xml:space="preserve">
+    <value>grpMenus</value>
+  </data>
+  <data name="&gt;&gt;btnScriptSaveGame.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="btnScriptCloseInventory.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 75</value>
+  </data>
+  <data name="btnScriptCloseInventory.Size" type="System.Drawing.Size, System.Drawing">
+    <value>167, 23</value>
+  </data>
+  <data name="btnScriptCloseInventory.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="btnScriptCloseInventory.Text" xml:space="preserve">
+    <value>Close inventory</value>
+  </data>
+  <data name="&gt;&gt;btnScriptCloseInventory.Name" xml:space="preserve">
+    <value>btnScriptCloseInventory</value>
+  </data>
+  <data name="&gt;&gt;btnScriptCloseInventory.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnScriptCloseInventory.Parent" xml:space="preserve">
+    <value>grpMenus</value>
+  </data>
+  <data name="&gt;&gt;btnScriptCloseInventory.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="btnScriptOpenInventory.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 47</value>
+  </data>
+  <data name="btnScriptOpenInventory.Size" type="System.Drawing.Size, System.Drawing">
+    <value>167, 23</value>
+  </data>
+  <data name="btnScriptOpenInventory.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="btnScriptOpenInventory.Text" xml:space="preserve">
+    <value>Open inventory</value>
+  </data>
+  <data name="&gt;&gt;btnScriptOpenInventory.Name" xml:space="preserve">
+    <value>btnScriptOpenInventory</value>
+  </data>
+  <data name="&gt;&gt;btnScriptOpenInventory.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnScriptOpenInventory.Parent" xml:space="preserve">
+    <value>grpMenus</value>
+  </data>
+  <data name="&gt;&gt;btnScriptOpenInventory.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="btnScriptGoToTitleScreen.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 19</value>
+  </data>
+  <data name="btnScriptGoToTitleScreen.Size" type="System.Drawing.Size, System.Drawing">
+    <value>167, 23</value>
+  </data>
+  <data name="btnScriptGoToTitleScreen.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="btnScriptGoToTitleScreen.Text" xml:space="preserve">
+    <value>Title screen</value>
+  </data>
+  <data name="&gt;&gt;btnScriptGoToTitleScreen.Name" xml:space="preserve">
+    <value>btnScriptGoToTitleScreen</value>
+  </data>
+  <data name="&gt;&gt;btnScriptGoToTitleScreen.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnScriptGoToTitleScreen.Parent" xml:space="preserve">
+    <value>grpMenus</value>
+  </data>
+  <data name="&gt;&gt;btnScriptGoToTitleScreen.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="grpMenus.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 6</value>
+  </data>
+  <data name="grpMenus.Size" type="System.Drawing.Size, System.Drawing">
+    <value>179, 249</value>
+  </data>
+  <data name="grpMenus.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="grpMenus.Text" xml:space="preserve">
+    <value>Menus</value>
+  </data>
+  <data name="&gt;&gt;grpMenus.Name" xml:space="preserve">
+    <value>grpMenus</value>
+  </data>
+  <data name="&gt;&gt;grpMenus.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpMenus.Parent" xml:space="preserve">
+    <value>tabMenu</value>
+  </data>
+  <data name="&gt;&gt;grpMenus.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabMenu.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="tabMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>371, 375</value>
+  </data>
+  <data name="tabMenu.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="tabMenu.Text" xml:space="preserve">
+    <value>Menu</value>
+  </data>
+  <data name="&gt;&gt;tabMenu.Name" xml:space="preserve">
+    <value>tabMenu</value>
+  </data>
+  <data name="&gt;&gt;tabMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabMenu.Parent" xml:space="preserve">
+    <value>Tabs</value>
+  </data>
+  <data name="&gt;&gt;tabMenu.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="btnScriptStopSound.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 47</value>
+  </data>
+  <data name="btnScriptStopSound.Size" type="System.Drawing.Size, System.Drawing">
+    <value>167, 23</value>
+  </data>
+  <data name="btnScriptStopSound.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="btnScriptStopSound.Text" xml:space="preserve">
+    <value>Stop sound</value>
+  </data>
+  <data name="&gt;&gt;btnScriptStopSound.Name" xml:space="preserve">
+    <value>btnScriptStopSound</value>
+  </data>
+  <data name="&gt;&gt;btnScriptStopSound.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnScriptStopSound.Parent" xml:space="preserve">
+    <value>grpSounds</value>
+  </data>
+  <data name="&gt;&gt;btnScriptStopSound.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnScriptPlaySound.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 19</value>
+  </data>
+  <data name="btnScriptPlaySound.Size" type="System.Drawing.Size, System.Drawing">
+    <value>167, 23</value>
+  </data>
+  <data name="btnScriptPlaySound.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="btnScriptPlaySound.Text" xml:space="preserve">
+    <value>Play sound</value>
+  </data>
+  <data name="&gt;&gt;btnScriptPlaySound.Name" xml:space="preserve">
+    <value>btnScriptPlaySound</value>
+  </data>
+  <data name="&gt;&gt;btnScriptPlaySound.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnScriptPlaySound.Parent" xml:space="preserve">
+    <value>grpSounds</value>
+  </data>
+  <data name="&gt;&gt;btnScriptPlaySound.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="grpSounds.Location" type="System.Drawing.Point, System.Drawing">
+    <value>193, 6</value>
+  </data>
+  <data name="grpSounds.Size" type="System.Drawing.Size, System.Drawing">
+    <value>179, 83</value>
+  </data>
+  <data name="grpSounds.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="grpSounds.Text" xml:space="preserve">
+    <value>Sounds</value>
+  </data>
+  <data name="&gt;&gt;grpSounds.Name" xml:space="preserve">
+    <value>grpSounds</value>
+  </data>
+  <data name="&gt;&gt;grpSounds.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpSounds.Parent" xml:space="preserve">
+    <value>tabMedia</value>
+  </data>
+  <data name="&gt;&gt;grpSounds.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnScriptChangeMusicFrequency.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 75</value>
+  </data>
+  <data name="btnScriptChangeMusicFrequency.Size" type="System.Drawing.Size, System.Drawing">
+    <value>167, 23</value>
+  </data>
+  <data name="btnScriptChangeMusicFrequency.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="btnScriptChangeMusicFrequency.Text" xml:space="preserve">
+    <value>Change music frequency</value>
+  </data>
+  <data name="&gt;&gt;btnScriptChangeMusicFrequency.Name" xml:space="preserve">
+    <value>btnScriptChangeMusicFrequency</value>
+  </data>
+  <data name="&gt;&gt;btnScriptChangeMusicFrequency.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnScriptChangeMusicFrequency.Parent" xml:space="preserve">
+    <value>grpMusics</value>
+  </data>
+  <data name="&gt;&gt;btnScriptChangeMusicFrequency.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnScriptStopMusic.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 47</value>
+  </data>
+  <data name="btnScriptStopMusic.Size" type="System.Drawing.Size, System.Drawing">
+    <value>167, 23</value>
+  </data>
+  <data name="btnScriptStopMusic.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="btnScriptStopMusic.Text" xml:space="preserve">
+    <value>Stop music</value>
+  </data>
+  <data name="&gt;&gt;btnScriptStopMusic.Name" xml:space="preserve">
+    <value>btnScriptStopMusic</value>
+  </data>
+  <data name="&gt;&gt;btnScriptStopMusic.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnScriptStopMusic.Parent" xml:space="preserve">
+    <value>grpMusics</value>
+  </data>
+  <data name="&gt;&gt;btnScriptStopMusic.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnScriptPlayMusic.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 19</value>
+  </data>
+  <data name="btnScriptPlayMusic.Size" type="System.Drawing.Size, System.Drawing">
+    <value>167, 23</value>
+  </data>
+  <data name="btnScriptPlayMusic.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="btnScriptPlayMusic.Text" xml:space="preserve">
+    <value>Play music</value>
+  </data>
+  <data name="&gt;&gt;btnScriptPlayMusic.Name" xml:space="preserve">
+    <value>btnScriptPlayMusic</value>
+  </data>
+  <data name="&gt;&gt;btnScriptPlayMusic.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnScriptPlayMusic.Parent" xml:space="preserve">
+    <value>grpMusics</value>
+  </data>
+  <data name="&gt;&gt;btnScriptPlayMusic.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="grpMusics.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 6</value>
+  </data>
+  <data name="grpMusics.Size" type="System.Drawing.Size, System.Drawing">
+    <value>179, 110</value>
+  </data>
+  <data name="grpMusics.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="grpMusics.Text" xml:space="preserve">
+    <value>Musics</value>
+  </data>
+  <data name="&gt;&gt;grpMusics.Name" xml:space="preserve">
+    <value>grpMusics</value>
+  </data>
+  <data name="&gt;&gt;grpMusics.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpMusics.Parent" xml:space="preserve">
+    <value>tabMedia</value>
+  </data>
+  <data name="&gt;&gt;grpMusics.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tabMedia.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="tabMedia.Size" type="System.Drawing.Size, System.Drawing">
+    <value>371, 375</value>
+  </data>
+  <data name="tabMedia.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="tabMedia.Text" xml:space="preserve">
+    <value>Media</value>
+  </data>
+  <data name="&gt;&gt;tabMedia.Name" xml:space="preserve">
+    <value>tabMedia</value>
+  </data>
+  <data name="&gt;&gt;tabMedia.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabMedia.Parent" xml:space="preserve">
+    <value>Tabs</value>
+  </data>
+  <data name="&gt;&gt;tabMedia.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="Tabs.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="Tabs.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="Tabs.Size" type="System.Drawing.Size, System.Drawing">
+    <value>379, 401</value>
+  </data>
+  <data name="Tabs.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;Tabs.Name" xml:space="preserve">
+    <value>Tabs</value>
+  </data>
+  <data name="&gt;&gt;Tabs.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Tabs.Parent" xml:space="preserve">
+    <value>Panel2</value>
+  </data>
+  <data name="&gt;&gt;Tabs.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Panel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="Panel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 401</value>
+  </data>
+  <data name="Panel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>379, 38</value>
+  </data>
+  <data name="Panel.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;Panel.Name" xml:space="preserve">
+    <value>Panel</value>
+  </data>
+  <data name="&gt;&gt;Panel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Panel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Panel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Panel2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="Panel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="Panel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>379, 401</value>
+  </data>
+  <data name="Panel2.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;Panel2.Name" xml:space="preserve">
+    <value>Panel2</value>
+  </data>
+  <data name="&gt;&gt;Panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Panel2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Panel2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>379, 439</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Event Actions</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>EventActions</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

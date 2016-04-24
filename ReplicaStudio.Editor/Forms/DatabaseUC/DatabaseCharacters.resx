@@ -1,0 +1,792 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="TalkingFace.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="TalkingFace.Location" type="System.Drawing.Point, System.Drawing">
+    <value>78, 220</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="TalkingFace.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="TalkingFace.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 123</value>
+  </data>
+  <data name="TalkingFace.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;TalkingFace.Name" xml:space="preserve">
+    <value>TalkingFace</value>
+  </data>
+  <data name="&gt;&gt;TalkingFace.Type" xml:space="preserve">
+    <value>ReplicaStudio.Editor.Forms.UserControls.AnimationControl, ReplicaStudio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;TalkingFace.Parent" xml:space="preserve">
+    <value>grpInformations</value>
+  </data>
+  <data name="&gt;&gt;TalkingFace.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblTalkingFace.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblTalkingFace.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblTalkingFace.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 220</value>
+  </data>
+  <data name="lblTalkingFace.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 13</value>
+  </data>
+  <data name="lblTalkingFace.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="lblTalkingFace.Text" xml:space="preserve">
+    <value>Talking Face :</value>
+  </data>
+  <data name="&gt;&gt;lblTalkingFace.Name" xml:space="preserve">
+    <value>lblTalkingFace</value>
+  </data>
+  <data name="&gt;&gt;lblTalkingFace.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblTalkingFace.Parent" xml:space="preserve">
+    <value>grpInformations</value>
+  </data>
+  <data name="&gt;&gt;lblTalkingFace.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ddpSpeed.Location" type="System.Drawing.Point, System.Drawing">
+    <value>78, 50</value>
+  </data>
+  <data name="ddpSpeed.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 20</value>
+  </data>
+  <data name="ddpSpeed.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;ddpSpeed.Name" xml:space="preserve">
+    <value>ddpSpeed</value>
+  </data>
+  <data name="&gt;&gt;ddpSpeed.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ddpSpeed.Parent" xml:space="preserve">
+    <value>grpInformations</value>
+  </data>
+  <data name="&gt;&gt;ddpSpeed.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblSpeed.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblSpeed.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 52</value>
+  </data>
+  <data name="lblSpeed.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 13</value>
+  </data>
+  <data name="lblSpeed.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="lblSpeed.Text" xml:space="preserve">
+    <value>Speed :</value>
+  </data>
+  <data name="&gt;&gt;lblSpeed.Name" xml:space="preserve">
+    <value>lblSpeed</value>
+  </data>
+  <data name="&gt;&gt;lblSpeed.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblSpeed.Parent" xml:space="preserve">
+    <value>grpInformations</value>
+  </data>
+  <data name="&gt;&gt;lblSpeed.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblFace.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblFace.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 83</value>
+  </data>
+  <data name="lblFace.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 13</value>
+  </data>
+  <data name="lblFace.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lblFace.Text" xml:space="preserve">
+    <value>Face :</value>
+  </data>
+  <data name="&gt;&gt;lblFace.Name" xml:space="preserve">
+    <value>lblFace</value>
+  </data>
+  <data name="&gt;&gt;lblFace.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblFace.Parent" xml:space="preserve">
+    <value>grpInformations</value>
+  </data>
+  <data name="&gt;&gt;lblFace.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="txtName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>78, 19</value>
+  </data>
+  <data name="txtName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 20</value>
+  </data>
+  <data name="txtName.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;txtName.Name" xml:space="preserve">
+    <value>txtName</value>
+  </data>
+  <data name="&gt;&gt;txtName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtName.Parent" xml:space="preserve">
+    <value>grpInformations</value>
+  </data>
+  <data name="&gt;&gt;txtName.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lblName.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 22</value>
+  </data>
+  <data name="lblName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>41, 13</value>
+  </data>
+  <data name="lblName.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblName.Text" xml:space="preserve">
+    <value>Name :</value>
+  </data>
+  <data name="&gt;&gt;lblName.Name" xml:space="preserve">
+    <value>lblName</value>
+  </data>
+  <data name="&gt;&gt;lblName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblName.Parent" xml:space="preserve">
+    <value>grpInformations</value>
+  </data>
+  <data name="&gt;&gt;lblName.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="AnimFace.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="AnimFace.Location" type="System.Drawing.Point, System.Drawing">
+    <value>78, 83</value>
+  </data>
+  <data name="AnimFace.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="AnimFace.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 123</value>
+  </data>
+  <data name="AnimFace.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;AnimFace.Name" xml:space="preserve">
+    <value>AnimFace</value>
+  </data>
+  <data name="&gt;&gt;AnimFace.Type" xml:space="preserve">
+    <value>ReplicaStudio.Editor.Forms.UserControls.AnimationControl, ReplicaStudio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;AnimFace.Parent" xml:space="preserve">
+    <value>grpInformations</value>
+  </data>
+  <data name="&gt;&gt;AnimFace.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="grpInformations.Location" type="System.Drawing.Point, System.Drawing">
+    <value>226, 3</value>
+  </data>
+  <data name="grpInformations.Size" type="System.Drawing.Size, System.Drawing">
+    <value>214, 359</value>
+  </data>
+  <data name="grpInformations.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="grpInformations.Text" xml:space="preserve">
+    <value>Informations</value>
+  </data>
+  <data name="&gt;&gt;grpInformations.Name" xml:space="preserve">
+    <value>grpInformations</value>
+  </data>
+  <data name="&gt;&gt;grpInformations.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpInformations.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;grpInformations.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btnColorPalette.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnColorPalette.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnColorPalette.Location" type="System.Drawing.Point, System.Drawing">
+    <value>228, 416</value>
+  </data>
+  <data name="btnColorPalette.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="btnColorPalette.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="btnColorPalette.Text" xml:space="preserve">
+    <value>Choose...</value>
+  </data>
+  <data name="&gt;&gt;btnColorPalette.Name" xml:space="preserve">
+    <value>btnColorPalette</value>
+  </data>
+  <data name="&gt;&gt;btnColorPalette.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnColorPalette.Parent" xml:space="preserve">
+    <value>grpAnimations</value>
+  </data>
+  <data name="&gt;&gt;btnColorPalette.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblPalette.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblPalette.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="lblPalette.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblPalette.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 421</value>
+  </data>
+  <data name="lblPalette.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 13</value>
+  </data>
+  <data name="lblPalette.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="lblPalette.Text" xml:space="preserve">
+    <value>Color palette :</value>
+  </data>
+  <data name="&gt;&gt;lblPalette.Name" xml:space="preserve">
+    <value>lblPalette</value>
+  </data>
+  <data name="&gt;&gt;lblPalette.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblPalette.Parent" xml:space="preserve">
+    <value>grpAnimations</value>
+  </data>
+  <data name="&gt;&gt;lblPalette.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ddpTalkingAnim.Location" type="System.Drawing.Point, System.Drawing">
+    <value>107, 383</value>
+  </data>
+  <data name="ddpTalkingAnim.Size" type="System.Drawing.Size, System.Drawing">
+    <value>222, 21</value>
+  </data>
+  <data name="ddpTalkingAnim.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;ddpTalkingAnim.Name" xml:space="preserve">
+    <value>ddpTalkingAnim</value>
+  </data>
+  <data name="&gt;&gt;ddpTalkingAnim.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ddpTalkingAnim.Parent" xml:space="preserve">
+    <value>grpAnimations</value>
+  </data>
+  <data name="&gt;&gt;ddpTalkingAnim.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblTalkingAnim.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblTalkingAnim.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 386</value>
+  </data>
+  <data name="lblTalkingAnim.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 13</value>
+  </data>
+  <data name="lblTalkingAnim.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="lblTalkingAnim.Text" xml:space="preserve">
+    <value>Talking animation :</value>
+  </data>
+  <data name="&gt;&gt;lblTalkingAnim.Name" xml:space="preserve">
+    <value>lblTalkingAnim</value>
+  </data>
+  <data name="&gt;&gt;lblTalkingAnim.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblTalkingAnim.Parent" xml:space="preserve">
+    <value>grpAnimations</value>
+  </data>
+  <data name="&gt;&gt;lblTalkingAnim.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="ddpWalkingAnim.Location" type="System.Drawing.Point, System.Drawing">
+    <value>107, 349</value>
+  </data>
+  <data name="ddpWalkingAnim.Size" type="System.Drawing.Size, System.Drawing">
+    <value>222, 21</value>
+  </data>
+  <data name="ddpWalkingAnim.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;ddpWalkingAnim.Name" xml:space="preserve">
+    <value>ddpWalkingAnim</value>
+  </data>
+  <data name="&gt;&gt;ddpWalkingAnim.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ddpWalkingAnim.Parent" xml:space="preserve">
+    <value>grpAnimations</value>
+  </data>
+  <data name="&gt;&gt;ddpWalkingAnim.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lblWalkingAnim.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblWalkingAnim.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 352</value>
+  </data>
+  <data name="lblWalkingAnim.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 13</value>
+  </data>
+  <data name="lblWalkingAnim.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="lblWalkingAnim.Text" xml:space="preserve">
+    <value>Walking animation :</value>
+  </data>
+  <data name="&gt;&gt;lblWalkingAnim.Name" xml:space="preserve">
+    <value>lblWalkingAnim</value>
+  </data>
+  <data name="&gt;&gt;lblWalkingAnim.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblWalkingAnim.Parent" xml:space="preserve">
+    <value>grpAnimations</value>
+  </data>
+  <data name="&gt;&gt;lblWalkingAnim.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="ddpStandingAnim.Location" type="System.Drawing.Point, System.Drawing">
+    <value>107, 315</value>
+  </data>
+  <data name="ddpStandingAnim.Size" type="System.Drawing.Size, System.Drawing">
+    <value>222, 21</value>
+  </data>
+  <data name="ddpStandingAnim.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;ddpStandingAnim.Name" xml:space="preserve">
+    <value>ddpStandingAnim</value>
+  </data>
+  <data name="&gt;&gt;ddpStandingAnim.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ddpStandingAnim.Parent" xml:space="preserve">
+    <value>grpAnimations</value>
+  </data>
+  <data name="&gt;&gt;ddpStandingAnim.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="lblStandingAnim.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblStandingAnim.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 318</value>
+  </data>
+  <data name="lblStandingAnim.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 13</value>
+  </data>
+  <data name="lblStandingAnim.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="lblStandingAnim.Text" xml:space="preserve">
+    <value>Standing animation :</value>
+  </data>
+  <data name="&gt;&gt;lblStandingAnim.Name" xml:space="preserve">
+    <value>lblStandingAnim</value>
+  </data>
+  <data name="&gt;&gt;lblStandingAnim.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblStandingAnim.Parent" xml:space="preserve">
+    <value>grpAnimations</value>
+  </data>
+  <data name="&gt;&gt;lblStandingAnim.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="AnimCharacter.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="AnimCharacter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 18</value>
+  </data>
+  <data name="AnimCharacter.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="AnimCharacter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>325, 284</value>
+  </data>
+  <data name="AnimCharacter.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;AnimCharacter.Name" xml:space="preserve">
+    <value>AnimCharacter</value>
+  </data>
+  <data name="&gt;&gt;AnimCharacter.Type" xml:space="preserve">
+    <value>ReplicaStudio.Editor.Forms.UserControls.AnimationControl, ReplicaStudio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;AnimCharacter.Parent" xml:space="preserve">
+    <value>grpAnimations</value>
+  </data>
+  <data name="&gt;&gt;AnimCharacter.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="grpAnimations.Location" type="System.Drawing.Point, System.Drawing">
+    <value>446, 3</value>
+  </data>
+  <data name="grpAnimations.Size" type="System.Drawing.Size, System.Drawing">
+    <value>334, 456</value>
+  </data>
+  <data name="grpAnimations.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="grpAnimations.Text" xml:space="preserve">
+    <value>Animations</value>
+  </data>
+  <data name="&gt;&gt;grpAnimations.Name" xml:space="preserve">
+    <value>grpAnimations</value>
+  </data>
+  <data name="&gt;&gt;grpAnimations.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpAnimations.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;grpAnimations.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblColor.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblColor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 28</value>
+  </data>
+  <data name="lblColor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 13</value>
+  </data>
+  <data name="lblColor.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblColor.Text" xml:space="preserve">
+    <value>Dialog color :</value>
+  </data>
+  <data name="&gt;&gt;lblColor.Name" xml:space="preserve">
+    <value>lblColor</value>
+  </data>
+  <data name="&gt;&gt;lblColor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblColor.Parent" xml:space="preserve">
+    <value>grpDialogs</value>
+  </data>
+  <data name="&gt;&gt;lblColor.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnChoose.Location" type="System.Drawing.Point, System.Drawing">
+    <value>103, 23</value>
+  </data>
+  <data name="btnChoose.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="btnChoose.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="btnChoose.Text" xml:space="preserve">
+    <value>Choose...</value>
+  </data>
+  <data name="&gt;&gt;btnChoose.Name" xml:space="preserve">
+    <value>btnChoose</value>
+  </data>
+  <data name="&gt;&gt;btnChoose.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnChoose.Parent" xml:space="preserve">
+    <value>grpDialogs</value>
+  </data>
+  <data name="&gt;&gt;btnChoose.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ddpFont.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="ddpFont.Location" type="System.Drawing.Point, System.Drawing">
+    <value>103, 58</value>
+  </data>
+  <data name="ddpFont.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 21</value>
+  </data>
+  <data name="ddpFont.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;ddpFont.Name" xml:space="preserve">
+    <value>ddpFont</value>
+  </data>
+  <data name="&gt;&gt;ddpFont.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ddpFont.Parent" xml:space="preserve">
+    <value>grpDialogs</value>
+  </data>
+  <data name="&gt;&gt;ddpFont.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblFont.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblFont.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="lblFont.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblFont.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 61</value>
+  </data>
+  <data name="lblFont.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 13</value>
+  </data>
+  <data name="lblFont.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="lblFont.Text" xml:space="preserve">
+    <value>Font :</value>
+  </data>
+  <data name="&gt;&gt;lblFont.Name" xml:space="preserve">
+    <value>lblFont</value>
+  </data>
+  <data name="&gt;&gt;lblFont.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblFont.Parent" xml:space="preserve">
+    <value>grpDialogs</value>
+  </data>
+  <data name="&gt;&gt;lblFont.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="grpDialogs.Location" type="System.Drawing.Point, System.Drawing">
+    <value>226, 368</value>
+  </data>
+  <data name="grpDialogs.Size" type="System.Drawing.Size, System.Drawing">
+    <value>214, 91</value>
+  </data>
+  <data name="grpDialogs.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="grpDialogs.Text" xml:space="preserve">
+    <value>Dialogs</value>
+  </data>
+  <data name="&gt;&gt;grpDialogs.Name" xml:space="preserve">
+    <value>grpDialogs</value>
+  </data>
+  <data name="&gt;&gt;grpDialogs.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpDialogs.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;grpDialogs.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="ColorDialog.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="ListCharacters.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="ListCharacters.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="ListCharacters.Size" type="System.Drawing.Size, System.Drawing">
+    <value>220, 462</value>
+  </data>
+  <data name="ListCharacters.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;ListCharacters.Name" xml:space="preserve">
+    <value>ListCharacters</value>
+  </data>
+  <data name="&gt;&gt;ListCharacters.Type" xml:space="preserve">
+    <value>ReplicaStudio.Editor.Forms.UserControls.ListItems, ReplicaStudio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ListCharacters.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ListCharacters.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>786, 462</value>
+  </data>
+  <data name="&gt;&gt;ColorDialog.Name" xml:space="preserve">
+    <value>ColorDialog</value>
+  </data>
+  <data name="&gt;&gt;ColorDialog.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColorDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>DatabaseCharacters</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

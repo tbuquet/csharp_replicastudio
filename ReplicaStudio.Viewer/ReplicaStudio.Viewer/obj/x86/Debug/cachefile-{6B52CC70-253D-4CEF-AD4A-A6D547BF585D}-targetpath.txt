@@ -1,0 +1,16 @@
+Content\Fonts\Arial\Arial20.xnb
+Content\Fonts\Arial\Arial14.xnb
+Content\Fonts\Arial\Arial16.xnb
+Content\Fonts\Arial\Arial12.xnb
+Content\Fonts\Debug\Debug.xnb
+Content\Fonts\Debug\Debug2.xnb
+Content\Fonts\Arial\Arial8.xnb
+Content\Fonts\Arial\Arial9.xnb
+Content\Fonts\Arial\Arial10.xnb
+Content\Fonts\Arial\Arial11.xnb
+Content\Fonts\Arial\Arial18.xnb
+Content\Fonts\Arial\Arial24.xnb
+Content\Fonts\Arial\Arial28.xnb
+Content\Fonts\Arial\Arial32.xnb
+Content\Fonts\Arial\Arial36.xnb
+Content\Fonts\Arial\Arial42.xnb

@@ -1,0 +1,993 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="ScriptManager.Location" type="System.Drawing.Point, System.Drawing">
+    <value>323, 19</value>
+  </data>
+  <data name="ScriptManager.Size" type="System.Drawing.Size, System.Drawing">
+    <value>458, 428</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ScriptManager.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;ScriptManager.Name" xml:space="preserve">
+    <value>ScriptManager</value>
+  </data>
+  <data name="&gt;&gt;ScriptManager.Type" xml:space="preserve">
+    <value>ReplicaStudio.Editor.Forms.UserControls.ScriptManager, ReplicaStudio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ScriptManager.Parent" xml:space="preserve">
+    <value>Page_1</value>
+  </data>
+  <data name="&gt;&gt;ScriptManager.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblCommands.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblCommands.Location" type="System.Drawing.Point, System.Drawing">
+    <value>329, 3</value>
+  </data>
+  <data name="lblCommands.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 13</value>
+  </data>
+  <data name="lblCommands.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="lblCommands.Text" xml:space="preserve">
+    <value>Commands</value>
+  </data>
+  <data name="&gt;&gt;lblCommands.Name" xml:space="preserve">
+    <value>lblCommands</value>
+  </data>
+  <data name="&gt;&gt;lblCommands.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblCommands.Parent" xml:space="preserve">
+    <value>Page_1</value>
+  </data>
+  <data name="&gt;&gt;lblCommands.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="itemButton1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>82, 15</value>
+  </data>
+  <data name="itemButton1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 20</value>
+  </data>
+  <data name="itemButton1.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;itemButton1.Name" xml:space="preserve">
+    <value>itemButton1</value>
+  </data>
+  <data name="&gt;&gt;itemButton1.Type" xml:space="preserve">
+    <value>ReplicaStudio.Editor.Forms.UserControls.ItemButton, ReplicaStudio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;itemButton1.Parent" xml:space="preserve">
+    <value>grpConditionsExecute</value>
+  </data>
+  <data name="&gt;&gt;itemButton1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ddpAction.Location" type="System.Drawing.Point, System.Drawing">
+    <value>82, 43</value>
+  </data>
+  <data name="ddpAction.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 21</value>
+  </data>
+  <data name="ddpAction.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;ddpAction.Name" xml:space="preserve">
+    <value>ddpAction</value>
+  </data>
+  <data name="&gt;&gt;ddpAction.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ddpAction.Parent" xml:space="preserve">
+    <value>grpConditionsExecute</value>
+  </data>
+  <data name="&gt;&gt;ddpAction.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblActionIsUsed.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblActionIsUsed.Location" type="System.Drawing.Point, System.Drawing">
+    <value>252, 46</value>
+  </data>
+  <data name="lblActionIsUsed.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 13</value>
+  </data>
+  <data name="lblActionIsUsed.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="lblActionIsUsed.Text" xml:space="preserve">
+    <value>is used</value>
+  </data>
+  <data name="&gt;&gt;lblActionIsUsed.Name" xml:space="preserve">
+    <value>lblActionIsUsed</value>
+  </data>
+  <data name="&gt;&gt;lblActionIsUsed.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblActionIsUsed.Parent" xml:space="preserve">
+    <value>grpConditionsExecute</value>
+  </data>
+  <data name="&gt;&gt;lblActionIsUsed.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="chkItem.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkItem.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 18</value>
+  </data>
+  <data name="chkItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 17</value>
+  </data>
+  <data name="chkItem.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="chkItem.Text" xml:space="preserve">
+    <value>Item</value>
+  </data>
+  <data name="&gt;&gt;chkItem.Name" xml:space="preserve">
+    <value>chkItem</value>
+  </data>
+  <data name="&gt;&gt;chkItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkItem.Parent" xml:space="preserve">
+    <value>grpConditionsExecute</value>
+  </data>
+  <data name="&gt;&gt;chkItem.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblIsUsed.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblIsUsed.Location" type="System.Drawing.Point, System.Drawing">
+    <value>252, 19</value>
+  </data>
+  <data name="lblIsUsed.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 13</value>
+  </data>
+  <data name="lblIsUsed.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="lblIsUsed.Text" xml:space="preserve">
+    <value>is used</value>
+  </data>
+  <data name="&gt;&gt;lblIsUsed.Name" xml:space="preserve">
+    <value>lblIsUsed</value>
+  </data>
+  <data name="&gt;&gt;lblIsUsed.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblIsUsed.Parent" xml:space="preserve">
+    <value>grpConditionsExecute</value>
+  </data>
+  <data name="&gt;&gt;lblIsUsed.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="chkAction.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkAction.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 45</value>
+  </data>
+  <data name="chkAction.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 17</value>
+  </data>
+  <data name="chkAction.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="chkAction.Text" xml:space="preserve">
+    <value>Action</value>
+  </data>
+  <data name="&gt;&gt;chkAction.Name" xml:space="preserve">
+    <value>chkAction</value>
+  </data>
+  <data name="&gt;&gt;chkAction.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkAction.Parent" xml:space="preserve">
+    <value>grpConditionsExecute</value>
+  </data>
+  <data name="&gt;&gt;chkAction.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="grpConditionsExecute.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 120</value>
+  </data>
+  <data name="grpConditionsExecute.Size" type="System.Drawing.Size, System.Drawing">
+    <value>320, 69</value>
+  </data>
+  <data name="grpConditionsExecute.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="grpConditionsExecute.Text" xml:space="preserve">
+    <value>Conditions to execute</value>
+  </data>
+  <data name="&gt;&gt;grpConditionsExecute.Name" xml:space="preserve">
+    <value>grpConditionsExecute</value>
+  </data>
+  <data name="&gt;&gt;grpConditionsExecute.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpConditionsExecute.Parent" xml:space="preserve">
+    <value>LeftPanel</value>
+  </data>
+  <data name="&gt;&gt;grpConditionsExecute.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="AnimationConditions.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 120</value>
+  </data>
+  <data name="AnimationConditions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>320, 240</value>
+  </data>
+  <data name="AnimationConditions.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;AnimationConditions.Name" xml:space="preserve">
+    <value>AnimationConditions</value>
+  </data>
+  <data name="&gt;&gt;AnimationConditions.Type" xml:space="preserve">
+    <value>ReplicaStudio.Editor.Forms.UserControls.AnimationsConditions, ReplicaStudio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;AnimationConditions.Parent" xml:space="preserve">
+    <value>LeftPanel</value>
+  </data>
+  <data name="&gt;&gt;AnimationConditions.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="EventConditions.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 192</value>
+  </data>
+  <data name="EventConditions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>320, 240</value>
+  </data>
+  <data name="EventConditions.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;EventConditions.Name" xml:space="preserve">
+    <value>EventConditions</value>
+  </data>
+  <data name="&gt;&gt;EventConditions.Type" xml:space="preserve">
+    <value>ReplicaStudio.Editor.Forms.UserControls.EventConditions, ReplicaStudio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;EventConditions.Parent" xml:space="preserve">
+    <value>LeftPanel</value>
+  </data>
+  <data name="&gt;&gt;EventConditions.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="CharacterConditions.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 120</value>
+  </data>
+  <data name="CharacterConditions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>320, 240</value>
+  </data>
+  <data name="CharacterConditions.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;CharacterConditions.Name" xml:space="preserve">
+    <value>CharacterConditions</value>
+  </data>
+  <data name="&gt;&gt;CharacterConditions.Type" xml:space="preserve">
+    <value>ReplicaStudio.Editor.Forms.UserControls.CharacterConditions, ReplicaStudio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;CharacterConditions.Parent" xml:space="preserve">
+    <value>LeftPanel</value>
+  </data>
+  <data name="&gt;&gt;CharacterConditions.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="characterButton1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>83, 90</value>
+  </data>
+  <data name="characterButton1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 20</value>
+  </data>
+  <data name="characterButton1.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;characterButton1.Name" xml:space="preserve">
+    <value>characterButton1</value>
+  </data>
+  <data name="&gt;&gt;characterButton1.Type" xml:space="preserve">
+    <value>ReplicaStudio.Editor.Forms.UserControls.CharacterButton, ReplicaStudio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;characterButton1.Parent" xml:space="preserve">
+    <value>grpConditionsAppear</value>
+  </data>
+  <data name="&gt;&gt;characterButton1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="variableButton1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>83, 43</value>
+  </data>
+  <data name="variableButton1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 20</value>
+  </data>
+  <data name="variableButton1.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;variableButton1.Name" xml:space="preserve">
+    <value>variableButton1</value>
+  </data>
+  <data name="&gt;&gt;variableButton1.Type" xml:space="preserve">
+    <value>ReplicaStudio.Editor.Forms.UserControls.VariableButton, ReplicaStudio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;variableButton1.Parent" xml:space="preserve">
+    <value>grpConditionsAppear</value>
+  </data>
+  <data name="&gt;&gt;variableButton1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="triggerButton1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>83, 17</value>
+  </data>
+  <data name="triggerButton1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 20</value>
+  </data>
+  <data name="triggerButton1.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;triggerButton1.Name" xml:space="preserve">
+    <value>triggerButton1</value>
+  </data>
+  <data name="&gt;&gt;triggerButton1.Type" xml:space="preserve">
+    <value>ReplicaStudio.Editor.Forms.UserControls.TriggerButton, ReplicaStudio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;triggerButton1.Parent" xml:space="preserve">
+    <value>grpConditionsAppear</value>
+  </data>
+  <data name="&gt;&gt;triggerButton1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblCharacterIsPlayed.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblCharacterIsPlayed.Location" type="System.Drawing.Point, System.Drawing">
+    <value>252, 98</value>
+  </data>
+  <data name="lblCharacterIsPlayed.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 13</value>
+  </data>
+  <data name="lblCharacterIsPlayed.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="lblCharacterIsPlayed.Text" xml:space="preserve">
+    <value>is played</value>
+  </data>
+  <data name="&gt;&gt;lblCharacterIsPlayed.Name" xml:space="preserve">
+    <value>lblCharacterIsPlayed</value>
+  </data>
+  <data name="&gt;&gt;lblCharacterIsPlayed.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblCharacterIsPlayed.Parent" xml:space="preserve">
+    <value>grpConditionsAppear</value>
+  </data>
+  <data name="&gt;&gt;lblCharacterIsPlayed.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="chkCharacter.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkCharacter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 90</value>
+  </data>
+  <data name="chkCharacter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 17</value>
+  </data>
+  <data name="chkCharacter.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="chkCharacter.Text" xml:space="preserve">
+    <value>Character</value>
+  </data>
+  <data name="&gt;&gt;chkCharacter.Name" xml:space="preserve">
+    <value>chkCharacter</value>
+  </data>
+  <data name="&gt;&gt;chkCharacter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkCharacter.Parent" xml:space="preserve">
+    <value>grpConditionsAppear</value>
+  </data>
+  <data name="&gt;&gt;chkCharacter.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lblVariableOrMore.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblVariableOrMore.Location" type="System.Drawing.Point, System.Drawing">
+    <value>252, 69</value>
+  </data>
+  <data name="lblVariableOrMore.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 13</value>
+  </data>
+  <data name="lblVariableOrMore.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="lblVariableOrMore.Text" xml:space="preserve">
+    <value>or more</value>
+  </data>
+  <data name="&gt;&gt;lblVariableOrMore.Name" xml:space="preserve">
+    <value>lblVariableOrMore</value>
+  </data>
+  <data name="&gt;&gt;lblVariableOrMore.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblVariableOrMore.Parent" xml:space="preserve">
+    <value>grpConditionsAppear</value>
+  </data>
+  <data name="&gt;&gt;lblVariableOrMore.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="txtVariableValue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>132, 66</value>
+  </data>
+  <data name="txtVariableValue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>114, 20</value>
+  </data>
+  <data name="txtVariableValue.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="txtVariableValue.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;txtVariableValue.Name" xml:space="preserve">
+    <value>txtVariableValue</value>
+  </data>
+  <data name="&gt;&gt;txtVariableValue.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtVariableValue.Parent" xml:space="preserve">
+    <value>grpConditionsAppear</value>
+  </data>
+  <data name="&gt;&gt;txtVariableValue.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="lblVariableIs.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblVariableIs.Location" type="System.Drawing.Point, System.Drawing">
+    <value>112, 69</value>
+  </data>
+  <data name="lblVariableIs.Size" type="System.Drawing.Size, System.Drawing">
+    <value>14, 13</value>
+  </data>
+  <data name="lblVariableIs.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="lblVariableIs.Text" xml:space="preserve">
+    <value>is</value>
+  </data>
+  <data name="&gt;&gt;lblVariableIs.Name" xml:space="preserve">
+    <value>lblVariableIs</value>
+  </data>
+  <data name="&gt;&gt;lblVariableIs.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblVariableIs.Parent" xml:space="preserve">
+    <value>grpConditionsAppear</value>
+  </data>
+  <data name="&gt;&gt;lblVariableIs.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="chkVariable.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkVariable.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 45</value>
+  </data>
+  <data name="chkVariable.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 17</value>
+  </data>
+  <data name="chkVariable.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="chkVariable.Text" xml:space="preserve">
+    <value>Variable</value>
+  </data>
+  <data name="&gt;&gt;chkVariable.Name" xml:space="preserve">
+    <value>chkVariable</value>
+  </data>
+  <data name="&gt;&gt;chkVariable.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkVariable.Parent" xml:space="preserve">
+    <value>grpConditionsAppear</value>
+  </data>
+  <data name="&gt;&gt;chkVariable.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="chkTrigger.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkTrigger.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 17</value>
+  </data>
+  <data name="chkTrigger.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 17</value>
+  </data>
+  <data name="chkTrigger.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="chkTrigger.Text" xml:space="preserve">
+    <value>Trigger</value>
+  </data>
+  <data name="&gt;&gt;chkTrigger.Name" xml:space="preserve">
+    <value>chkTrigger</value>
+  </data>
+  <data name="&gt;&gt;chkTrigger.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkTrigger.Parent" xml:space="preserve">
+    <value>grpConditionsAppear</value>
+  </data>
+  <data name="&gt;&gt;chkTrigger.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="grpConditionsAppear.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="grpConditionsAppear.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="grpConditionsAppear.Size" type="System.Drawing.Size, System.Drawing">
+    <value>320, 117</value>
+  </data>
+  <data name="grpConditionsAppear.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="grpConditionsAppear.Text" xml:space="preserve">
+    <value>Conditions to appear</value>
+  </data>
+  <data name="&gt;&gt;grpConditionsAppear.Name" xml:space="preserve">
+    <value>grpConditionsAppear</value>
+  </data>
+  <data name="&gt;&gt;grpConditionsAppear.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpConditionsAppear.Parent" xml:space="preserve">
+    <value>LeftPanel</value>
+  </data>
+  <data name="&gt;&gt;grpConditionsAppear.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="LeftPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="LeftPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="LeftPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>320, 423</value>
+  </data>
+  <data name="LeftPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;LeftPanel.Name" xml:space="preserve">
+    <value>LeftPanel</value>
+  </data>
+  <data name="&gt;&gt;LeftPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LeftPanel.Parent" xml:space="preserve">
+    <value>Page_1</value>
+  </data>
+  <data name="&gt;&gt;LeftPanel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Page_1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="Page_1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="Page_1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>784, 429</value>
+  </data>
+  <data name="Page_1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Page_1.Text" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;Page_1.Name" xml:space="preserve">
+    <value>Page_1</value>
+  </data>
+  <data name="&gt;&gt;Page_1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Page_1.Parent" xml:space="preserve">
+    <value>PagesManager</value>
+  </data>
+  <data name="&gt;&gt;Page_1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="PagesManager.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="PagesManager.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 57</value>
+  </data>
+  <data name="PagesManager.Size" type="System.Drawing.Size, System.Drawing">
+    <value>792, 455</value>
+  </data>
+  <data name="PagesManager.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;PagesManager.Name" xml:space="preserve">
+    <value>PagesManager</value>
+  </data>
+  <data name="&gt;&gt;PagesManager.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PagesManager.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;PagesManager.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="lblEventName.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblEventName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1, 19</value>
+  </data>
+  <data name="lblEventName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 13</value>
+  </data>
+  <data name="lblEventName.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="lblEventName.Text" xml:space="preserve">
+    <value>Name:</value>
+  </data>
+  <data name="&gt;&gt;lblEventName.Name" xml:space="preserve">
+    <value>lblEventName</value>
+  </data>
+  <data name="&gt;&gt;lblEventName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblEventName.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblEventName.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="btnNewPage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>227, 9</value>
+  </data>
+  <data name="btnNewPage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 36</value>
+  </data>
+  <data name="btnNewPage.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="btnNewPage.Text" xml:space="preserve">
+    <value>New page</value>
+  </data>
+  <data name="&gt;&gt;btnNewPage.Name" xml:space="preserve">
+    <value>btnNewPage</value>
+  </data>
+  <data name="&gt;&gt;btnNewPage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnNewPage.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnNewPage.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="btnCopy.Location" type="System.Drawing.Point, System.Drawing">
+    <value>365, 9</value>
+  </data>
+  <data name="btnCopy.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 36</value>
+  </data>
+  <data name="btnCopy.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="btnCopy.Text" xml:space="preserve">
+    <value>Duplicate page</value>
+  </data>
+  <data name="&gt;&gt;btnCopy.Name" xml:space="preserve">
+    <value>btnCopy</value>
+  </data>
+  <data name="&gt;&gt;btnCopy.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnCopy.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnCopy.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="btnDeletePage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>501, 9</value>
+  </data>
+  <data name="btnDeletePage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 36</value>
+  </data>
+  <data name="btnDeletePage.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="btnDeletePage.Text" xml:space="preserve">
+    <value>Delete page</value>
+  </data>
+  <data name="&gt;&gt;btnDeletePage.Name" xml:space="preserve">
+    <value>btnDeletePage</value>
+  </data>
+  <data name="&gt;&gt;btnDeletePage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnDeletePage.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnDeletePage.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="btnEmpty.Location" type="System.Drawing.Point, System.Drawing">
+    <value>635, 9</value>
+  </data>
+  <data name="btnEmpty.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 36</value>
+  </data>
+  <data name="btnEmpty.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="btnEmpty.Text" xml:space="preserve">
+    <value>Empty page</value>
+  </data>
+  <data name="&gt;&gt;btnEmpty.Name" xml:space="preserve">
+    <value>btnEmpty</value>
+  </data>
+  <data name="&gt;&gt;btnEmpty.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnEmpty.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnEmpty.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btnOK.Location" type="System.Drawing.Point, System.Drawing">
+    <value>472, 515</value>
+  </data>
+  <data name="btnOK.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="btnOK.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="btnOK.Text" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="&gt;&gt;btnOK.Name" xml:space="preserve">
+    <value>btnOK</value>
+  </data>
+  <data name="&gt;&gt;btnOK.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnOK.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnOK.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnCancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>580, 515</value>
+  </data>
+  <data name="btnCancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="btnCancel.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="btnCancel.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Name" xml:space="preserve">
+    <value>btnCancel</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnApply.Location" type="System.Drawing.Point, System.Drawing">
+    <value>687, 515</value>
+  </data>
+  <data name="btnApply.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="btnApply.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="btnApply.Text" xml:space="preserve">
+    <value>Apply</value>
+  </data>
+  <data name="&gt;&gt;btnApply.Name" xml:space="preserve">
+    <value>btnApply</value>
+  </data>
+  <data name="&gt;&gt;btnApply.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnApply.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnApply.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtEventName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 16</value>
+  </data>
+  <data name="txtEventName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>136, 20</value>
+  </data>
+  <data name="txtEventName.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;txtEventName.Name" xml:space="preserve">
+    <value>txtEventName</value>
+  </data>
+  <data name="&gt;&gt;txtEventName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtEventName.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txtEventName.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>788, 537</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Event Manager</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>EventManager</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

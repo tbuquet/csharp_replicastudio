@@ -1,0 +1,1278 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="&gt;&gt;lblTransparentBlockColor2.Parent" xml:space="preserve">
+    <value>grpBackgrounds</value>
+  </data>
+  <data name="&gt;&gt;lblShowCharactersWhileMasking.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;lblShowAnimationsWhileMasking.Name" xml:space="preserve">
+    <value>lblShowAnimationsWhileMasking</value>
+  </data>
+  <data name="lblTransparentBlockSize.Text" xml:space="preserve">
+    <value>Transparent bloc size :</value>
+  </data>
+  <data name="&gt;&gt;lblViewerPath.Parent" xml:space="preserve">
+    <value>grpPath</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="colorTransparentBlockColor1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>308, 21</value>
+  </data>
+  <data name="chkShowCharacters.Location" type="System.Drawing.Point, System.Drawing">
+    <value>317, 285</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="chkActivateZoomWithWheel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;grpPath.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;colorSelectedHotSpotColor.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ddpVectorPointsSize.Location" type="System.Drawing.Point, System.Drawing">
+    <value>212, 172</value>
+  </data>
+  <data name="&gt;&gt;ddpTransparentBlockSize.Name" xml:space="preserve">
+    <value>ddpTransparentBlockSize</value>
+  </data>
+  <data name="colorTransparentBlockColor1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 24</value>
+  </data>
+  <data name="&gt;&gt;grpStages.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="colorSelectedHotSpotColor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>308, 133</value>
+  </data>
+  <data name="&gt;&gt;colorChooseHighlightningBrush.Type" xml:space="preserve">
+    <value>ReplicaStudio.Editor.Forms.UserControls.ColorButton, ReplicaStudio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="lblHighlightningBrush.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="grpStages.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="lblTransparentBlockColor1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 13</value>
+  </data>
+  <data name="btnChooseGameFolder.Text" xml:space="preserve">
+    <value>Choose</value>
+  </data>
+  <data name="&gt;&gt;lblShowCharactersWhileMasking.Parent" xml:space="preserve">
+    <value>grpStages</value>
+  </data>
+  <data name="ddpAnimationDefaultFrequency.Location" type="System.Drawing.Point, System.Drawing">
+    <value>214, 22</value>
+  </data>
+  <data name="&gt;&gt;lblStagePadding.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="lblTransparentBlockColor1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 28</value>
+  </data>
+  <data name="colorChooseHighlightningColor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>308, 22</value>
+  </data>
+  <data name="&gt;&gt;lblTransparentBlockColor2.Name" xml:space="preserve">
+    <value>lblTransparentBlockColor2</value>
+  </data>
+  <data name="ddpStagePadding.Location" type="System.Drawing.Point, System.Drawing">
+    <value>212, 209</value>
+  </data>
+  <data name="colorChooseHighlightningBrush.Location" type="System.Drawing.Point, System.Drawing">
+    <value>308, 96</value>
+  </data>
+  <data name="&gt;&gt;txtViewerPath.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;btnChooseViewerPath.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblViewerPath.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;ddpVectorPointsSize.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;grpStages.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblSelectionCoords.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;chkActivateZoomWithWheel.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;ddpStagePadding.Parent" xml:space="preserve">
+    <value>grpStages</value>
+  </data>
+  <data name="colorSelectedHotSpotColor.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>344, 55</value>
+  </data>
+  <data name="btnChooseViewerPath.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="&gt;&gt;ddpMessageDuration.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnChooseGameFolder.Location" type="System.Drawing.Point, System.Drawing">
+    <value>258, 23</value>
+  </data>
+  <data name="lblStagePadding.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 13</value>
+  </data>
+  <data name="&gt;&gt;colorChooseHighlightningColor.Type" xml:space="preserve">
+    <value>ReplicaStudio.Editor.Forms.UserControls.ColorButton, ReplicaStudio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lblHighlightningBrush.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="colorSelectionCoords.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="&gt;&gt;ddpStagePadding.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;lblHighlightningBrush.Parent" xml:space="preserve">
+    <value>grpStages</value>
+  </data>
+  <data name="&gt;&gt;grpStages.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblShowAnimationsWhileMasking.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnCancel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;colorSelectionCoords.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;OpenFolder.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FolderBrowserDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblTransparentBlockColor1.Name" xml:space="preserve">
+    <value>lblTransparentBlockColor1</value>
+  </data>
+  <data name="ddpMessageDuration.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 20</value>
+  </data>
+  <data name="lblHighlightningBrush.Text" xml:space="preserve">
+    <value>Highlightning color in Animation Manager :</value>
+  </data>
+  <data name="grpPath.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 12</value>
+  </data>
+  <data name="&gt;&gt;colorChooseHighlightningColor.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;btnOK.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="grpMessages.Text" xml:space="preserve">
+    <value>Messages</value>
+  </data>
+  <data name="lblVectorPointsSize.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 174</value>
+  </data>
+  <data name="lblViewerPath.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="grpPath.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="colorSelectedHotSpotColor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 24</value>
+  </data>
+  <data name="&gt;&gt;lblHighlightningBrush.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>GeneralSettings</value>
+  </data>
+  <data name="&gt;&gt;lblTransparentBlockSize.Parent" xml:space="preserve">
+    <value>grpBackgrounds</value>
+  </data>
+  <data name="lblHighlightningColor.Text" xml:space="preserve">
+    <value>Highlightning color for selection in stage :</value>
+  </data>
+  <data name="lblShowCharactersWhileMasking.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 13</value>
+  </data>
+  <data name="&gt;&gt;lblTransparentBlockColor1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="lblTransparentBlockColor1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="ddpTransparentBlockSize.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;txtGameFolder.Name" xml:space="preserve">
+    <value>txtGameFolder</value>
+  </data>
+  <data name="btnOK.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="txtGameFolder.Location" type="System.Drawing.Point, System.Drawing">
+    <value>82, 25</value>
+  </data>
+  <data name="chkShowAnimations.Location" type="System.Drawing.Point, System.Drawing">
+    <value>317, 248</value>
+  </data>
+  <data name="chkShowCharacters.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="colorTransparentBlockColor2.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;ddpMessageDuration.Parent" xml:space="preserve">
+    <value>grpMessages</value>
+  </data>
+  <data name="grpPath.Text" xml:space="preserve">
+    <value>Paths</value>
+  </data>
+  <data name="&gt;&gt;lblTransparentBlockColor2.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;lblSelectionCoords.Parent" xml:space="preserve">
+    <value>grpStages</value>
+  </data>
+  <data name="&gt;&gt;ddpVectorPointsSize.Name" xml:space="preserve">
+    <value>ddpVectorPointsSize</value>
+  </data>
+  <data name="lblHighlightningColor.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;chkShowCharacters.Name" xml:space="preserve">
+    <value>chkShowCharacters</value>
+  </data>
+  <data name="btnCancel.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="&gt;&gt;btnChooseViewerPath.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblVectorPointsSize.Parent" xml:space="preserve">
+    <value>grpStages</value>
+  </data>
+  <data name="&gt;&gt;txtGameFolder.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ddpMessageFontSize.Parent" xml:space="preserve">
+    <value>grpMessages</value>
+  </data>
+  <data name="lblTransparentBlockColor2.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="btnChooseGameFolder.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="&gt;&gt;lblAnimationDefaultFrequency.Name" xml:space="preserve">
+    <value>lblAnimationDefaultFrequency</value>
+  </data>
+  <data name="ddpMessageDuration.Location" type="System.Drawing.Point, System.Drawing">
+    <value>212, 26</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblSelectionCoords.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="&gt;&gt;btnOK.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;lblActivateZoomWithWheel.Name" xml:space="preserve">
+    <value>lblActivateZoomWithWheel</value>
+  </data>
+  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkActivateZoomWithWheel.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="lblMessageDuration.Text" xml:space="preserve">
+    <value>Message duration :</value>
+  </data>
+  <data name="&gt;&gt;lblSelectedHotSpotColor.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="lblActivateZoomWithWheel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;btnChooseViewerPath.Name" xml:space="preserve">
+    <value>btnChooseViewerPath</value>
+  </data>
+  <data name="lblHighlightningColor.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colorSelectionCoords.Location" type="System.Drawing.Point, System.Drawing">
+    <value>308, 59</value>
+  </data>
+  <data name="&gt;&gt;lblActivateZoomWithWheel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ddpVectorPointsSize.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblGameFolder.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 13</value>
+  </data>
+  <data name="lblStagePadding.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 211</value>
+  </data>
+  <data name="lblShowCharactersWhileMasking.Text" xml:space="preserve">
+    <value>Always show characters :</value>
+  </data>
+  <data name="chkShowAnimations.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkShowCharacters.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblTransparentBlockSize.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 101</value>
+  </data>
+  <data name="&gt;&gt;grpMessages.Name" xml:space="preserve">
+    <value>grpMessages</value>
+  </data>
+  <data name="&gt;&gt;lblShowCharactersWhileMasking.Name" xml:space="preserve">
+    <value>lblShowCharactersWhileMasking</value>
+  </data>
+  <data name="grpMessages.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 114</value>
+  </data>
+  <data name="&gt;&gt;lblViewerPath.Name" xml:space="preserve">
+    <value>lblViewerPath</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Name" xml:space="preserve">
+    <value>btnCancel</value>
+  </data>
+  <data name="&gt;&gt;lblTransparentBlockSize.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblHighlightningBrush.Size" type="System.Drawing.Size, System.Drawing">
+    <value>205, 13</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Name" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="lblGameFolder.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;lblSelectedHotSpotColor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chkShowAnimations.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblShowCharactersWhileMasking.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;chkShowAnimations.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;lblHighlightningBrush.Name" xml:space="preserve">
+    <value>lblHighlightningBrush</value>
+  </data>
+  <data name="lblSelectedHotSpotColor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>212, 13</value>
+  </data>
+  <data name="btnOK.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ddpMessageDuration.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lblGameFolder.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 28</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>grpMessages</value>
+  </data>
+  <data name="ddpStagePadding.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 20</value>
+  </data>
+  <data name="grpBackgrounds.Text" xml:space="preserve">
+    <value>Backgrounds</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ddpTransparentBlockSize.Size" type="System.Drawing.Size, System.Drawing">
+    <value>118, 21</value>
+  </data>
+  <data name="lblTransparentBlockSize.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="lblMessageDuration.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblVectorPointsSize.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblStagePadding.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 13</value>
+  </data>
+  <data name="&gt;&gt;btnChooseGameFolder.Name" xml:space="preserve">
+    <value>btnChooseGameFolder</value>
+  </data>
+  <data name="grpStages.Location" type="System.Drawing.Point, System.Drawing">
+    <value>362, 12</value>
+  </data>
+  <data name="&gt;&gt;colorChooseHighlightningBrush.Name" xml:space="preserve">
+    <value>colorChooseHighlightningBrush</value>
+  </data>
+  <data name="colorChooseHighlightningBrush.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="chkShowCharacters.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 14</value>
+  </data>
+  <data name="&gt;&gt;lblTransparentBlockColor2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;colorChooseHighlightningBrush.Parent" xml:space="preserve">
+    <value>grpStages</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblSelectedHotSpotColor.Parent" xml:space="preserve">
+    <value>grpStages</value>
+  </data>
+  <data name="&gt;&gt;colorTransparentBlockColor2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lblShowAnimationsWhileMasking.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;btnOK.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblActivateZoomWithWheel.Text" xml:space="preserve">
+    <value>Activate zoom with wheel :</value>
+  </data>
+  <data name="&gt;&gt;grpPath.Name" xml:space="preserve">
+    <value>grpPath</value>
+  </data>
+  <data name="&gt;&gt;txtViewerPath.Name" xml:space="preserve">
+    <value>txtViewerPath</value>
+  </data>
+  <data name="&gt;&gt;grpPath.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblMessageDuration.Name" xml:space="preserve">
+    <value>lblMessageDuration</value>
+  </data>
+  <data name="&gt;&gt;grpPath.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblActivateZoomWithWheel.Parent" xml:space="preserve">
+    <value>grpStages</value>
+  </data>
+  <data name="&gt;&gt;ddpMessageFontSize.Name" xml:space="preserve">
+    <value>ddpMessageFontSize</value>
+  </data>
+  <data name="&gt;&gt;chkShowAnimations.Name" xml:space="preserve">
+    <value>chkShowAnimations</value>
+  </data>
+  <data name="btnOK.Location" type="System.Drawing.Point, System.Drawing">
+    <value>487, 418</value>
+  </data>
+  <data name="&gt;&gt;lblTransparentBlockSize.Name" xml:space="preserve">
+    <value>lblTransparentBlockSize</value>
+  </data>
+  <data name="&gt;&gt;colorTransparentBlockColor2.Type" xml:space="preserve">
+    <value>ReplicaStudio.Editor.Forms.UserControls.ColorButton, ReplicaStudio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="lblVectorPointsSize.Text" xml:space="preserve">
+    <value>Coords Points size :</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Message font size :</value>
+  </data>
+  <data name="grpPath.Size" type="System.Drawing.Size, System.Drawing">
+    <value>344, 96</value>
+  </data>
+  <data name="&gt;&gt;btnChooseViewerPath.Parent" xml:space="preserve">
+    <value>grpPath</value>
+  </data>
+  <data name="&gt;&gt;colorChooseHighlightningBrush.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="grpStages.Text" xml:space="preserve">
+    <value>Stages</value>
+  </data>
+  <data name="colorTransparentBlockColor2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>308, 57</value>
+  </data>
+  <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 353</value>
+  </data>
+  <data name="grpBackgrounds.Size" type="System.Drawing.Size, System.Drawing">
+    <value>344, 131</value>
+  </data>
+  <data name="&gt;&gt;chkShowCharacters.Parent" xml:space="preserve">
+    <value>grpStages</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblTransparentBlockColor2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 13</value>
+  </data>
+  <data name="txtViewerPath.Location" type="System.Drawing.Point, System.Drawing">
+    <value>81, 61</value>
+  </data>
+  <data name="label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;lblTransparentBlockSize.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblViewerPath.Text" xml:space="preserve">
+    <value>Viewer path :</value>
+  </data>
+  <data name="lblMessageDuration.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;lblAnimationDefaultFrequency.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lblAnimationDefaultFrequency.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="ddpAnimationDefaultFrequency.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="lblTransparentBlockColor1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblGameFolder.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblSelectedHotSpotColor.Text" xml:space="preserve">
+    <value>Selected HotSpot color in Coords Selector :</value>
+  </data>
+  <data name="colorSelectionCoords.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 24</value>
+  </data>
+  <data name="&gt;&gt;lblSelectionCoords.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;txtGameFolder.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;grpMessages.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;colorSelectionCoords.Type" xml:space="preserve">
+    <value>ReplicaStudio.Editor.Forms.UserControls.ColorButton, ReplicaStudio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;OpenFile.Name" xml:space="preserve">
+    <value>OpenFile</value>
+  </data>
+  <data name="ddpMessageFontSize.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;lblMessageDuration.Parent" xml:space="preserve">
+    <value>grpMessages</value>
+  </data>
+  <data name="&gt;&gt;ddpMessageDuration.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblHighlightningColor.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="lblShowAnimationsWhileMasking.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;lblStagePadding.Name" xml:space="preserve">
+    <value>lblStagePadding</value>
+  </data>
+  <data name="ddpAnimationDefaultFrequency.Size" type="System.Drawing.Size, System.Drawing">
+    <value>118, 21</value>
+  </data>
+  <data name="&gt;&gt;colorSelectedHotSpotColor.Type" xml:space="preserve">
+    <value>ReplicaStudio.Editor.Forms.UserControls.ColorButton, ReplicaStudio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ddpTransparentBlockSize.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtViewerPath.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblTransparentBlockColor2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblStagePadding.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;grpMessages.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="ddpMessageFontSize.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 21</value>
+  </data>
+  <data name="lblStagePadding.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;lblHighlightningColor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblSelectionCoords.Text" xml:space="preserve">
+    <value>Selected coords color in stage :</value>
+  </data>
+  <data name="ddpMessageFontSize.Location" type="System.Drawing.Point, System.Drawing">
+    <value>211, 61</value>
+  </data>
+  <data name="&gt;&gt;lblSelectedHotSpotColor.Name" xml:space="preserve">
+    <value>lblSelectedHotSpotColor</value>
+  </data>
+  <data name="&gt;&gt;lblTransparentBlockColor1.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="btnChooseGameFolder.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="colorChooseHighlightningColor.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="&gt;&gt;grpBackgrounds.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;lblSelectionCoords.Name" xml:space="preserve">
+    <value>lblSelectionCoords</value>
+  </data>
+  <data name="&gt;&gt;ddpAnimationDefaultFrequency.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;btnChooseGameFolder.Parent" xml:space="preserve">
+    <value>grpPath</value>
+  </data>
+  <data name="lblSelectedHotSpotColor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 138</value>
+  </data>
+  <data name="colorTransparentBlockColor1.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;lblViewerPath.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblActivateZoomWithWheel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;colorSelectedHotSpotColor.Parent" xml:space="preserve">
+    <value>grpStages</value>
+  </data>
+  <data name="&gt;&gt;lblMessageDuration.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;colorChooseHighlightningColor.Name" xml:space="preserve">
+    <value>colorChooseHighlightningColor</value>
+  </data>
+  <data name="&gt;&gt;colorTransparentBlockColor2.Name" xml:space="preserve">
+    <value>colorTransparentBlockColor2</value>
+  </data>
+  <data name="&gt;&gt;ddpVectorPointsSize.Parent" xml:space="preserve">
+    <value>grpStages</value>
+  </data>
+  <data name="&gt;&gt;lblVectorPointsSize.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="lblVectorPointsSize.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 13</value>
+  </data>
+  <data name="lblAnimationDefaultFrequency.Size" type="System.Drawing.Size, System.Drawing">
+    <value>144, 13</value>
+  </data>
+  <data name="&gt;&gt;txtViewerPath.Parent" xml:space="preserve">
+    <value>grpPath</value>
+  </data>
+  <data name="&gt;&gt;ddpAnimationDefaultFrequency.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblHighlightningColor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 28</value>
+  </data>
+  <data name="&gt;&gt;lblMessageDuration.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;lblVectorPointsSize.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 64</value>
+  </data>
+  <data name="&gt;&gt;btnChooseGameFolder.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;colorTransparentBlockColor1.Name" xml:space="preserve">
+    <value>colorTransparentBlockColor1</value>
+  </data>
+  <data name="grpBackgrounds.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="ddpVectorPointsSize.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="lblTransparentBlockColor1.Text" xml:space="preserve">
+    <value>Transparent bloc color 1 :</value>
+  </data>
+  <data name="&gt;&gt;lblGameFolder.Name" xml:space="preserve">
+    <value>lblGameFolder</value>
+  </data>
+  <data name="lblVectorPointsSize.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="lblShowAnimationsWhileMasking.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 13</value>
+  </data>
+  <data name="lblTransparentBlockSize.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;lblAnimationDefaultFrequency.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>GeneralSettings</value>
+  </data>
+  <data name="lblActivateZoomWithWheel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>133, 13</value>
+  </data>
+  <data name="&gt;&gt;lblStagePadding.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblTransparentBlockSize.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>Backgrounds</value>
+  </data>
+  <data name="lblSelectedHotSpotColor.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="lblSelectionCoords.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 64</value>
+  </data>
+  <data name="&gt;&gt;ddpAnimationDefaultFrequency.Name" xml:space="preserve">
+    <value>ddpAnimationDefaultFrequency</value>
+  </data>
+  <data name="chkShowAnimations.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 14</value>
+  </data>
+  <data name="&gt;&gt;ddpMessageDuration.Name" xml:space="preserve">
+    <value>ddpMessageDuration</value>
+  </data>
+  <data name="chkActivateZoomWithWheel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>317, 322</value>
+  </data>
+  <data name="txtViewerPath.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;chkShowCharacters.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lblHighlightningBrush.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtGameFolder.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 20</value>
+  </data>
+  <data name="lblTransparentBlockColor2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkActivateZoomWithWheel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 14</value>
+  </data>
+  <data name="lblShowCharactersWhileMasking.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 286</value>
+  </data>
+  <data name="&gt;&gt;grpBackgrounds.Name" xml:space="preserve">
+    <value>grpBackgrounds</value>
+  </data>
+  <data name="lblShowCharactersWhileMasking.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;chkShowAnimations.Parent" xml:space="preserve">
+    <value>grpStages</value>
+  </data>
+  <data name="lblSelectionCoords.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblViewerPath.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;lblGameFolder.Parent" xml:space="preserve">
+    <value>grpPath</value>
+  </data>
+  <data name="lblMessageDuration.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 13</value>
+  </data>
+  <data name="grpBackgrounds.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 216</value>
+  </data>
+  <data name="ddpVectorPointsSize.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 20</value>
+  </data>
+  <data name="lblAnimationDefaultFrequency.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;lblVectorPointsSize.Name" xml:space="preserve">
+    <value>lblVectorPointsSize</value>
+  </data>
+  <data name="lblHighlightningBrush.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="lblGameFolder.Text" xml:space="preserve">
+    <value>Game folder :</value>
+  </data>
+  <data name="colorChooseHighlightningColor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 24</value>
+  </data>
+  <data name="lblStagePadding.Text" xml:space="preserve">
+    <value>Stage padding :</value>
+  </data>
+  <data name="btnOK.Text" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="btnCancel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="grpStages.Size" type="System.Drawing.Size, System.Drawing">
+    <value>344, 396</value>
+  </data>
+  <data name="lblGameFolder.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btnOK.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="&gt;&gt;lblShowAnimationsWhileMasking.Parent" xml:space="preserve">
+    <value>grpStages</value>
+  </data>
+  <data name="btnCancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="&gt;&gt;chkActivateZoomWithWheel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ddpTransparentBlockSize.Parent" xml:space="preserve">
+    <value>grpBackgrounds</value>
+  </data>
+  <data name="chkShowAnimations.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="lblShowCharactersWhileMasking.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="btnChooseViewerPath.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="txtGameFolder.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;lblSelectionCoords.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkActivateZoomWithWheel.Parent" xml:space="preserve">
+    <value>grpStages</value>
+  </data>
+  <data name="lblTransparentBlockSize.Size" type="System.Drawing.Size, System.Drawing">
+    <value>114, 13</value>
+  </data>
+  <data name="chkShowCharacters.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblShowAnimationsWhileMasking.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;ddpMessageFontSize.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ddpAnimationDefaultFrequency.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblShowCharactersWhileMasking.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtViewerPath.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 20</value>
+  </data>
+  <data name="&gt;&gt;grpBackgrounds.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblViewerPath.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 13</value>
+  </data>
+  <data name="btnCancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>593, 418</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;colorSelectedHotSpotColor.Name" xml:space="preserve">
+    <value>colorSelectedHotSpotColor</value>
+  </data>
+  <data name="lblActivateZoomWithWheel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 323</value>
+  </data>
+  <data name="&gt;&gt;lblGameFolder.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblAnimationDefaultFrequency.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblAnimationDefaultFrequency.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="btnChooseGameFolder.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnChooseViewerPath.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;colorTransparentBlockColor1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;colorSelectionCoords.Name" xml:space="preserve">
+    <value>colorSelectionCoords</value>
+  </data>
+  <data name="&gt;&gt;lblActivateZoomWithWheel.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;colorTransparentBlockColor1.Type" xml:space="preserve">
+    <value>ReplicaStudio.Editor.Forms.UserControls.ColorButton, ReplicaStudio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;grpBackgrounds.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblHighlightningColor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 13</value>
+  </data>
+  <data name="&gt;&gt;OpenFolder.Name" xml:space="preserve">
+    <value>OpenFolder</value>
+  </data>
+  <data name="&gt;&gt;grpStages.Name" xml:space="preserve">
+    <value>grpStages</value>
+  </data>
+  <data name="&gt;&gt;chkActivateZoomWithWheel.Name" xml:space="preserve">
+    <value>chkActivateZoomWithWheel</value>
+  </data>
+  <data name="ddpStagePadding.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;ddpStagePadding.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ddpStagePadding.Name" xml:space="preserve">
+    <value>ddpStagePadding</value>
+  </data>
+  <data name="grpMessages.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblAnimationDefaultFrequency.Text" xml:space="preserve">
+    <value>Animation default frequency :</value>
+  </data>
+  <data name="lblSelectedHotSpotColor.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>709, 444</value>
+  </data>
+  <data name="&gt;&gt;colorChooseHighlightningColor.Parent" xml:space="preserve">
+    <value>grpStages</value>
+  </data>
+  <data name="&gt;&gt;colorTransparentBlockColor2.Parent" xml:space="preserve">
+    <value>grpBackgrounds</value>
+  </data>
+  <data name="&gt;&gt;txtGameFolder.Parent" xml:space="preserve">
+    <value>grpPath</value>
+  </data>
+  <data name="&gt;&gt;lblStagePadding.Parent" xml:space="preserve">
+    <value>grpStages</value>
+  </data>
+  <data name="&gt;&gt;lblTransparentBlockColor1.Parent" xml:space="preserve">
+    <value>grpBackgrounds</value>
+  </data>
+  <data name="&gt;&gt;colorSelectionCoords.Parent" xml:space="preserve">
+    <value>grpStages</value>
+  </data>
+  <data name="btnChooseViewerPath.Location" type="System.Drawing.Point, System.Drawing">
+    <value>257, 59</value>
+  </data>
+  <data name="&gt;&gt;lblShowAnimationsWhileMasking.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblHighlightningColor.Name" xml:space="preserve">
+    <value>lblHighlightningColor</value>
+  </data>
+  <data name="&gt;&gt;grpMessages.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="colorChooseHighlightningBrush.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 24</value>
+  </data>
+  <data name="&gt;&gt;btnOK.Name" xml:space="preserve">
+    <value>btnOK</value>
+  </data>
+  <data name="&gt;&gt;chkShowCharacters.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnChooseViewerPath.Text" xml:space="preserve">
+    <value>Choose</value>
+  </data>
+  <data name="&gt;&gt;lblGameFolder.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;colorTransparentBlockColor1.Parent" xml:space="preserve">
+    <value>grpBackgrounds</value>
+  </data>
+  <data name="lblShowAnimationsWhileMasking.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 249</value>
+  </data>
+  <data name="lblTransparentBlockColor1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblTransparentBlockColor2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 64</value>
+  </data>
+  <data name="lblSelectedHotSpotColor.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;lblViewerPath.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="chkActivateZoomWithWheel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;lblHighlightningColor.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="lblAnimationDefaultFrequency.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 25</value>
+  </data>
+  <data name="&gt;&gt;OpenFile.Type" xml:space="preserve">
+    <value>System.Windows.Forms.OpenFileDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblMessageDuration.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 28</value>
+  </data>
+  <data name="&gt;&gt;ddpMessageFontSize.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblShowAnimationsWhileMasking.Text" xml:space="preserve">
+    <value>Always show animations :</value>
+  </data>
+  <data name="&gt;&gt;chkShowAnimations.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblVectorPointsSize.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ddpTransparentBlockSize.Location" type="System.Drawing.Point, System.Drawing">
+    <value>214, 98</value>
+  </data>
+  <data name="lblActivateZoomWithWheel.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="lblMessageDuration.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblTransparentBlockColor2.Text" xml:space="preserve">
+    <value>Transparent bloc color 2 :</value>
+  </data>
+  <data name="colorTransparentBlockColor2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 24</value>
+  </data>
+  <data name="grpMessages.Size" type="System.Drawing.Size, System.Drawing">
+    <value>344, 96</value>
+  </data>
+  <data name="&gt;&gt;btnChooseGameFolder.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblSelectionCoords.Size" type="System.Drawing.Size, System.Drawing">
+    <value>156, 13</value>
+  </data>
+  <data name="lblViewerPath.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 64</value>
+  </data>
+  <data name="&gt;&gt;lblHighlightningColor.Parent" xml:space="preserve">
+    <value>grpStages</value>
+  </data>
+  <data name="&gt;&gt;ddpTransparentBlockSize.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblHighlightningBrush.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 101</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="OpenFolder.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>112, 17</value>
+  </metadata>
+  <metadata name="OpenFile.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>fr</value>
+  </metadata>
+</root>
